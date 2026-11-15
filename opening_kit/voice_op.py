@@ -8,9 +8,9 @@ ort=Onnxruntime.load_once(filename=f'{VV}/voicevox_onnxruntime-linux-x64-1.17.3/
 sy=Synthesizer(ort,OpenJtalk(f'{VV}/open_jtalk_dic_utf_8-1.11'))
 for p in set(VVM.values()):
     with VoiceModelFile.open(p) as m: sy.load_voice_model(m)
-LINES={'sora':('ソラ','いちかく、ソラ！',1.3,1.05),'laran':('ララン','にかく、ララン！',1.25,1.1),
-       'mirei':('ミレイ','さんかく、ミレイ。',1.25,1.0),'rose':('ロゼ','よんかく、ロゼ。',1.3,1.0)}
-for who in SPK: LINES['call_'+who]=(who,'よんかくめがみ！',1.15,1.12)
+LINES={'sora':('ソラ','いちコーナーたんとう、ソラ！',1.45,1.05),'laran':('ララン','にコーナーたんとう、ララン！',1.45,1.1),
+       'mirei':('ミレイ','さんコーナーたんとう、ミレイ。',1.4,1.0),'rose':('ロゼ','よんコーナーたんとう、ロゼ。',1.4,1.0)}
+for who in SPK: LINES['call_'+who]=(who,'よんかくめがみの、けいばよそう！',1.55 if who=='ロゼ' else 1.2,1.12)
 for k,(who,t,sp,pitch) in LINES.items():
     s=SPK[who]; q=sy.create_audio_query(t,s); q.speed_scale=sp; q.intonation_scale=1.4
     q.pitch_scale=(pitch-1)*0.1; q.volume_scale=1.3; q.pre_phoneme_length=0.02; q.post_phoneme_length=0.1; q.output_sampling_rate=48000

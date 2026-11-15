@@ -31,14 +31,14 @@ GOLD, GOLD2 = (233, 196, 106), (255, 231, 160)
 
 # 登場順（1角→4角）。clip: 使う仕草クリップ / ss: 何秒目から使うか / ang: 写真の傾き
 CHARS = [
-    dict(key='sora', name='ソラ', corner='1角', col=(30, 136, 229), clip=['sora.mp4', 'ソラ_髪をくるくる.mp4'], ss=0.4, still='ソラ.png', ang=-6),
-    dict(key='laran', name='ララン', corner='2角', col=(40, 40, 40), clip=['laran.mp4', 'ララン_ヘッドホンをつける.mp4'], ss=0.6, still='ララン.png', ang=5),
-    dict(key='mirei', name='ミレイ', corner='3角', col=(251, 192, 45), clip=['mirei.mp4', 'ミレイ_コインをいじる.mp4'], ss=0.3, still='ミレイ.png', ang=-4),
-    dict(key='rose', name='ロゼ', corner='4角', col=(229, 57, 53), clip=['rose.mp4', 'ロゼ_メモを取る.mp4'], ss=0.5, still='ロゼ.png', ang=2),
+    dict(key='sora', name='ソラ', corner='1コーナー担当', col=(30, 136, 229), clip=['sora.mp4', 'ソラ_髪をくるくる.mp4'], ss=0.4, still='ソラ.png', ang=-6),
+    dict(key='laran', name='ララン', corner='2コーナー担当', col=(40, 40, 40), clip=['laran.mp4', 'ララン_ヘッドホンをつける.mp4'], ss=0.6, still='ララン.png', ang=5),
+    dict(key='mirei', name='ミレイ', corner='3コーナー担当', col=(251, 192, 45), clip=['mirei.mp4', 'ミレイ_コインをいじる.mp4'], ss=0.3, still='ミレイ.png', ang=-4),
+    dict(key='rose', name='ロゼ', corner='4コーナー担当', col=(229, 57, 53), clip=['rose.mp4', 'ロゼ_メモを取る.mp4'], ss=0.5, still='ロゼ.png', ang=2),
 ]
-T0, STEP, ENTER = 0.35, 1.2, 0.62      # 1人目の入り / 1人あたりの間隔 / 入ってからシャッターまで
+T0, STEP, ENTER = 0.3, 1.3, 0.62      # 1人目の入り / 1人あたりの間隔 / 入ってからシャッターまで
 T_LOGO = T0 + STEP * 4 + 0.1           # ロゴとコール
-DUR = T_LOGO + 2.3
+DUR = T_LOGO + 2.4
 NF = int(ENTER * FPS) + 2
 
 
@@ -78,7 +78,9 @@ def cut_frames(c):
     if not os.path.exists(p):
         p = {'sora': 'sora2_cut.png', 'laran': 'laran_a_cut.png', 'mirei': 'mirei1_cut.png', 'rose': 'rose2_cut.png'}[c['key']]
         p = os.path.join(HERE, '..', '..', 'youtube', 'yonkaku', p)
-    s = Image.open(p).convert('RGBA'); s = ImageOps.contain(s, (480, 704))
+    s = Image.open(p).convert('RGBA')
+    # 上半身だけの絵（ラランなど横長気味）は上合わせで枠いっぱいに（下が空かないように）
+    s = ImageOps.fit(s, (480, 704), centering=(0.5, 0.0)) if s.width / s.height > 480 / 704 + .02 else ImageOps.contain(s, (480, 704))
     out = []
     for i in range(NF):
         f = Image.new('RGBA', (480, 704), (0, 0, 0, 0)); a = math.sin(i / NF * math.pi) * 1.5
@@ -108,16 +110,19 @@ def make_logo(w):
     L.alpha_composite(Image.merge('RGBA', [Image.new('L', (w, h), 8)] * 3 + [pl.filter(ImageFilter.GaussianBlur(w * .03))]))
     for k, a in ((0.0, 255), (0.025, 120)):
         d.ellipse((w * (.04 + k), h * (.07 + k * 2), w * (.96 - k), h * (.93 - k * 2)), outline=GOLD + (a,), width=max(2, w // 220))
-    gold_text(L, (w * .37, h * .5), '4角', F(DELA, h * .52))
+    gold_text(L, (w * .37, h * .41), '4角', F(DELA, h * .46))
     tx = Image.new('RGBA', (w, h), (0, 0, 0, 0)); td = ImageDraw.Draw(tx)
-    td.text((w * .72 + 3, h * .52 + 4), '女神', font=F(MINCHO, h * .40), anchor='mm', fill=(0, 0, 0, 170))
-    td.text((w * .72, h * .52), '女神', font=F(MINCHO, h * .40), anchor='mm', fill=(250, 242, 226, 255))
+    td.text((w * .72 + 3, h * .43 + 4), '女神', font=F(MINCHO, h * .36), anchor='mm', fill=(0, 0, 0, 170))
+    td.text((w * .72, h * .43), '女神', font=F(MINCHO, h * .36), anchor='mm', fill=(250, 242, 226, 255))
     L.alpha_composite(tx)
     r = w * .018
     for (px, py), c in zip(((.1, .28), (.9, .28), (.9, .72), (.1, .72)), [ch['col'] for ch in CHARS]):
         x, y = w * px, h * py; d.ellipse((x - r * 1.3, y - r * 1.3, x + r * 1.3, y + r * 1.3), fill=GOLD + (255,))
         d.ellipse((x - r, y - r, x + r, y + r), fill=(c if c != (40, 40, 40) else (25, 25, 25)) + (255,))
-    d.text((w * .5, h * .985), 'YONKAKU  MEGAMI', font=F('Cinzel.ttf', h * .075), anchor='md', fill=GOLD2 + (235,))
+    # 下に「の競馬予想」の帯
+    bw, bh = w * .54, h * .2; bx, by = w * .5, h * .775
+    d.rounded_rectangle((bx - bw / 2, by - bh / 2, bx + bw / 2, by + bh / 2), radius=bh / 2, fill=(12, 12, 14, 235), outline=GOLD + (255,), width=max(2, w // 300))
+    d.text((bx, by), 'の競馬予想', font=F(ZEN, bh * .66), anchor='mm', fill=GOLD2 + (255,))
     return L
 
 
@@ -133,7 +138,7 @@ def background(W, H):
 
 def photo(frame, c, w):
     """ポラロイド写真：色の背景＋止めたキャラ＋下の白余白に「1角 ソラ」"""
-    pw = int(w * .9); ph = int(pw * 704 / 480); bd = (w - pw) // 2; hb = int(w * .26)
+    pw = int(w * .9); ph = int(pw * 704 / 480); bd = (w - pw) // 2; hb = int(w * .30)
     card = Image.new('RGBA', (w, bd + ph + hb), (250, 248, 242, 255))
     col = c['col']; g = Image.linear_gradient('L').resize((pw, ph))
     inner = Image.composite(Image.new('RGBA', (pw, ph), tuple(int(v * .45) for v in col) + (255,)),
@@ -145,7 +150,8 @@ def photo(frame, c, w):
     card.paste(inner, (bd, bd))
     d = ImageDraw.Draw(card); ty = bd + ph + hb * .52
     tc = col if col != (40, 40, 40) else (30, 30, 30)
-    d.text((w * .5, ty), f"{c['corner']}  {c['name']}", font=F(DELA, hb * .46), anchor='mm', fill=tc + (255,))
+    d.text((w * .5, bd + ph + hb * .3), c['corner'], font=F(ZEN, hb * .24), anchor='mm', fill=(70, 70, 70, 255))
+    d.text((w * .5, bd + ph + hb * .66), c['name'], font=F(DELA, hb * .40), anchor='mm', fill=tc + (255,))
     return card
 
 
