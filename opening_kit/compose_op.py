@@ -38,7 +38,9 @@ CHARS = [
 ]
 T0, STEP, ENTER = 0.3, 1.3, 0.62      # 1人目の入り / 1人あたりの間隔 / 入ってからシャッターまで
 T_LOGO = T0 + STEP * 4 + 0.1           # ロゴとコール
-DUR = T_LOGO + 2.4
+T_END = T_LOGO + 2.15                  # 画面を切り替えて 登録・高評価ボタン → ホワイトアウト
+DUR = T_END + 2.75
+CLICK1, CLICK2 = T_END + .95, T_END + 1.6
 NF = int(ENTER * FPS) + 2
 
 
@@ -56,7 +58,20 @@ def find_clip(c):
     return None
 
 
+def fill_bottom(frames):
+    """キャラの下端が枠の下まで届いていない（腰までの素材など）ときは、上合わせでズームして下を埋める"""
+    bb = frames[-1].getchannel('A').point(lambda v: 255 if v > 40 else 0).getbbox()
+    if not bb or bb[3] >= 704 * .93: return frames
+    hh = bb[3]; ww = hh * 480 / 704; cx = min(max((bb[0] + bb[2]) / 2, ww / 2), 480 - ww / 2)
+    box = (int(cx - ww / 2), 0, int(cx + ww / 2), int(hh))
+    return [f.crop(box).resize((480, 704), Image.LANCZOS) for f in frames]
+
+
 def cut_frames(c):
+    return fill_bottom(_cut_frames(c))
+
+
+def _cut_frames(c):
     """クリップ → 背景抜きフレーム（キャッシュ frames/KEY/）。無ければ静止画を少し揺らす"""
     cache = os.path.join(HERE, 'frames', c['key'])
     files = sorted(glob.glob(cache + '/*.png'))
@@ -177,6 +192,80 @@ def paste_clip(img, layer, cx, cy):
     img.alpha_composite(layer.crop((x0 - x, y0 - y, x1 - x, y1 - y)), (x0, y0))
 
 
+
+# ---------- 最後：登録・高評価ボタンをぽちぽち → ホワイトアウト ----------
+def thumb_icon(sz, col):
+    """親指を立てた手（高評価）"""
+    S = sz * 4; im = Image.new('L', (S, S), 0); d = ImageDraw.Draw(im)
+    d.rounded_rectangle((S * .06, S * .44, S * .24, S * .94), radius=S * .04, fill=255)          # 袖
+    d.rounded_rectangle((S * .30, S * .42, S * .88, S * .94), radius=S * .1, fill=255)           # こぶし
+    d.polygon([(S * .32, S * .46), (S * .46, S * .10), (S * .60, S * .08), (S * .60, S * .46)], fill=255)  # 親指
+    d.ellipse((S * .44, S * .02, S * .64, S * .20), fill=255)
+    for k in range(3): d.line((S * .62, S * (.58 + k * .11), S * .88, S * (.58 + k * .11)), fill=0, width=int(S * .025))
+    im = im.resize((sz, sz), Image.LANCZOS); out = Image.new('RGBA', (sz, sz), col + (0,)); out.putalpha(im); return out
+
+
+def button(kind, done, W, H_):
+    h = int(W * .1) if W > H_ else int(W * .16); h = max(h, 20)
+    f = F(DELA, h * .42)
+    if kind == 'sub':
+        txt = '登録済み' if done else 'チャンネル登録'; bg = (90, 90, 90) if done else (230, 33, 23); fg = (255, 255, 255)
+        tw = ImageDraw.Draw(Image.new('L', (1, 1))).textlength(txt, font=f); w = int(tw + h * 1.0)
+        b = Image.new('RGBA', (w, h), (0, 0, 0, 0)); d = ImageDraw.Draw(b)
+        d.rounded_rectangle((0, 0, w - 1, h - 1), radius=h // 2, fill=bg + (255,))
+        d.text((w / 2, h / 2), txt, font=f, anchor='mm', fill=fg + (255,))
+    else:
+        txt = '高評価'; tw = ImageDraw.Draw(Image.new('L', (1, 1))).textlength(txt, font=f); ic = int(h * .58); w = int(tw + ic + h * 1.1)
+        b = Image.new('RGBA', (w, h), (0, 0, 0, 0)); d = ImageDraw.Draw(b)
+        d.rounded_rectangle((0, 0, w - 1, h - 1), radius=h // 2, fill=(255, 255, 255, 255) if done else (45, 45, 50, 255),
+                            outline=(255, 255, 255, 255), width=max(2, h // 22))
+        col = (30, 110, 235) if done else (255, 255, 255)
+        b.alpha_composite(thumb_icon(ic, col), (int(h * .38), (h - ic) // 2 - h // 30))
+        d.text((h * .38 + ic + h * .2, h / 2), txt, font=f, anchor='lm', fill=((20, 20, 20) if done else (255, 255, 255)) + (255,))
+    return b
+
+
+def cursor(sz):
+    S = sz * 4; im = Image.new('RGBA', (S, S), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    pts = [(.05, .02), (.05, .80), (.25, .62), (.40, .95), (.55, .88), (.40, .56), (.68, .56)]
+    d.polygon([(x * S, y * S) for x, y in pts], fill=(255, 255, 255, 255), outline=(0, 0, 0, 255), width=int(S * .045))
+    return im.resize((sz, sz), Image.LANCZOS)
+
+
+def end_scene(bg, t, W, H, small_logo):
+    """t: T_END からの秒"""
+    img = bg.copy(); img.alpha_composite(Image.new('RGBA', (W, H), (0, 0, 0, 110)))
+    place(img, small_logo, W * .5, H * (.24 if W > H else .3))
+    sub = button('sub', t >= CLICK1 - T_END + .08, W, H); like = button('like', t >= CLICK2 - T_END + .08, W, H)
+    if W > H: ps = (W * .5 - like.width * .5 - W * .015, H * .62); pl = (W * .5 + sub.width * .5 + W * .015, H * .62)
+    else: ps = (W * .5, H * .56); pl = (W * .5, H * .56 + sub.height * 1.6)
+    for b, p, ct in ((sub, ps, CLICK1 - T_END), (like, pl, CLICK2 - T_END)):
+        a = min(1, max(0, (t - .15) / .25)); u = t - ct
+        sc = .9 if 0 <= u < .08 else (1 + .1 * math.sin(min(1, (u - .08) / .25) * math.pi) if 0 <= u < .33 else 1)
+        place(img, b, p[0], p[1] + (1 - ease_out(a)) * H * .03, sc, a)
+        if 0 <= u < .45:  # 押したときの輪
+            r = b.height * (.6 + u * 2.2); d = ImageDraw.Draw(img); al = int(220 * (1 - u / .45))
+            d.ellipse((p[0] - r, p[1] - r, p[0] + r, p[1] + r), outline=(255, 255, 255, al), width=max(2, int(b.height * .05)))
+    # カーソル：右下 → 登録 → 高評価
+    k = [(T_END + .3, (W * .92, H * .95)), (CLICK1 - .05, ps), (CLICK2 - .3 + .05, ps), (CLICK2 - .05, pl), (T_END + 9, pl)]
+    tt = T_END + t
+    if tt >= k[0][0]:
+        for (a0, p0), (a1, p1) in zip(k, k[1:]):
+            if a0 <= tt <= a1:
+                e = ease_out((tt - a0) / (a1 - a0), 3); x = p0[0] + (p1[0] - p0[0]) * e; y = p0[1] + (p1[1] - p0[1]) * e; break
+        cz = int(H * .075 if W > H else W * .1)
+        press = any(0 <= tt - c < .1 for c in (CLICK1, CLICK2))
+        cimg = cursor(int(cz * (.85 if press else 1)))
+        img.alpha_composite(cimg, (int(x + cz * .05), int(y + cz * .05)))
+    # 画面切り替え（右からスライドで入る）
+    return img
+
+
+def white(img, t):
+    w0 = 1.95; a = min(1, max(0, (t - w0) / .6))
+    if a > 0: img.alpha_composite(Image.new('RGBA', img.size, (255, 255, 255, int(255 * a ** 1.3))))
+
+
 # ---------- レイアウト ----------
 def layout(W, H):
     if W > H:  # 横：左から ソラ・ロゼ・ミレイ・ララン、ロゼを少し大きく一番前
@@ -196,6 +285,7 @@ def layout(W, H):
 def render(W, H, name):
     cw, slots, (lx, ly, lw), big_h, big_y = layout(W, H)
     bg = background(W, H); logo = make_logo(lw)
+    small_logo = make_logo(int(W * .4) if W > H else int(W * .78))
     frames = {c['key']: cut_frames(c) for c in CHARS}
     cards = {c['key']: with_shadow(photo(frames[c['key']][-1], c, cw), c['ang']) for c in CHARS}
     z = ['sora', 'laran', 'mirei', 'rose'] if W < H else ['sora', 'mirei', 'laran', 'rose']  # 重なり順（ロゼが一番前）
@@ -262,6 +352,13 @@ def render(W, H, name):
                         r = lw * .03 * math.sin(ph / .6 * math.pi); x = lx + px * lw; y = ly + py * lw * .42
                         d.polygon([(x, y - r * 2), (x + r * .35, y - r * .35), (x + r * 2, y), (x + r * .35, y + r * .35), (x, y + r * 2),
                                    (x - r * .35, y + r * .35), (x - r * 2, y), (x - r * .35, y - r * .35)], fill=GOLD2 + (255,))
+        if t >= T_END - .25:
+            if t >= T_END:
+                img = end_scene(bg, t - T_END, W, H, small_logo); white(img, t - T_END)
+            else:  # 切り替え：白い斜めのワイプ
+                u = (t - T_END + .25) / .25; d = ImageDraw.Draw(img); x = W * 1.3 * ease_out(u, 2)
+                d.polygon([(x - W * .3, 0), (x, 0), (x - W * .15, H), (x - W * .45, H)], fill=(255, 255, 255, 255))
+                d.polygon([(0, 0), (x - W * .3, 0), (x - W * .45, H), (0, H)], fill=(230, 33, 23, 255))
         ff.stdin.write(img.convert('RGB').tobytes())
     ff.stdin.close(); ff.wait()
 
@@ -292,6 +389,11 @@ def sfx_whoosh(d=.45):
     return out * env * .5
 
 
+def sfx_click():
+    n = int(SR * .05); t = np.arange(n) / SR
+    return np.sin(2 * np.pi * 1800 * t) * np.exp(-t * 120) * .8 + np.sin(2 * np.pi * 900 * t) * np.exp(-t * 60) * .4
+
+
 def sfx_boom():
     n = int(SR * .9); t = np.arange(n) / SR
     return (np.sin(2 * np.pi * (55 + 40 * np.exp(-t * 8)) * t) * np.exp(-t * 4.5) * .7)
@@ -312,8 +414,10 @@ def mix_audio(name):
         a = trim(load_wav(os.path.join(V, 'call_' + c['name'] + '.wav')))
         call = a if call is None else (np.pad(call, (0, max(0, len(a) - len(call)))) + np.pad(a, (0, max(0, len(call) - len(a)))))
     add(call * .45, T_LOGO + .08, 1.0)
+    for c in (CLICK1, CLICK2): add(sfx_click(), c, .9)
+    add(sfx_whoosh(.3), T_END - .25, .5)
     if A.bgm and os.path.exists(A.bgm):
-        b = load_wav(A.bgm)[:n]; fade = int(SR * .5); e = min(len(b), int(DUR * SR))
+        b = load_wav(A.bgm)[:n]; fade = int(SR * .8); e = min(len(b), int(DUR * SR))
         b = b[:e].copy(); b[-fade:] *= np.linspace(1, 0, fade); add(b, 0, .38)
     mix = mix[:int(DUR * SR)]; mix = mix / max(1.0, np.abs(mix).max() / .95)
     p = os.path.join(A.out, name + '.wav')
