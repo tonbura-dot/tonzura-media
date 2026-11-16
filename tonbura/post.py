@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """とんぶらリール（@tonburafiba）を Instagram に投稿する。トークンは環境変数から読むだけで、表示しない。
 使い方: python3 tonbura/post.py YYYYMMDD [--dry-run]
-  tonbura/YYYYMMDD.mp4 と tonbura/YYYYMMDD.md（1行目以降がそのまま投稿文）を使う。
+  tonbura/YYYYMMDD.mp4・tonbura/YYYYMMDD.md（そのまま投稿文）・tonbura/YYYYMMDD_cover.jpg（カバー＝サムネ、必須）を使う。
   動画はこのリポジトリ（公開）の raw URL を渡す。投稿済みの日付は tonbura/posted.txt に書く。
 必要な環境変数: IG_ACCESS_TOKEN（@tonburafiba、Instagramログイン方式）。IG_USER_ID は無ければ /me から取る。
 """
@@ -47,7 +47,10 @@ def main():
     print('account ok:', me['username'])
     if dry:
         print('dry-run: 投稿はしない', RAW + f'{day}.mp4'); return
-    c = call('POST', f'{uid}/media', media_type='REELS', video_url=RAW + f'{day}.mp4', caption=caption, share_to_feed='true')
+    extra = {}
+    if os.path.exists(f'{HERE}/{day}_cover.jpg'): extra['cover_url'] = RAW + f'{day}_cover.jpg'
+    else: sys.exit(f'{day}: カバー画像 {day}_cover.jpg が無いので投稿しない（サムネなしで出さない）')
+    c = call('POST', f'{uid}/media', media_type='REELS', video_url=RAW + f'{day}.mp4', caption=caption, share_to_feed='true', **extra)
     cid = c['id']
     for _ in range(60):
         st = call('GET', cid, fields='status_code,status').get('status_code')
