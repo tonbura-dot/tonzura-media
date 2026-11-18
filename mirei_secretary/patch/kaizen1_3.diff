@@ -1,0 +1,103 @@
+--- /tmp/claude-0/-home-user/c57f6276-3229-5a2f-abec-5882276cfe56/scratchpad/orig.swift	2026-11-18 02:01:43.577828402 +0000
++++ MireiSecretary.swift	2026-11-18 02:01:43.602388839 +0000
+@@ -52,6 +52,8 @@
+     var url: String
+     var host: String
+     var updated: Date
++    var reply: String = ""   // 決まった返事（押すとコピーしてから開く）
++    var overdue: Bool { Date().timeIntervalSince(updated) > 24 * 3600 }   // 1日以上待たせている
+ 
+     static func from(_ d: [String: Any], fallbackProject: String = "") -> WaitItem? {
+         guard let id = d["id"] as? String else { return nil }
+@@ -63,7 +65,8 @@
+                         ask: d["ask"] as? String ?? "",
+                         url: d["url"] as? String ?? "",
+                         host: d["host"] as? String ?? "",
+-                        updated: up)
++                        updated: up,
++                        reply: d["reply"] as? String ?? "")
+     }
+     var label: String {
+         switch kind {
+@@ -73,7 +76,8 @@
+         }
+     }
+     var dict: [String: Any] {
+-        ["project": project, "title": title, "ask": ask, "kind": label, "host": host]
++        ["project": project, "title": title, "ask": ask, "kind": label, "host": host,
++         "waiting_hours": Int(Date().timeIntervalSince(updated) / 3600), "reply": reply]
+     }
+ }
+ 
+@@ -272,6 +276,7 @@
+         "many": "たくさん待ってるわ。…キャパオーバーね。一番上の1件だけ、先にやりましょ。",
+         "zero": "全部片づいたわね。…えらいじゃない。",
+         "pick": "どれからにする？",
++        "late": "1日以上待たせてる子がいるわよ。…私より先に、あの子を見てあげて。",
+     ]
+     static func countLine(_ n: Int) -> String { n == 0 ? "zero" : (n <= 5 ? "n\(n)" : "many") }
+ }
+@@ -614,11 +619,12 @@
+         }
+     }
+ 
+-    func row(_ text: String, tip: String, strong: Bool, action: @escaping () -> Void) -> NSView {
++    func row(_ text: String, tip: String, strong: Bool, alert: Bool = false, action: @escaping () -> Void) -> NSView {
+         let row = RowView(frame: NSRect(x: 0, y: 0, width: W - 20, height: 26))
+         row.wantsLayer = true
+         row.layer?.cornerRadius = 8
+-        row.layer?.backgroundColor = NSColor(calibratedWhite: 1, alpha: strong ? 0.16 : 0.08).cgColor
++        row.layer?.backgroundColor = alert ? NSColor(calibratedRed: 0.85, green: 0.15, blue: 0.15, alpha: 0.55).cgColor
++                                           : NSColor(calibratedWhite: 1, alpha: strong ? 0.16 : 0.08).cgColor
+         let t = NSTextField(labelWithString: text)
+         t.font = .systemFont(ofSize: 12, weight: .semibold)
+         t.textColor = .white
+@@ -648,7 +654,7 @@
+         badge.backgroundColor = items.isEmpty ? NSColor(calibratedWhite: 0.85, alpha: 1) : yellow
+         tabs.setLabel(items.isEmpty ? "あなた待ち なし" : "あなた待ち \(items.count)件", forSegment: 0)
+         redraw()
+-        play(items.isEmpty ? "happy" : (items.count >= 4 ? "arms" : "idle"))
++        play(items.isEmpty ? "happy" : (items.count >= 4 || items.contains { $0.overdue } ? "arms" : "idle"))
+     }
+ 
+     func redraw() {
+@@ -656,10 +662,11 @@
+         if tab == 0 {
+             if lastItems.isEmpty { listStack.addArrangedSubview(note("　いまIKさん待ちはないわ。")) }
+             for it in lastItems.prefix(4) {
+-                let dot = it.kind == "permission" ? "●" : "○"
+-                listStack.addArrangedSubview(row("\(dot) [\(it.project)] \(it.title)",
+-                    tip: "\(it.label)：\(it.ask)\(it.host.isEmpty ? "" : "（\(it.host)）")",
+-                    strong: it.kind == "permission") { [weak self] in self?.onOpen?(it) })
++                let dot = it.overdue ? "⚠" : (it.kind == "permission" ? "●" : "○")
++                let copy = it.reply.isEmpty ? "" : "　📋"
++                listStack.addArrangedSubview(row("\(dot) [\(it.project)] \(it.title)\(copy)",
++                    tip: "\(it.label)：\(it.ask)\(it.reply.isEmpty ? "" : "\n押すと「\(it.reply)」をコピーして開く")\(it.host.isEmpty ? "" : "（\(it.host)）")",
++                    strong: it.kind == "permission", alert: it.overdue) { [weak self] in self?.onOpen?(it) })
+             }
+             if lastItems.count > 4 { listStack.addArrangedSubview(note("　ほか \(lastItems.count - 4) 件（右クリックで全部）")) }
+         } else {
+@@ -741,7 +748,10 @@
+         }
+         // ほったらかしにしていると、間をあけて件数を教える
+         if !items.isEmpty && Date().timeIntervalSince(lastNag) > nagMinutes * 60 {
+-            lastNag = Date(); say(Voice.countLine(items.count))
++            lastNag = Date()
++            if let o = items.first(where: { $0.overdue }) {
++                say("late"); widget.say("1日以上待たせてる子がいるわよ。[\(o.project)] \(o.title)。…私より先に、あの子を見てあげて。")
++            } else { say(Voice.countLine(items.count)) }
+         }
+         known = Set(now.map { $0.id })
+         first = false
+@@ -812,6 +822,11 @@
+     // MARK: 開く・通知・メニュー
+ 
+     func open(_ it: WaitItem) {
++        if !it.reply.isEmpty {
++            NSPasteboard.general.clearContents()
++            NSPasteboard.general.setString(it.reply, forType: .string)
++            widget.say("返事の「\(it.reply)」をコピーしたわ。開いたら貼って送るだけよ。")
++        }
+         if let u = URL(string: it.url), !it.url.isEmpty {
+             NSWorkspace.shared.open(u)
+         } else {
