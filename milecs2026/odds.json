@@ -1,0 +1,122 @@
+{
+  "race": "マイルチャンピオンシップ 2026",
+  "date": "2026-11-22",
+  "venue": "京都11R 芝1600m 15:40発走",
+  "netkeiba_race_id": "202608050611",
+  "odds_type": "real_advance",
+  "odds_type_note": "JRA前日発売の本物の中間オッズ（予想オッズではない）",
+  "source": "https://sports.yahoo.co.jp/keiba/race/odds/tfw/2608050611",
+  "source_note": "netkeiba(race.netkeiba.com)はこのMacからHTTP 400で取得不可のためスポーツナビで取得",
+  "source_updated": "2026-11-21 08:01 JST",
+  "fetched_at": "2026-11-21 08:05 JST",
+  "horses": [
+    {
+      "umaban": 1,
+      "name": "エルデナリ",
+      "win_odds": 7.3,
+      "ninki": 5
+    },
+    {
+      "umaban": 2,
+      "name": "エンブロイダリー",
+      "win_odds": 6.7,
+      "ninki": 3
+    },
+    {
+      "umaban": 3,
+      "name": "ドラゴンブースト",
+      "win_odds": 159.4,
+      "ninki": 17
+    },
+    {
+      "umaban": 4,
+      "name": "シックスペンス",
+      "win_odds": 31.3,
+      "ninki": 11
+    },
+    {
+      "umaban": 5,
+      "name": "アドマイヤズーム",
+      "win_odds": 7.0,
+      "ninki": 4
+    },
+    {
+      "umaban": 6,
+      "name": "ピコローズ",
+      "win_odds": 101.8,
+      "ninki": 15
+    },
+    {
+      "umaban": 7,
+      "name": "ココナッツブラウン",
+      "win_odds": 37.8,
+      "ninki": 12
+    },
+    {
+      "umaban": 8,
+      "name": "ロデオドライブ",
+      "win_odds": 6.1,
+      "ninki": 2
+    },
+    {
+      "umaban": 9,
+      "name": "ジューンテイク",
+      "win_odds": 70.1,
+      "ninki": 14
+    },
+    {
+      "umaban": 10,
+      "name": "ウォーターリヒト",
+      "win_odds": 56.1,
+      "ninki": 13
+    },
+    {
+      "umaban": 11,
+      "name": "ガイアフォース",
+      "win_odds": 9.6,
+      "ninki": 6
+    },
+    {
+      "umaban": 12,
+      "name": "ワールズエンド",
+      "win_odds": 12.1,
+      "ninki": 7
+    },
+    {
+      "umaban": 13,
+      "name": "レザベーション",
+      "win_odds": 161.5,
+      "ninki": 18
+    },
+    {
+      "umaban": 14,
+      "name": "スターアニス",
+      "win_odds": 5.0,
+      "ninki": 1
+    },
+    {
+      "umaban": 15,
+      "name": "エコロブルーム",
+      "win_odds": 104.1,
+      "ninki": 16
+    },
+    {
+      "umaban": 16,
+      "name": "スズハローム",
+      "win_odds": 16.5,
+      "ninki": 8
+    },
+    {
+      "umaban": 17,
+      "name": "アンパドゥ",
+      "win_odds": 17.6,
+      "ninki": 9
+    },
+    {
+      "umaban": 18,
+      "name": "オフトレイル",
+      "win_odds": 24.8,
+      "ninki": 10
+    }
+  ]
+}
