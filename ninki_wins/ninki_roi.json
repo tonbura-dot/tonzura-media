@@ -1,0 +1,6202 @@
+{
+ "note": "2011〜2025年 JRA 土日全レース（netkeiba DB）。starters=出走頭数（取消・除外は除く、競走中止・失格は含む）。payout=単勝100円あたり払戻の合計（同着は実際の払戻）。roi=単勝回収率%（payout÷starters）。人気が1〜18以外の馬は数えない。",
+ "payout_source": "html の払い戻し表（単勝）",
+ "payout_fallback_odds_x100": 2,
+ "payout_fallback_races": [
+  "201406040206",
+  "202005050104"
+ ],
+ "years": {
+  "2011": {
+   "all": {
+    "1": {
+     "starters": 3348,
+     "wins": 1061,
+     "payout": 254760,
+     "win_rate": 31.69,
+     "roi": 76.1
+    },
+    "2": {
+     "starters": 3348,
+     "wins": 661,
+     "payout": 281110,
+     "win_rate": 19.74,
+     "roi": 84.0
+    },
+    "3": {
+     "starters": 3348,
+     "wins": 429,
+     "payout": 266000,
+     "win_rate": 12.81,
+     "roi": 79.5
+    },
+    "4": {
+     "starters": 3348,
+     "wins": 313,
+     "payout": 266320,
+     "win_rate": 9.35,
+     "roi": 79.5
+    },
+    "5": {
+     "starters": 3348,
+     "wins": 265,
+     "payout": 298390,
+     "win_rate": 7.92,
+     "roi": 89.1
+    },
+    "6": {
+     "starters": 3350,
+     "wins": 192,
+     "payout": 287280,
+     "win_rate": 5.73,
+     "roi": 85.8
+    },
+    "7": {
+     "starters": 3341,
+     "wins": 130,
+     "payout": 250400,
+     "win_rate": 3.89,
+     "roi": 74.9
+    },
+    "8": {
+     "starters": 3305,
+     "wins": 111,
+     "payout": 306670,
+     "win_rate": 3.36,
+     "roi": 92.8
+    },
+    "9": {
+     "starters": 3240,
+     "wins": 65,
+     "payout": 223950,
+     "win_rate": 2.01,
+     "roi": 69.1
+    },
+    "10": {
+     "starters": 3134,
+     "wins": 39,
+     "payout": 164530,
+     "win_rate": 1.24,
+     "roi": 52.5
+    },
+    "11": {
+     "starters": 2976,
+     "wins": 37,
+     "payout": 221760,
+     "win_rate": 1.24,
+     "roi": 74.5
+    },
+    "12": {
+     "starters": 2775,
+     "wins": 24,
+     "payout": 172530,
+     "win_rate": 0.86,
+     "roi": 62.2
+    },
+    "13": {
+     "starters": 2537,
+     "wins": 11,
+     "payout": 105410,
+     "win_rate": 0.43,
+     "roi": 41.5
+    },
+    "14": {
+     "starters": 2197,
+     "wins": 5,
+     "payout": 49180,
+     "win_rate": 0.23,
+     "roi": 22.4
+    },
+    "15": {
+     "starters": 1816,
+     "wins": 3,
+     "payout": 66250,
+     "win_rate": 0.17,
+     "roi": 36.5
+    },
+    "16": {
+     "starters": 1387,
+     "wins": 2,
+     "payout": 43860,
+     "win_rate": 0.14,
+     "roi": 31.6
+    },
+    "17": {
+     "starters": 362,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 293,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3229,
+     "wins": 1020,
+     "payout": 244610,
+     "win_rate": 31.59,
+     "roi": 75.8
+    },
+    "2": {
+     "starters": 3229,
+     "wins": 635,
+     "payout": 270530,
+     "win_rate": 19.67,
+     "roi": 83.8
+    },
+    "3": {
+     "starters": 3229,
+     "wins": 409,
+     "payout": 254140,
+     "win_rate": 12.67,
+     "roi": 78.7
+    },
+    "4": {
+     "starters": 3229,
+     "wins": 305,
+     "payout": 259760,
+     "win_rate": 9.45,
+     "roi": 80.4
+    },
+    "5": {
+     "starters": 3229,
+     "wins": 257,
+     "payout": 288840,
+     "win_rate": 7.96,
+     "roi": 89.5
+    },
+    "6": {
+     "starters": 3231,
+     "wins": 186,
+     "payout": 277960,
+     "win_rate": 5.76,
+     "roi": 86.0
+    },
+    "7": {
+     "starters": 3222,
+     "wins": 127,
+     "payout": 246500,
+     "win_rate": 3.94,
+     "roi": 76.5
+    },
+    "8": {
+     "starters": 3186,
+     "wins": 105,
+     "payout": 287600,
+     "win_rate": 3.3,
+     "roi": 90.3
+    },
+    "9": {
+     "starters": 3124,
+     "wins": 65,
+     "payout": 223950,
+     "win_rate": 2.08,
+     "roi": 71.7
+    },
+    "10": {
+     "starters": 3023,
+     "wins": 38,
+     "payout": 161230,
+     "win_rate": 1.26,
+     "roi": 53.3
+    },
+    "11": {
+     "starters": 2871,
+     "wins": 37,
+     "payout": 221760,
+     "win_rate": 1.29,
+     "roi": 77.2
+    },
+    "12": {
+     "starters": 2678,
+     "wins": 24,
+     "payout": 172530,
+     "win_rate": 0.9,
+     "roi": 64.4
+    },
+    "13": {
+     "starters": 2454,
+     "wins": 11,
+     "payout": 105410,
+     "win_rate": 0.45,
+     "roi": 43.0
+    },
+    "14": {
+     "starters": 2124,
+     "wins": 5,
+     "payout": 49180,
+     "win_rate": 0.24,
+     "roi": 23.2
+    },
+    "15": {
+     "starters": 1816,
+     "wins": 3,
+     "payout": 66250,
+     "win_rate": 0.17,
+     "roi": 36.5
+    },
+    "16": {
+     "starters": 1387,
+     "wins": 2,
+     "payout": 43860,
+     "win_rate": 0.14,
+     "roi": 31.6
+    },
+    "17": {
+     "starters": 362,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 293,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 119,
+     "wins": 41,
+     "payout": 10150,
+     "win_rate": 34.45,
+     "roi": 85.3
+    },
+    "2": {
+     "starters": 119,
+     "wins": 26,
+     "payout": 10580,
+     "win_rate": 21.85,
+     "roi": 88.9
+    },
+    "3": {
+     "starters": 119,
+     "wins": 20,
+     "payout": 11860,
+     "win_rate": 16.81,
+     "roi": 99.7
+    },
+    "4": {
+     "starters": 119,
+     "wins": 8,
+     "payout": 6560,
+     "win_rate": 6.72,
+     "roi": 55.1
+    },
+    "5": {
+     "starters": 119,
+     "wins": 8,
+     "payout": 9550,
+     "win_rate": 6.72,
+     "roi": 80.3
+    },
+    "6": {
+     "starters": 119,
+     "wins": 6,
+     "payout": 9320,
+     "win_rate": 5.04,
+     "roi": 78.3
+    },
+    "7": {
+     "starters": 119,
+     "wins": 3,
+     "payout": 3900,
+     "win_rate": 2.52,
+     "roi": 32.8
+    },
+    "8": {
+     "starters": 119,
+     "wins": 6,
+     "payout": 19070,
+     "win_rate": 5.04,
+     "roi": 160.3
+    },
+    "9": {
+     "starters": 116,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "10": {
+     "starters": 111,
+     "wins": 1,
+     "payout": 3300,
+     "win_rate": 0.9,
+     "roi": 29.7
+    },
+    "11": {
+     "starters": 105,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "12": {
+     "starters": 97,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "13": {
+     "starters": 83,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "14": {
+     "starters": 73,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "15": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "16": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "17": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "18": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    }
+   },
+   "races": 3348
+  },
+  "2012": {
+   "all": {
+    "1": {
+     "starters": 3322,
+     "wins": 1048,
+     "payout": 252260,
+     "win_rate": 31.55,
+     "roi": 75.9
+    },
+    "2": {
+     "starters": 3322,
+     "wins": 618,
+     "payout": 255690,
+     "win_rate": 18.6,
+     "roi": 77.0
+    },
+    "3": {
+     "starters": 3322,
+     "wins": 467,
+     "payout": 278210,
+     "win_rate": 14.06,
+     "roi": 83.7
+    },
+    "4": {
+     "starters": 3322,
+     "wins": 313,
+     "payout": 268620,
+     "win_rate": 9.42,
+     "roi": 80.9
+    },
+    "5": {
+     "starters": 3322,
+     "wins": 239,
+     "payout": 269900,
+     "win_rate": 7.19,
+     "roi": 81.2
+    },
+    "6": {
+     "starters": 3317,
+     "wins": 174,
+     "payout": 250330,
+     "win_rate": 5.25,
+     "roi": 75.5
+    },
+    "7": {
+     "starters": 3314,
+     "wins": 138,
+     "payout": 275110,
+     "win_rate": 4.16,
+     "roi": 83.0
+    },
+    "8": {
+     "starters": 3294,
+     "wins": 98,
+     "payout": 265630,
+     "win_rate": 2.98,
+     "roi": 80.6
+    },
+    "9": {
+     "starters": 3253,
+     "wins": 77,
+     "payout": 274770,
+     "win_rate": 2.37,
+     "roi": 84.5
+    },
+    "10": {
+     "starters": 3156,
+     "wins": 54,
+     "payout": 235220,
+     "win_rate": 1.71,
+     "roi": 74.5
+    },
+    "11": {
+     "starters": 3012,
+     "wins": 41,
+     "payout": 247360,
+     "win_rate": 1.36,
+     "roi": 82.1
+    },
+    "12": {
+     "starters": 2849,
+     "wins": 22,
+     "payout": 152470,
+     "win_rate": 0.77,
+     "roi": 53.5
+    },
+    "13": {
+     "starters": 2607,
+     "wins": 15,
+     "payout": 156310,
+     "win_rate": 0.58,
+     "roi": 60.0
+    },
+    "14": {
+     "starters": 2318,
+     "wins": 15,
+     "payout": 209330,
+     "win_rate": 0.65,
+     "roi": 90.3
+    },
+    "15": {
+     "starters": 1976,
+     "wins": 4,
+     "payout": 85840,
+     "win_rate": 0.2,
+     "roi": 43.4
+    },
+    "16": {
+     "starters": 1516,
+     "wins": 2,
+     "payout": 33760,
+     "win_rate": 0.13,
+     "roi": 22.3
+    },
+    "17": {
+     "starters": 338,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 267,
+     "wins": 1,
+     "payout": 39740,
+     "win_rate": 0.37,
+     "roi": 148.8
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3195,
+     "wins": 1011,
+     "payout": 244400,
+     "win_rate": 31.64,
+     "roi": 76.5
+    },
+    "2": {
+     "starters": 3195,
+     "wins": 589,
+     "payout": 243890,
+     "win_rate": 18.44,
+     "roi": 76.3
+    },
+    "3": {
+     "starters": 3195,
+     "wins": 443,
+     "payout": 263490,
+     "win_rate": 13.87,
+     "roi": 82.5
+    },
+    "4": {
+     "starters": 3195,
+     "wins": 299,
+     "payout": 255620,
+     "win_rate": 9.36,
+     "roi": 80.0
+    },
+    "5": {
+     "starters": 3195,
+     "wins": 234,
+     "payout": 263780,
+     "win_rate": 7.32,
+     "roi": 82.6
+    },
+    "6": {
+     "starters": 3190,
+     "wins": 170,
+     "payout": 242370,
+     "win_rate": 5.33,
+     "roi": 76.0
+    },
+    "7": {
+     "starters": 3187,
+     "wins": 133,
+     "payout": 263750,
+     "win_rate": 4.17,
+     "roi": 82.8
+    },
+    "8": {
+     "starters": 3167,
+     "wins": 96,
+     "payout": 259350,
+     "win_rate": 3.03,
+     "roi": 81.9
+    },
+    "9": {
+     "starters": 3130,
+     "wins": 72,
+     "payout": 249650,
+     "win_rate": 2.3,
+     "roi": 79.8
+    },
+    "10": {
+     "starters": 3044,
+     "wins": 53,
+     "payout": 228540,
+     "win_rate": 1.74,
+     "roi": 75.1
+    },
+    "11": {
+     "starters": 2910,
+     "wins": 40,
+     "payout": 237970,
+     "win_rate": 1.37,
+     "roi": 81.8
+    },
+    "12": {
+     "starters": 2752,
+     "wins": 22,
+     "payout": 152470,
+     "win_rate": 0.8,
+     "roi": 55.4
+    },
+    "13": {
+     "starters": 2523,
+     "wins": 15,
+     "payout": 156310,
+     "win_rate": 0.59,
+     "roi": 62.0
+    },
+    "14": {
+     "starters": 2248,
+     "wins": 15,
+     "payout": 209330,
+     "win_rate": 0.67,
+     "roi": 93.1
+    },
+    "15": {
+     "starters": 1975,
+     "wins": 4,
+     "payout": 85840,
+     "win_rate": 0.2,
+     "roi": 43.5
+    },
+    "16": {
+     "starters": 1516,
+     "wins": 2,
+     "payout": 33760,
+     "win_rate": 0.13,
+     "roi": 22.3
+    },
+    "17": {
+     "starters": 338,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 267,
+     "wins": 1,
+     "payout": 39740,
+     "win_rate": 0.37,
+     "roi": 148.8
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 127,
+     "wins": 37,
+     "payout": 7860,
+     "win_rate": 29.13,
+     "roi": 61.9
+    },
+    "2": {
+     "starters": 127,
+     "wins": 29,
+     "payout": 11800,
+     "win_rate": 22.83,
+     "roi": 92.9
+    },
+    "3": {
+     "starters": 127,
+     "wins": 24,
+     "payout": 14720,
+     "win_rate": 18.9,
+     "roi": 115.9
+    },
+    "4": {
+     "starters": 127,
+     "wins": 14,
+     "payout": 13000,
+     "win_rate": 11.02,
+     "roi": 102.4
+    },
+    "5": {
+     "starters": 127,
+     "wins": 5,
+     "payout": 6120,
+     "win_rate": 3.94,
+     "roi": 48.2
+    },
+    "6": {
+     "starters": 127,
+     "wins": 4,
+     "payout": 7960,
+     "win_rate": 3.15,
+     "roi": 62.7
+    },
+    "7": {
+     "starters": 127,
+     "wins": 5,
+     "payout": 11360,
+     "win_rate": 3.94,
+     "roi": 89.4
+    },
+    "8": {
+     "starters": 127,
+     "wins": 2,
+     "payout": 6280,
+     "win_rate": 1.57,
+     "roi": 49.4
+    },
+    "9": {
+     "starters": 123,
+     "wins": 5,
+     "payout": 25120,
+     "win_rate": 4.07,
+     "roi": 204.2
+    },
+    "10": {
+     "starters": 112,
+     "wins": 1,
+     "payout": 6680,
+     "win_rate": 0.89,
+     "roi": 59.6
+    },
+    "11": {
+     "starters": 102,
+     "wins": 1,
+     "payout": 9390,
+     "win_rate": 0.98,
+     "roi": 92.1
+    },
+    "12": {
+     "starters": 97,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "13": {
+     "starters": 84,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "14": {
+     "starters": 70,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "15": {
+     "starters": 1,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "16": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "17": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "18": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    }
+   },
+   "races": 3322
+  },
+  "2013": {
+   "all": {
+    "1": {
+     "starters": 3346,
+     "wins": 1071,
+     "payout": 261050,
+     "win_rate": 32.01,
+     "roi": 78.0
+    },
+    "2": {
+     "starters": 3346,
+     "wins": 611,
+     "payout": 257780,
+     "win_rate": 18.26,
+     "roi": 77.0
+    },
+    "3": {
+     "starters": 3346,
+     "wins": 425,
+     "payout": 264850,
+     "win_rate": 12.7,
+     "roi": 79.2
+    },
+    "4": {
+     "starters": 3346,
+     "wins": 306,
+     "payout": 262320,
+     "win_rate": 9.15,
+     "roi": 78.4
+    },
+    "5": {
+     "starters": 3346,
+     "wins": 236,
+     "payout": 264500,
+     "win_rate": 7.05,
+     "roi": 79.0
+    },
+    "6": {
+     "starters": 3343,
+     "wins": 191,
+     "payout": 282880,
+     "win_rate": 5.71,
+     "roi": 84.6
+    },
+    "7": {
+     "starters": 3335,
+     "wins": 153,
+     "payout": 299600,
+     "win_rate": 4.59,
+     "roi": 89.8
+    },
+    "8": {
+     "starters": 3322,
+     "wins": 112,
+     "payout": 289160,
+     "win_rate": 3.37,
+     "roi": 87.0
+    },
+    "9": {
+     "starters": 3267,
+     "wins": 85,
+     "payout": 281580,
+     "win_rate": 2.6,
+     "roi": 86.2
+    },
+    "10": {
+     "starters": 3187,
+     "wins": 57,
+     "payout": 244530,
+     "win_rate": 1.79,
+     "roi": 76.7
+    },
+    "11": {
+     "starters": 3030,
+     "wins": 38,
+     "payout": 182210,
+     "win_rate": 1.25,
+     "roi": 60.1
+    },
+    "12": {
+     "starters": 2844,
+     "wins": 22,
+     "payout": 171030,
+     "win_rate": 0.77,
+     "roi": 60.1
+    },
+    "13": {
+     "starters": 2588,
+     "wins": 20,
+     "payout": 145210,
+     "win_rate": 0.77,
+     "roi": 56.1
+    },
+    "14": {
+     "starters": 2319,
+     "wins": 11,
+     "payout": 120360,
+     "win_rate": 0.47,
+     "roi": 51.9
+    },
+    "15": {
+     "starters": 2026,
+     "wins": 7,
+     "payout": 105760,
+     "win_rate": 0.35,
+     "roi": 52.2
+    },
+    "16": {
+     "starters": 1597,
+     "wins": 3,
+     "payout": 67450,
+     "win_rate": 0.19,
+     "roi": 42.2
+    },
+    "17": {
+     "starters": 400,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 338,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3220,
+     "wins": 1030,
+     "payout": 252500,
+     "win_rate": 31.99,
+     "roi": 78.4
+    },
+    "2": {
+     "starters": 3220,
+     "wins": 589,
+     "payout": 248860,
+     "win_rate": 18.29,
+     "roi": 77.3
+    },
+    "3": {
+     "starters": 3220,
+     "wins": 407,
+     "payout": 253840,
+     "win_rate": 12.64,
+     "roi": 78.8
+    },
+    "4": {
+     "starters": 3220,
+     "wins": 292,
+     "payout": 250210,
+     "win_rate": 9.07,
+     "roi": 77.7
+    },
+    "5": {
+     "starters": 3220,
+     "wins": 225,
+     "payout": 251960,
+     "win_rate": 6.99,
+     "roi": 78.2
+    },
+    "6": {
+     "starters": 3217,
+     "wins": 186,
+     "payout": 275880,
+     "win_rate": 5.78,
+     "roi": 85.8
+    },
+    "7": {
+     "starters": 3209,
+     "wins": 148,
+     "payout": 287490,
+     "win_rate": 4.61,
+     "roi": 89.6
+    },
+    "8": {
+     "starters": 3198,
+     "wins": 107,
+     "payout": 277520,
+     "win_rate": 3.35,
+     "roi": 86.8
+    },
+    "9": {
+     "starters": 3152,
+     "wins": 83,
+     "payout": 272010,
+     "win_rate": 2.63,
+     "roi": 86.3
+    },
+    "10": {
+     "starters": 3076,
+     "wins": 55,
+     "payout": 237760,
+     "win_rate": 1.79,
+     "roi": 77.3
+    },
+    "11": {
+     "starters": 2927,
+     "wins": 38,
+     "payout": 182210,
+     "win_rate": 1.3,
+     "roi": 62.3
+    },
+    "12": {
+     "starters": 2755,
+     "wins": 21,
+     "payout": 161780,
+     "win_rate": 0.76,
+     "roi": 58.7
+    },
+    "13": {
+     "starters": 2515,
+     "wins": 20,
+     "payout": 145210,
+     "win_rate": 0.8,
+     "roi": 57.7
+    },
+    "14": {
+     "starters": 2262,
+     "wins": 11,
+     "payout": 120360,
+     "win_rate": 0.49,
+     "roi": 53.2
+    },
+    "15": {
+     "starters": 2023,
+     "wins": 7,
+     "payout": 105760,
+     "win_rate": 0.35,
+     "roi": 52.3
+    },
+    "16": {
+     "starters": 1595,
+     "wins": 3,
+     "payout": 67450,
+     "win_rate": 0.19,
+     "roi": 42.3
+    },
+    "17": {
+     "starters": 400,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 338,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 126,
+     "wins": 41,
+     "payout": 8550,
+     "win_rate": 32.54,
+     "roi": 67.9
+    },
+    "2": {
+     "starters": 126,
+     "wins": 22,
+     "payout": 8920,
+     "win_rate": 17.46,
+     "roi": 70.8
+    },
+    "3": {
+     "starters": 126,
+     "wins": 18,
+     "payout": 11010,
+     "win_rate": 14.29,
+     "roi": 87.4
+    },
+    "4": {
+     "starters": 126,
+     "wins": 14,
+     "payout": 12110,
+     "win_rate": 11.11,
+     "roi": 96.1
+    },
+    "5": {
+     "starters": 126,
+     "wins": 11,
+     "payout": 12540,
+     "win_rate": 8.73,
+     "roi": 99.5
+    },
+    "6": {
+     "starters": 126,
+     "wins": 5,
+     "payout": 7000,
+     "win_rate": 3.97,
+     "roi": 55.6
+    },
+    "7": {
+     "starters": 126,
+     "wins": 5,
+     "payout": 12110,
+     "win_rate": 3.97,
+     "roi": 96.1
+    },
+    "8": {
+     "starters": 124,
+     "wins": 5,
+     "payout": 11640,
+     "win_rate": 4.03,
+     "roi": 93.9
+    },
+    "9": {
+     "starters": 115,
+     "wins": 2,
+     "payout": 9570,
+     "win_rate": 1.74,
+     "roi": 83.2
+    },
+    "10": {
+     "starters": 111,
+     "wins": 2,
+     "payout": 6770,
+     "win_rate": 1.8,
+     "roi": 61.0
+    },
+    "11": {
+     "starters": 103,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "12": {
+     "starters": 89,
+     "wins": 1,
+     "payout": 9250,
+     "win_rate": 1.12,
+     "roi": 103.9
+    },
+    "13": {
+     "starters": 73,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "14": {
+     "starters": 57,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "15": {
+     "starters": 3,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "16": {
+     "starters": 2,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "17": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "18": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    }
+   },
+   "races": 3346
+  },
+  "2014": {
+   "all": {
+    "1": {
+     "starters": 3285,
+     "wins": 1076,
+     "payout": 262910,
+     "win_rate": 32.75,
+     "roi": 80.0
+    },
+    "2": {
+     "starters": 3285,
+     "wins": 599,
+     "payout": 259440,
+     "win_rate": 18.23,
+     "roi": 79.0
+    },
+    "3": {
+     "starters": 3285,
+     "wins": 410,
+     "payout": 260510,
+     "win_rate": 12.48,
+     "roi": 79.3
+    },
+    "4": {
+     "starters": 3286,
+     "wins": 308,
+     "payout": 259960,
+     "win_rate": 9.37,
+     "roi": 79.1
+    },
+    "5": {
+     "starters": 3284,
+     "wins": 218,
+     "payout": 246110,
+     "win_rate": 6.64,
+     "roi": 74.9
+    },
+    "6": {
+     "starters": 3284,
+     "wins": 195,
+     "payout": 287180,
+     "win_rate": 5.94,
+     "roi": 87.4
+    },
+    "7": {
+     "starters": 3280,
+     "wins": 146,
+     "payout": 282790,
+     "win_rate": 4.45,
+     "roi": 86.2
+    },
+    "8": {
+     "starters": 3259,
+     "wins": 90,
+     "payout": 235640,
+     "win_rate": 2.76,
+     "roi": 72.3
+    },
+    "9": {
+     "starters": 3208,
+     "wins": 80,
+     "payout": 250800,
+     "win_rate": 2.49,
+     "roi": 78.2
+    },
+    "10": {
+     "starters": 3117,
+     "wins": 45,
+     "payout": 173700,
+     "win_rate": 1.44,
+     "roi": 55.7
+    },
+    "11": {
+     "starters": 2998,
+     "wins": 48,
+     "payout": 256440,
+     "win_rate": 1.6,
+     "roi": 85.5
+    },
+    "12": {
+     "starters": 2837,
+     "wins": 34,
+     "payout": 211140,
+     "win_rate": 1.2,
+     "roi": 74.4
+    },
+    "13": {
+     "starters": 2607,
+     "wins": 21,
+     "payout": 188030,
+     "win_rate": 0.81,
+     "roi": 72.1
+    },
+    "14": {
+     "starters": 2336,
+     "wins": 9,
+     "payout": 107530,
+     "win_rate": 0.39,
+     "roi": 46.0
+    },
+    "15": {
+     "starters": 2001,
+     "wins": 8,
+     "payout": 123390,
+     "win_rate": 0.4,
+     "roi": 61.7
+    },
+    "16": {
+     "starters": 1581,
+     "wins": 3,
+     "payout": 115300,
+     "win_rate": 0.19,
+     "roi": 72.9
+    },
+    "17": {
+     "starters": 397,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 323,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3166,
+     "wins": 1023,
+     "payout": 250810,
+     "win_rate": 32.31,
+     "roi": 79.2
+    },
+    "2": {
+     "starters": 3166,
+     "wins": 582,
+     "payout": 252270,
+     "win_rate": 18.38,
+     "roi": 79.7
+    },
+    "3": {
+     "starters": 3166,
+     "wins": 398,
+     "payout": 253350,
+     "win_rate": 12.57,
+     "roi": 80.0
+    },
+    "4": {
+     "starters": 3167,
+     "wins": 298,
+     "payout": 251570,
+     "win_rate": 9.41,
+     "roi": 79.4
+    },
+    "5": {
+     "starters": 3165,
+     "wins": 210,
+     "payout": 236240,
+     "win_rate": 6.64,
+     "roi": 74.6
+    },
+    "6": {
+     "starters": 3166,
+     "wins": 187,
+     "payout": 274200,
+     "win_rate": 5.91,
+     "roi": 86.6
+    },
+    "7": {
+     "starters": 3163,
+     "wins": 146,
+     "payout": 282790,
+     "win_rate": 4.62,
+     "roi": 89.4
+    },
+    "8": {
+     "starters": 3143,
+     "wins": 89,
+     "payout": 232820,
+     "win_rate": 2.83,
+     "roi": 74.1
+    },
+    "9": {
+     "starters": 3098,
+     "wins": 75,
+     "payout": 234000,
+     "win_rate": 2.42,
+     "roi": 75.5
+    },
+    "10": {
+     "starters": 3009,
+     "wins": 44,
+     "payout": 169040,
+     "win_rate": 1.46,
+     "roi": 56.2
+    },
+    "11": {
+     "starters": 2896,
+     "wins": 46,
+     "payout": 245860,
+     "win_rate": 1.59,
+     "roi": 84.9
+    },
+    "12": {
+     "starters": 2745,
+     "wins": 33,
+     "payout": 192790,
+     "win_rate": 1.2,
+     "roi": 70.2
+    },
+    "13": {
+     "starters": 2525,
+     "wins": 20,
+     "payout": 180980,
+     "win_rate": 0.79,
+     "roi": 71.7
+    },
+    "14": {
+     "starters": 2275,
+     "wins": 9,
+     "payout": 107530,
+     "win_rate": 0.4,
+     "roi": 47.3
+    },
+    "15": {
+     "starters": 2001,
+     "wins": 8,
+     "payout": 123390,
+     "win_rate": 0.4,
+     "roi": 61.7
+    },
+    "16": {
+     "starters": 1581,
+     "wins": 3,
+     "payout": 115300,
+     "win_rate": 0.19,
+     "roi": 72.9
+    },
+    "17": {
+     "starters": 397,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 323,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 119,
+     "wins": 53,
+     "payout": 12100,
+     "win_rate": 44.54,
+     "roi": 101.7
+    },
+    "2": {
+     "starters": 119,
+     "wins": 17,
+     "payout": 7170,
+     "win_rate": 14.29,
+     "roi": 60.3
+    },
+    "3": {
+     "starters": 119,
+     "wins": 12,
+     "payout": 7160,
+     "win_rate": 10.08,
+     "roi": 60.2
+    },
+    "4": {
+     "starters": 119,
+     "wins": 10,
+     "payout": 8390,
+     "win_rate": 8.4,
+     "roi": 70.5
+    },
+    "5": {
+     "starters": 119,
+     "wins": 8,
+     "payout": 9870,
+     "win_rate": 6.72,
+     "roi": 82.9
+    },
+    "6": {
+     "starters": 118,
+     "wins": 8,
+     "payout": 12980,
+     "win_rate": 6.78,
+     "roi": 110.0
+    },
+    "7": {
+     "starters": 117,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "8": {
+     "starters": 116,
+     "wins": 1,
+     "payout": 2820,
+     "win_rate": 0.86,
+     "roi": 24.3
+    },
+    "9": {
+     "starters": 110,
+     "wins": 5,
+     "payout": 16800,
+     "win_rate": 4.55,
+     "roi": 152.7
+    },
+    "10": {
+     "starters": 108,
+     "wins": 1,
+     "payout": 4660,
+     "win_rate": 0.93,
+     "roi": 43.1
+    },
+    "11": {
+     "starters": 102,
+     "wins": 2,
+     "payout": 10580,
+     "win_rate": 1.96,
+     "roi": 103.7
+    },
+    "12": {
+     "starters": 92,
+     "wins": 1,
+     "payout": 18350,
+     "win_rate": 1.09,
+     "roi": 199.5
+    },
+    "13": {
+     "starters": 82,
+     "wins": 1,
+     "payout": 7050,
+     "win_rate": 1.22,
+     "roi": 86.0
+    },
+    "14": {
+     "starters": 61,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "15": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "16": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "17": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "18": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    }
+   },
+   "races": 3285
+  },
+  "2015": {
+   "all": {
+    "1": {
+     "starters": 3334,
+     "wins": 1006,
+     "payout": 252910,
+     "win_rate": 30.17,
+     "roi": 75.9
+    },
+    "2": {
+     "starters": 3334,
+     "wins": 618,
+     "payout": 266650,
+     "win_rate": 18.54,
+     "roi": 80.0
+    },
+    "3": {
+     "starters": 3334,
+     "wins": 450,
+     "payout": 271380,
+     "win_rate": 13.5,
+     "roi": 81.4
+    },
+    "4": {
+     "starters": 3334,
+     "wins": 344,
+     "payout": 280080,
+     "win_rate": 10.32,
+     "roi": 84.0
+    },
+    "5": {
+     "starters": 3335,
+     "wins": 263,
+     "payout": 284790,
+     "win_rate": 7.89,
+     "roi": 85.4
+    },
+    "6": {
+     "starters": 3331,
+     "wins": 168,
+     "payout": 236590,
+     "win_rate": 5.04,
+     "roi": 71.0
+    },
+    "7": {
+     "starters": 3329,
+     "wins": 140,
+     "payout": 272140,
+     "win_rate": 4.21,
+     "roi": 81.7
+    },
+    "8": {
+     "starters": 3310,
+     "wins": 102,
+     "payout": 263310,
+     "win_rate": 3.08,
+     "roi": 79.5
+    },
+    "9": {
+     "starters": 3260,
+     "wins": 70,
+     "payout": 207130,
+     "win_rate": 2.15,
+     "roi": 63.5
+    },
+    "10": {
+     "starters": 3166,
+     "wins": 58,
+     "payout": 256010,
+     "win_rate": 1.83,
+     "roi": 80.9
+    },
+    "11": {
+     "starters": 3039,
+     "wins": 54,
+     "payout": 291940,
+     "win_rate": 1.78,
+     "roi": 96.1
+    },
+    "12": {
+     "starters": 2856,
+     "wins": 29,
+     "payout": 221010,
+     "win_rate": 1.02,
+     "roi": 77.4
+    },
+    "13": {
+     "starters": 2599,
+     "wins": 16,
+     "payout": 102640,
+     "win_rate": 0.62,
+     "roi": 39.5
+    },
+    "14": {
+     "starters": 2323,
+     "wins": 6,
+     "payout": 55110,
+     "win_rate": 0.26,
+     "roi": 23.7
+    },
+    "15": {
+     "starters": 1982,
+     "wins": 13,
+     "payout": 198310,
+     "win_rate": 0.66,
+     "roi": 100.1
+    },
+    "16": {
+     "starters": 1577,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "17": {
+     "starters": 368,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 292,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3211,
+     "wins": 974,
+     "payout": 245330,
+     "win_rate": 30.33,
+     "roi": 76.4
+    },
+    "2": {
+     "starters": 3211,
+     "wins": 594,
+     "payout": 256710,
+     "win_rate": 18.5,
+     "roi": 79.9
+    },
+    "3": {
+     "starters": 3211,
+     "wins": 424,
+     "payout": 256810,
+     "win_rate": 13.2,
+     "roi": 80.0
+    },
+    "4": {
+     "starters": 3211,
+     "wins": 327,
+     "payout": 265980,
+     "win_rate": 10.18,
+     "roi": 82.8
+    },
+    "5": {
+     "starters": 3212,
+     "wins": 257,
+     "payout": 278450,
+     "win_rate": 8.0,
+     "roi": 86.7
+    },
+    "6": {
+     "starters": 3208,
+     "wins": 166,
+     "payout": 233980,
+     "win_rate": 5.17,
+     "roi": 72.9
+    },
+    "7": {
+     "starters": 3207,
+     "wins": 136,
+     "payout": 259770,
+     "win_rate": 4.24,
+     "roi": 81.0
+    },
+    "8": {
+     "starters": 3191,
+     "wins": 94,
+     "payout": 238670,
+     "win_rate": 2.95,
+     "roi": 74.8
+    },
+    "9": {
+     "starters": 3146,
+     "wins": 69,
+     "payout": 203820,
+     "win_rate": 2.19,
+     "roi": 64.8
+    },
+    "10": {
+     "starters": 3062,
+     "wins": 57,
+     "payout": 251890,
+     "win_rate": 1.86,
+     "roi": 82.3
+    },
+    "11": {
+     "starters": 2940,
+     "wins": 53,
+     "payout": 287580,
+     "win_rate": 1.8,
+     "roi": 97.8
+    },
+    "12": {
+     "starters": 2767,
+     "wins": 28,
+     "payout": 214440,
+     "win_rate": 1.01,
+     "roi": 77.5
+    },
+    "13": {
+     "starters": 2522,
+     "wins": 16,
+     "payout": 102640,
+     "win_rate": 0.63,
+     "roi": 40.7
+    },
+    "14": {
+     "starters": 2266,
+     "wins": 6,
+     "payout": 55110,
+     "win_rate": 0.26,
+     "roi": 24.3
+    },
+    "15": {
+     "starters": 1980,
+     "wins": 13,
+     "payout": 198310,
+     "win_rate": 0.66,
+     "roi": 100.2
+    },
+    "16": {
+     "starters": 1577,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "17": {
+     "starters": 368,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 292,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 123,
+     "wins": 32,
+     "payout": 7580,
+     "win_rate": 26.02,
+     "roi": 61.6
+    },
+    "2": {
+     "starters": 123,
+     "wins": 24,
+     "payout": 9940,
+     "win_rate": 19.51,
+     "roi": 80.8
+    },
+    "3": {
+     "starters": 123,
+     "wins": 26,
+     "payout": 14570,
+     "win_rate": 21.14,
+     "roi": 118.5
+    },
+    "4": {
+     "starters": 123,
+     "wins": 17,
+     "payout": 14100,
+     "win_rate": 13.82,
+     "roi": 114.6
+    },
+    "5": {
+     "starters": 123,
+     "wins": 6,
+     "payout": 6340,
+     "win_rate": 4.88,
+     "roi": 51.5
+    },
+    "6": {
+     "starters": 123,
+     "wins": 2,
+     "payout": 2610,
+     "win_rate": 1.63,
+     "roi": 21.2
+    },
+    "7": {
+     "starters": 122,
+     "wins": 4,
+     "payout": 12370,
+     "win_rate": 3.28,
+     "roi": 101.4
+    },
+    "8": {
+     "starters": 119,
+     "wins": 8,
+     "payout": 24640,
+     "win_rate": 6.72,
+     "roi": 207.1
+    },
+    "9": {
+     "starters": 114,
+     "wins": 1,
+     "payout": 3310,
+     "win_rate": 0.88,
+     "roi": 29.0
+    },
+    "10": {
+     "starters": 104,
+     "wins": 1,
+     "payout": 4120,
+     "win_rate": 0.96,
+     "roi": 39.6
+    },
+    "11": {
+     "starters": 99,
+     "wins": 1,
+     "payout": 4360,
+     "win_rate": 1.01,
+     "roi": 44.0
+    },
+    "12": {
+     "starters": 89,
+     "wins": 1,
+     "payout": 6570,
+     "win_rate": 1.12,
+     "roi": 73.8
+    },
+    "13": {
+     "starters": 77,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "14": {
+     "starters": 57,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "15": {
+     "starters": 2,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "16": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "17": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "18": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    }
+   },
+   "races": 3334
+  },
+  "2016": {
+   "all": {
+    "1": {
+     "starters": 3334,
+     "wins": 1108,
+     "payout": 264700,
+     "win_rate": 33.23,
+     "roi": 79.4
+    },
+    "2": {
+     "starters": 3334,
+     "wins": 625,
+     "payout": 261980,
+     "win_rate": 18.75,
+     "roi": 78.6
+    },
+    "3": {
+     "starters": 3335,
+     "wins": 408,
+     "payout": 247500,
+     "win_rate": 12.23,
+     "roi": 74.2
+    },
+    "4": {
+     "starters": 3334,
+     "wins": 318,
+     "payout": 267050,
+     "win_rate": 9.54,
+     "roi": 80.1
+    },
+    "5": {
+     "starters": 3334,
+     "wins": 235,
+     "payout": 265520,
+     "win_rate": 7.05,
+     "roi": 79.6
+    },
+    "6": {
+     "starters": 3332,
+     "wins": 189,
+     "payout": 290460,
+     "win_rate": 5.67,
+     "roi": 87.2
+    },
+    "7": {
+     "starters": 3330,
+     "wins": 119,
+     "payout": 255360,
+     "win_rate": 3.57,
+     "roi": 76.7
+    },
+    "8": {
+     "starters": 3316,
+     "wins": 92,
+     "payout": 251700,
+     "win_rate": 2.77,
+     "roi": 75.9
+    },
+    "9": {
+     "starters": 3266,
+     "wins": 80,
+     "payout": 252310,
+     "win_rate": 2.45,
+     "roi": 77.3
+    },
+    "10": {
+     "starters": 3157,
+     "wins": 53,
+     "payout": 237870,
+     "win_rate": 1.68,
+     "roi": 75.3
+    },
+    "11": {
+     "starters": 3018,
+     "wins": 46,
+     "payout": 258900,
+     "win_rate": 1.52,
+     "roi": 85.8
+    },
+    "12": {
+     "starters": 2855,
+     "wins": 32,
+     "payout": 262620,
+     "win_rate": 1.12,
+     "roi": 92.0
+    },
+    "13": {
+     "starters": 2605,
+     "wins": 16,
+     "payout": 160560,
+     "win_rate": 0.61,
+     "roi": 61.6
+    },
+    "14": {
+     "starters": 2309,
+     "wins": 7,
+     "payout": 136260,
+     "win_rate": 0.3,
+     "roi": 59.0
+    },
+    "15": {
+     "starters": 2007,
+     "wins": 7,
+     "payout": 99360,
+     "win_rate": 0.35,
+     "roi": 49.5
+    },
+    "16": {
+     "starters": 1596,
+     "wins": 3,
+     "payout": 41670,
+     "win_rate": 0.19,
+     "roi": 26.1
+    },
+    "17": {
+     "starters": 364,
+     "wins": 1,
+     "payout": 28860,
+     "win_rate": 0.27,
+     "roi": 79.3
+    },
+    "18": {
+     "starters": 303,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3210,
+     "wins": 1060,
+     "payout": 253910,
+     "win_rate": 33.02,
+     "roi": 79.1
+    },
+    "2": {
+     "starters": 3210,
+     "wins": 607,
+     "payout": 254720,
+     "win_rate": 18.91,
+     "roi": 79.4
+    },
+    "3": {
+     "starters": 3211,
+     "wins": 397,
+     "payout": 240860,
+     "win_rate": 12.36,
+     "roi": 75.0
+    },
+    "4": {
+     "starters": 3210,
+     "wins": 301,
+     "payout": 253360,
+     "win_rate": 9.38,
+     "roi": 78.9
+    },
+    "5": {
+     "starters": 3209,
+     "wins": 226,
+     "payout": 252800,
+     "win_rate": 7.04,
+     "roi": 78.8
+    },
+    "6": {
+     "starters": 3209,
+     "wins": 183,
+     "payout": 280890,
+     "win_rate": 5.7,
+     "roi": 87.5
+    },
+    "7": {
+     "starters": 3207,
+     "wins": 116,
+     "payout": 246300,
+     "win_rate": 3.62,
+     "roi": 76.8
+    },
+    "8": {
+     "starters": 3196,
+     "wins": 87,
+     "payout": 238560,
+     "win_rate": 2.72,
+     "roi": 74.6
+    },
+    "9": {
+     "starters": 3150,
+     "wins": 79,
+     "payout": 250020,
+     "win_rate": 2.51,
+     "roi": 79.4
+    },
+    "10": {
+     "starters": 3047,
+     "wins": 50,
+     "payout": 221560,
+     "win_rate": 1.64,
+     "roi": 72.7
+    },
+    "11": {
+     "starters": 2918,
+     "wins": 44,
+     "payout": 245210,
+     "win_rate": 1.51,
+     "roi": 84.0
+    },
+    "12": {
+     "starters": 2769,
+     "wins": 31,
+     "payout": 257640,
+     "win_rate": 1.12,
+     "roi": 93.0
+    },
+    "13": {
+     "starters": 2530,
+     "wins": 16,
+     "payout": 160560,
+     "win_rate": 0.63,
+     "roi": 63.5
+    },
+    "14": {
+     "starters": 2250,
+     "wins": 7,
+     "payout": 136260,
+     "win_rate": 0.31,
+     "roi": 60.6
+    },
+    "15": {
+     "starters": 2007,
+     "wins": 7,
+     "payout": 99360,
+     "win_rate": 0.35,
+     "roi": 49.5
+    },
+    "16": {
+     "starters": 1596,
+     "wins": 3,
+     "payout": 41670,
+     "win_rate": 0.19,
+     "roi": 26.1
+    },
+    "17": {
+     "starters": 364,
+     "wins": 1,
+     "payout": 28860,
+     "win_rate": 0.27,
+     "roi": 79.3
+    },
+    "18": {
+     "starters": 303,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 124,
+     "wins": 48,
+     "payout": 10790,
+     "win_rate": 38.71,
+     "roi": 87.0
+    },
+    "2": {
+     "starters": 124,
+     "wins": 18,
+     "payout": 7260,
+     "win_rate": 14.52,
+     "roi": 58.5
+    },
+    "3": {
+     "starters": 124,
+     "wins": 11,
+     "payout": 6640,
+     "win_rate": 8.87,
+     "roi": 53.5
+    },
+    "4": {
+     "starters": 124,
+     "wins": 17,
+     "payout": 13690,
+     "win_rate": 13.71,
+     "roi": 110.4
+    },
+    "5": {
+     "starters": 125,
+     "wins": 9,
+     "payout": 12720,
+     "win_rate": 7.2,
+     "roi": 101.8
+    },
+    "6": {
+     "starters": 123,
+     "wins": 6,
+     "payout": 9570,
+     "win_rate": 4.88,
+     "roi": 77.8
+    },
+    "7": {
+     "starters": 123,
+     "wins": 3,
+     "payout": 9060,
+     "win_rate": 2.44,
+     "roi": 73.7
+    },
+    "8": {
+     "starters": 120,
+     "wins": 5,
+     "payout": 13140,
+     "win_rate": 4.17,
+     "roi": 109.5
+    },
+    "9": {
+     "starters": 116,
+     "wins": 1,
+     "payout": 2290,
+     "win_rate": 0.86,
+     "roi": 19.7
+    },
+    "10": {
+     "starters": 110,
+     "wins": 3,
+     "payout": 16310,
+     "win_rate": 2.73,
+     "roi": 148.3
+    },
+    "11": {
+     "starters": 100,
+     "wins": 2,
+     "payout": 13690,
+     "win_rate": 2.0,
+     "roi": 136.9
+    },
+    "12": {
+     "starters": 86,
+     "wins": 1,
+     "payout": 4980,
+     "win_rate": 1.16,
+     "roi": 57.9
+    },
+    "13": {
+     "starters": 75,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "14": {
+     "starters": 59,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "15": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "16": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "17": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "18": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    }
+   },
+   "races": 3334
+  },
+  "2017": {
+   "all": {
+    "1": {
+     "starters": 3275,
+     "wins": 1105,
+     "payout": 263230,
+     "win_rate": 33.74,
+     "roi": 80.4
+    },
+    "2": {
+     "starters": 3275,
+     "wins": 584,
+     "payout": 252210,
+     "win_rate": 17.83,
+     "roi": 77.0
+    },
+    "3": {
+     "starters": 3275,
+     "wins": 449,
+     "payout": 276770,
+     "win_rate": 13.71,
+     "roi": 84.5
+    },
+    "4": {
+     "starters": 3275,
+     "wins": 299,
+     "payout": 252860,
+     "win_rate": 9.13,
+     "roi": 77.2
+    },
+    "5": {
+     "starters": 3277,
+     "wins": 229,
+     "payout": 252770,
+     "win_rate": 6.99,
+     "roi": 77.1
+    },
+    "6": {
+     "starters": 3273,
+     "wins": 174,
+     "payout": 264440,
+     "win_rate": 5.32,
+     "roi": 80.8
+    },
+    "7": {
+     "starters": 3263,
+     "wins": 129,
+     "payout": 267960,
+     "win_rate": 3.95,
+     "roi": 82.1
+    },
+    "8": {
+     "starters": 3230,
+     "wins": 84,
+     "payout": 224670,
+     "win_rate": 2.6,
+     "roi": 69.6
+    },
+    "9": {
+     "starters": 3162,
+     "wins": 65,
+     "payout": 228180,
+     "win_rate": 2.06,
+     "roi": 72.2
+    },
+    "10": {
+     "starters": 3049,
+     "wins": 63,
+     "payout": 298800,
+     "win_rate": 2.07,
+     "roi": 98.0
+    },
+    "11": {
+     "starters": 2883,
+     "wins": 27,
+     "payout": 165440,
+     "win_rate": 0.94,
+     "roi": 57.4
+    },
+    "12": {
+     "starters": 2692,
+     "wins": 35,
+     "payout": 224510,
+     "win_rate": 1.3,
+     "roi": 83.4
+    },
+    "13": {
+     "starters": 2434,
+     "wins": 18,
+     "payout": 160090,
+     "win_rate": 0.74,
+     "roi": 65.8
+    },
+    "14": {
+     "starters": 2243,
+     "wins": 9,
+     "payout": 89400,
+     "win_rate": 0.4,
+     "roi": 39.9
+    },
+    "15": {
+     "starters": 1913,
+     "wins": 5,
+     "payout": 96040,
+     "win_rate": 0.26,
+     "roi": 50.2
+    },
+    "16": {
+     "starters": 1484,
+     "wins": 3,
+     "payout": 78920,
+     "win_rate": 0.2,
+     "roi": 53.2
+    },
+    "17": {
+     "starters": 312,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 253,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3155,
+     "wins": 1062,
+     "payout": 254260,
+     "win_rate": 33.66,
+     "roi": 80.6
+    },
+    "2": {
+     "starters": 3155,
+     "wins": 567,
+     "payout": 245250,
+     "win_rate": 17.97,
+     "roi": 77.7
+    },
+    "3": {
+     "starters": 3155,
+     "wins": 433,
+     "payout": 267210,
+     "win_rate": 13.72,
+     "roi": 84.7
+    },
+    "4": {
+     "starters": 3155,
+     "wins": 288,
+     "payout": 243950,
+     "win_rate": 9.13,
+     "roi": 77.3
+    },
+    "5": {
+     "starters": 3157,
+     "wins": 224,
+     "payout": 247970,
+     "win_rate": 7.1,
+     "roi": 78.5
+    },
+    "6": {
+     "starters": 3152,
+     "wins": 162,
+     "payout": 248080,
+     "win_rate": 5.14,
+     "roi": 78.7
+    },
+    "7": {
+     "starters": 3143,
+     "wins": 121,
+     "payout": 249520,
+     "win_rate": 3.85,
+     "roi": 79.4
+    },
+    "8": {
+     "starters": 3113,
+     "wins": 80,
+     "payout": 214420,
+     "win_rate": 2.57,
+     "roi": 68.9
+    },
+    "9": {
+     "starters": 3049,
+     "wins": 62,
+     "payout": 214500,
+     "win_rate": 2.03,
+     "roi": 70.4
+    },
+    "10": {
+     "starters": 2943,
+     "wins": 63,
+     "payout": 298800,
+     "win_rate": 2.14,
+     "roi": 101.5
+    },
+    "11": {
+     "starters": 2788,
+     "wins": 27,
+     "payout": 165440,
+     "win_rate": 0.97,
+     "roi": 59.3
+    },
+    "12": {
+     "starters": 2608,
+     "wins": 34,
+     "payout": 218550,
+     "win_rate": 1.3,
+     "roi": 83.8
+    },
+    "13": {
+     "starters": 2362,
+     "wins": 18,
+     "payout": 160090,
+     "win_rate": 0.76,
+     "roi": 67.8
+    },
+    "14": {
+     "starters": 2184,
+     "wins": 9,
+     "payout": 89400,
+     "win_rate": 0.41,
+     "roi": 40.9
+    },
+    "15": {
+     "starters": 1912,
+     "wins": 5,
+     "payout": 96040,
+     "win_rate": 0.26,
+     "roi": 50.2
+    },
+    "16": {
+     "starters": 1484,
+     "wins": 3,
+     "payout": 78920,
+     "win_rate": 0.2,
+     "roi": 53.2
+    },
+    "17": {
+     "starters": 312,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 253,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 120,
+     "wins": 43,
+     "payout": 8970,
+     "win_rate": 35.83,
+     "roi": 74.8
+    },
+    "2": {
+     "starters": 120,
+     "wins": 17,
+     "payout": 6960,
+     "win_rate": 14.17,
+     "roi": 58.0
+    },
+    "3": {
+     "starters": 120,
+     "wins": 16,
+     "payout": 9560,
+     "win_rate": 13.33,
+     "roi": 79.7
+    },
+    "4": {
+     "starters": 120,
+     "wins": 11,
+     "payout": 8910,
+     "win_rate": 9.17,
+     "roi": 74.2
+    },
+    "5": {
+     "starters": 120,
+     "wins": 5,
+     "payout": 4800,
+     "win_rate": 4.17,
+     "roi": 40.0
+    },
+    "6": {
+     "starters": 121,
+     "wins": 12,
+     "payout": 16360,
+     "win_rate": 9.92,
+     "roi": 135.2
+    },
+    "7": {
+     "starters": 120,
+     "wins": 8,
+     "payout": 18440,
+     "win_rate": 6.67,
+     "roi": 153.7
+    },
+    "8": {
+     "starters": 117,
+     "wins": 4,
+     "payout": 10250,
+     "win_rate": 3.42,
+     "roi": 87.6
+    },
+    "9": {
+     "starters": 113,
+     "wins": 3,
+     "payout": 13680,
+     "win_rate": 2.65,
+     "roi": 121.1
+    },
+    "10": {
+     "starters": 106,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "11": {
+     "starters": 95,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "12": {
+     "starters": 84,
+     "wins": 1,
+     "payout": 5960,
+     "win_rate": 1.19,
+     "roi": 71.0
+    },
+    "13": {
+     "starters": 72,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "14": {
+     "starters": 59,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "15": {
+     "starters": 1,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "16": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "17": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "18": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    }
+   },
+   "races": 3275
+  },
+  "2018": {
+   "all": {
+    "1": {
+     "starters": 3322,
+     "wins": 1049,
+     "payout": 243920,
+     "win_rate": 31.58,
+     "roi": 73.4
+    },
+    "2": {
+     "starters": 3322,
+     "wins": 689,
+     "payout": 282210,
+     "win_rate": 20.74,
+     "roi": 85.0
+    },
+    "3": {
+     "starters": 3322,
+     "wins": 442,
+     "payout": 267100,
+     "win_rate": 13.31,
+     "roi": 80.4
+    },
+    "4": {
+     "starters": 3322,
+     "wins": 337,
+     "payout": 268870,
+     "win_rate": 10.14,
+     "roi": 80.9
+    },
+    "5": {
+     "starters": 3322,
+     "wins": 230,
+     "payout": 255440,
+     "win_rate": 6.92,
+     "roi": 76.9
+    },
+    "6": {
+     "starters": 3320,
+     "wins": 174,
+     "payout": 272590,
+     "win_rate": 5.24,
+     "roi": 82.1
+    },
+    "7": {
+     "starters": 3308,
+     "wins": 134,
+     "payout": 291190,
+     "win_rate": 4.05,
+     "roi": 88.0
+    },
+    "8": {
+     "starters": 3272,
+     "wins": 80,
+     "payout": 217370,
+     "win_rate": 2.44,
+     "roi": 66.4
+    },
+    "9": {
+     "starters": 3159,
+     "wins": 72,
+     "payout": 267980,
+     "win_rate": 2.28,
+     "roi": 84.8
+    },
+    "10": {
+     "starters": 3036,
+     "wins": 43,
+     "payout": 192510,
+     "win_rate": 1.42,
+     "roi": 63.4
+    },
+    "11": {
+     "starters": 2852,
+     "wins": 27,
+     "payout": 175160,
+     "win_rate": 0.95,
+     "roi": 61.4
+    },
+    "12": {
+     "starters": 2650,
+     "wins": 20,
+     "payout": 143680,
+     "win_rate": 0.75,
+     "roi": 54.2
+    },
+    "13": {
+     "starters": 2418,
+     "wins": 17,
+     "payout": 165090,
+     "win_rate": 0.7,
+     "roi": 68.3
+    },
+    "14": {
+     "starters": 2177,
+     "wins": 6,
+     "payout": 63280,
+     "win_rate": 0.28,
+     "roi": 29.1
+    },
+    "15": {
+     "starters": 1827,
+     "wins": 6,
+     "payout": 126220,
+     "win_rate": 0.33,
+     "roi": 69.1
+    },
+    "16": {
+     "starters": 1396,
+     "wins": 1,
+     "payout": 39830,
+     "win_rate": 0.07,
+     "roi": 28.5
+    },
+    "17": {
+     "starters": 289,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 228,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3201,
+     "wins": 1011,
+     "payout": 235190,
+     "win_rate": 31.58,
+     "roi": 73.5
+    },
+    "2": {
+     "starters": 3201,
+     "wins": 672,
+     "payout": 275180,
+     "win_rate": 20.99,
+     "roi": 86.0
+    },
+    "3": {
+     "starters": 3201,
+     "wins": 429,
+     "payout": 259780,
+     "win_rate": 13.4,
+     "roi": 81.2
+    },
+    "4": {
+     "starters": 3201,
+     "wins": 321,
+     "payout": 257040,
+     "win_rate": 10.03,
+     "roi": 80.3
+    },
+    "5": {
+     "starters": 3201,
+     "wins": 213,
+     "payout": 237790,
+     "win_rate": 6.65,
+     "roi": 74.3
+    },
+    "6": {
+     "starters": 3199,
+     "wins": 166,
+     "payout": 258290,
+     "win_rate": 5.19,
+     "roi": 80.7
+    },
+    "7": {
+     "starters": 3187,
+     "wins": 131,
+     "payout": 287040,
+     "win_rate": 4.11,
+     "roi": 90.1
+    },
+    "8": {
+     "starters": 3154,
+     "wins": 76,
+     "payout": 207890,
+     "win_rate": 2.41,
+     "roi": 65.9
+    },
+    "9": {
+     "starters": 3045,
+     "wins": 69,
+     "payout": 254620,
+     "win_rate": 2.27,
+     "roi": 83.6
+    },
+    "10": {
+     "starters": 2930,
+     "wins": 42,
+     "payout": 186660,
+     "win_rate": 1.43,
+     "roi": 63.7
+    },
+    "11": {
+     "starters": 2753,
+     "wins": 27,
+     "payout": 175160,
+     "win_rate": 0.98,
+     "roi": 63.6
+    },
+    "12": {
+     "starters": 2563,
+     "wins": 20,
+     "payout": 143680,
+     "win_rate": 0.78,
+     "roi": 56.1
+    },
+    "13": {
+     "starters": 2342,
+     "wins": 16,
+     "payout": 149970,
+     "win_rate": 0.68,
+     "roi": 64.0
+    },
+    "14": {
+     "starters": 2114,
+     "wins": 6,
+     "payout": 63280,
+     "win_rate": 0.28,
+     "roi": 29.9
+    },
+    "15": {
+     "starters": 1827,
+     "wins": 6,
+     "payout": 126220,
+     "win_rate": 0.33,
+     "roi": 69.1
+    },
+    "16": {
+     "starters": 1396,
+     "wins": 1,
+     "payout": 39830,
+     "win_rate": 0.07,
+     "roi": 28.5
+    },
+    "17": {
+     "starters": 289,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 228,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 121,
+     "wins": 38,
+     "payout": 8730,
+     "win_rate": 31.4,
+     "roi": 72.1
+    },
+    "2": {
+     "starters": 121,
+     "wins": 17,
+     "payout": 7030,
+     "win_rate": 14.05,
+     "roi": 58.1
+    },
+    "3": {
+     "starters": 121,
+     "wins": 13,
+     "payout": 7320,
+     "win_rate": 10.74,
+     "roi": 60.5
+    },
+    "4": {
+     "starters": 121,
+     "wins": 16,
+     "payout": 11830,
+     "win_rate": 13.22,
+     "roi": 97.8
+    },
+    "5": {
+     "starters": 121,
+     "wins": 17,
+     "payout": 17650,
+     "win_rate": 14.05,
+     "roi": 145.9
+    },
+    "6": {
+     "starters": 121,
+     "wins": 8,
+     "payout": 14300,
+     "win_rate": 6.61,
+     "roi": 118.2
+    },
+    "7": {
+     "starters": 121,
+     "wins": 3,
+     "payout": 4150,
+     "win_rate": 2.48,
+     "roi": 34.3
+    },
+    "8": {
+     "starters": 118,
+     "wins": 4,
+     "payout": 9480,
+     "win_rate": 3.39,
+     "roi": 80.3
+    },
+    "9": {
+     "starters": 114,
+     "wins": 3,
+     "payout": 13360,
+     "win_rate": 2.63,
+     "roi": 117.2
+    },
+    "10": {
+     "starters": 106,
+     "wins": 1,
+     "payout": 5850,
+     "win_rate": 0.94,
+     "roi": 55.2
+    },
+    "11": {
+     "starters": 99,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "12": {
+     "starters": 87,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "13": {
+     "starters": 76,
+     "wins": 1,
+     "payout": 15120,
+     "win_rate": 1.32,
+     "roi": 198.9
+    },
+    "14": {
+     "starters": 63,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "15": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "16": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "17": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "18": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    }
+   },
+   "races": 3322
+  },
+  "2019": {
+   "all": {
+    "1": {
+     "starters": 3320,
+     "wins": 1096,
+     "payout": 262240,
+     "win_rate": 33.01,
+     "roi": 79.0
+    },
+    "2": {
+     "starters": 3320,
+     "wins": 616,
+     "payout": 263040,
+     "win_rate": 18.55,
+     "roi": 79.2
+    },
+    "3": {
+     "starters": 3320,
+     "wins": 460,
+     "payout": 276250,
+     "win_rate": 13.86,
+     "roi": 83.2
+    },
+    "4": {
+     "starters": 3320,
+     "wins": 303,
+     "payout": 250810,
+     "win_rate": 9.13,
+     "roi": 75.5
+    },
+    "5": {
+     "starters": 3320,
+     "wins": 230,
+     "payout": 256970,
+     "win_rate": 6.93,
+     "roi": 77.4
+    },
+    "6": {
+     "starters": 3313,
+     "wins": 188,
+     "payout": 289730,
+     "win_rate": 5.67,
+     "roi": 87.5
+    },
+    "7": {
+     "starters": 3298,
+     "wins": 125,
+     "payout": 234690,
+     "win_rate": 3.79,
+     "roi": 71.2
+    },
+    "8": {
+     "starters": 3255,
+     "wins": 93,
+     "payout": 231380,
+     "win_rate": 2.86,
+     "roi": 71.1
+    },
+    "9": {
+     "starters": 3146,
+     "wins": 71,
+     "payout": 237490,
+     "win_rate": 2.26,
+     "roi": 75.5
+    },
+    "10": {
+     "starters": 2979,
+     "wins": 48,
+     "payout": 215610,
+     "win_rate": 1.61,
+     "roi": 72.4
+    },
+    "11": {
+     "starters": 2775,
+     "wins": 34,
+     "payout": 201880,
+     "win_rate": 1.23,
+     "roi": 72.7
+    },
+    "12": {
+     "starters": 2537,
+     "wins": 26,
+     "payout": 183680,
+     "win_rate": 1.02,
+     "roi": 72.4
+    },
+    "13": {
+     "starters": 2288,
+     "wins": 16,
+     "payout": 143410,
+     "win_rate": 0.7,
+     "roi": 62.7
+    },
+    "14": {
+     "starters": 2015,
+     "wins": 14,
+     "payout": 155620,
+     "win_rate": 0.69,
+     "roi": 77.2
+    },
+    "15": {
+     "starters": 1649,
+     "wins": 2,
+     "payout": 23820,
+     "win_rate": 0.12,
+     "roi": 14.4
+    },
+    "16": {
+     "starters": 1269,
+     "wins": 2,
+     "payout": 17530,
+     "win_rate": 0.16,
+     "roi": 13.8
+    },
+    "17": {
+     "starters": 260,
+     "wins": 1,
+     "payout": 21300,
+     "win_rate": 0.38,
+     "roi": 81.9
+    },
+    "18": {
+     "starters": 205,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3198,
+     "wins": 1049,
+     "payout": 252410,
+     "win_rate": 32.8,
+     "roi": 78.9
+    },
+    "2": {
+     "starters": 3198,
+     "wins": 596,
+     "payout": 255110,
+     "win_rate": 18.64,
+     "roi": 79.8
+    },
+    "3": {
+     "starters": 3198,
+     "wins": 441,
+     "payout": 264700,
+     "win_rate": 13.79,
+     "roi": 82.8
+    },
+    "4": {
+     "starters": 3198,
+     "wins": 290,
+     "payout": 241060,
+     "win_rate": 9.07,
+     "roi": 75.4
+    },
+    "5": {
+     "starters": 3198,
+     "wins": 225,
+     "payout": 250810,
+     "win_rate": 7.04,
+     "roi": 78.4
+    },
+    "6": {
+     "starters": 3192,
+     "wins": 180,
+     "payout": 277740,
+     "win_rate": 5.64,
+     "roi": 87.0
+    },
+    "7": {
+     "starters": 3178,
+     "wins": 123,
+     "payout": 232170,
+     "win_rate": 3.87,
+     "roi": 73.1
+    },
+    "8": {
+     "starters": 3136,
+     "wins": 88,
+     "payout": 212520,
+     "win_rate": 2.81,
+     "roi": 67.8
+    },
+    "9": {
+     "starters": 3031,
+     "wins": 69,
+     "payout": 230280,
+     "win_rate": 2.28,
+     "roi": 76.0
+    },
+    "10": {
+     "starters": 2869,
+     "wins": 48,
+     "payout": 215610,
+     "win_rate": 1.67,
+     "roi": 75.2
+    },
+    "11": {
+     "starters": 2677,
+     "wins": 33,
+     "payout": 195400,
+     "win_rate": 1.23,
+     "roi": 73.0
+    },
+    "12": {
+     "starters": 2451,
+     "wins": 26,
+     "payout": 183680,
+     "win_rate": 1.06,
+     "roi": 74.9
+    },
+    "13": {
+     "starters": 2213,
+     "wins": 16,
+     "payout": 143410,
+     "win_rate": 0.72,
+     "roi": 64.8
+    },
+    "14": {
+     "starters": 1961,
+     "wins": 14,
+     "payout": 155620,
+     "win_rate": 0.71,
+     "roi": 79.4
+    },
+    "15": {
+     "starters": 1647,
+     "wins": 2,
+     "payout": 23820,
+     "win_rate": 0.12,
+     "roi": 14.5
+    },
+    "16": {
+     "starters": 1268,
+     "wins": 2,
+     "payout": 17530,
+     "win_rate": 0.16,
+     "roi": 13.8
+    },
+    "17": {
+     "starters": 260,
+     "wins": 1,
+     "payout": 21300,
+     "win_rate": 0.38,
+     "roi": 81.9
+    },
+    "18": {
+     "starters": 205,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 122,
+     "wins": 47,
+     "payout": 9830,
+     "win_rate": 38.52,
+     "roi": 80.6
+    },
+    "2": {
+     "starters": 122,
+     "wins": 20,
+     "payout": 7930,
+     "win_rate": 16.39,
+     "roi": 65.0
+    },
+    "3": {
+     "starters": 122,
+     "wins": 19,
+     "payout": 11550,
+     "win_rate": 15.57,
+     "roi": 94.7
+    },
+    "4": {
+     "starters": 122,
+     "wins": 13,
+     "payout": 9750,
+     "win_rate": 10.66,
+     "roi": 79.9
+    },
+    "5": {
+     "starters": 122,
+     "wins": 5,
+     "payout": 6160,
+     "win_rate": 4.1,
+     "roi": 50.5
+    },
+    "6": {
+     "starters": 121,
+     "wins": 8,
+     "payout": 11990,
+     "win_rate": 6.61,
+     "roi": 99.1
+    },
+    "7": {
+     "starters": 120,
+     "wins": 2,
+     "payout": 2520,
+     "win_rate": 1.67,
+     "roi": 21.0
+    },
+    "8": {
+     "starters": 119,
+     "wins": 5,
+     "payout": 18860,
+     "win_rate": 4.2,
+     "roi": 158.5
+    },
+    "9": {
+     "starters": 115,
+     "wins": 2,
+     "payout": 7210,
+     "win_rate": 1.74,
+     "roi": 62.7
+    },
+    "10": {
+     "starters": 110,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "11": {
+     "starters": 98,
+     "wins": 1,
+     "payout": 6480,
+     "win_rate": 1.02,
+     "roi": 66.1
+    },
+    "12": {
+     "starters": 86,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "13": {
+     "starters": 75,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "14": {
+     "starters": 54,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "15": {
+     "starters": 2,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "16": {
+     "starters": 1,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "17": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "18": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    }
+   },
+   "races": 3320
+  },
+  "2020": {
+   "all": {
+    "1": {
+     "starters": 3326,
+     "wins": 1062,
+     "payout": 259570,
+     "win_rate": 31.93,
+     "roi": 78.0
+    },
+    "2": {
+     "starters": 3326,
+     "wins": 641,
+     "payout": 267750,
+     "win_rate": 19.27,
+     "roi": 80.5
+    },
+    "3": {
+     "starters": 3326,
+     "wins": 441,
+     "payout": 265800,
+     "win_rate": 13.26,
+     "roi": 79.9
+    },
+    "4": {
+     "starters": 3326,
+     "wins": 301,
+     "payout": 256590,
+     "win_rate": 9.05,
+     "roi": 77.1
+    },
+    "5": {
+     "starters": 3326,
+     "wins": 242,
+     "payout": 274050,
+     "win_rate": 7.28,
+     "roi": 82.4
+    },
+    "6": {
+     "starters": 3317,
+     "wins": 171,
+     "payout": 266000,
+     "win_rate": 5.16,
+     "roi": 80.2
+    },
+    "7": {
+     "starters": 3303,
+     "wins": 150,
+     "payout": 299480,
+     "win_rate": 4.54,
+     "roi": 90.7
+    },
+    "8": {
+     "starters": 3275,
+     "wins": 95,
+     "payout": 236670,
+     "win_rate": 2.9,
+     "roi": 72.3
+    },
+    "9": {
+     "starters": 3184,
+     "wins": 72,
+     "payout": 241590,
+     "win_rate": 2.26,
+     "roi": 75.9
+    },
+    "10": {
+     "starters": 3047,
+     "wins": 51,
+     "payout": 215540,
+     "win_rate": 1.67,
+     "roi": 70.7
+    },
+    "11": {
+     "starters": 2854,
+     "wins": 32,
+     "payout": 195500,
+     "win_rate": 1.12,
+     "roi": 68.5
+    },
+    "12": {
+     "starters": 2625,
+     "wins": 19,
+     "payout": 138840,
+     "win_rate": 0.72,
+     "roi": 52.9
+    },
+    "13": {
+     "starters": 2351,
+     "wins": 22,
+     "payout": 200100,
+     "win_rate": 0.94,
+     "roi": 85.1
+    },
+    "14": {
+     "starters": 2091,
+     "wins": 18,
+     "payout": 208870,
+     "win_rate": 0.86,
+     "roi": 99.9
+    },
+    "15": {
+     "starters": 1750,
+     "wins": 10,
+     "payout": 95970,
+     "win_rate": 0.57,
+     "roi": 54.8
+    },
+    "16": {
+     "starters": 1352,
+     "wins": 7,
+     "payout": 129200,
+     "win_rate": 0.52,
+     "roi": 95.6
+    },
+    "17": {
+     "starters": 301,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 232,
+     "wins": 1,
+     "payout": 16300,
+     "win_rate": 0.43,
+     "roi": 70.3
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3206,
+     "wins": 1026,
+     "payout": 251460,
+     "win_rate": 32.0,
+     "roi": 78.4
+    },
+    "2": {
+     "starters": 3206,
+     "wins": 620,
+     "payout": 259500,
+     "win_rate": 19.34,
+     "roi": 80.9
+    },
+    "3": {
+     "starters": 3206,
+     "wins": 424,
+     "payout": 255760,
+     "win_rate": 13.23,
+     "roi": 79.8
+    },
+    "4": {
+     "starters": 3206,
+     "wins": 286,
+     "payout": 243640,
+     "win_rate": 8.92,
+     "roi": 76.0
+    },
+    "5": {
+     "starters": 3206,
+     "wins": 231,
+     "payout": 260020,
+     "win_rate": 7.21,
+     "roi": 81.1
+    },
+    "6": {
+     "starters": 3197,
+     "wins": 165,
+     "payout": 255070,
+     "win_rate": 5.16,
+     "roi": 79.8
+    },
+    "7": {
+     "starters": 3184,
+     "wins": 143,
+     "payout": 287280,
+     "win_rate": 4.49,
+     "roi": 90.2
+    },
+    "8": {
+     "starters": 3157,
+     "wins": 91,
+     "payout": 227140,
+     "win_rate": 2.88,
+     "roi": 71.9
+    },
+    "9": {
+     "starters": 3067,
+     "wins": 70,
+     "payout": 235330,
+     "win_rate": 2.28,
+     "roi": 76.7
+    },
+    "10": {
+     "starters": 2934,
+     "wins": 50,
+     "payout": 208550,
+     "win_rate": 1.7,
+     "roi": 71.1
+    },
+    "11": {
+     "starters": 2754,
+     "wins": 32,
+     "payout": 195500,
+     "win_rate": 1.16,
+     "roi": 71.0
+    },
+    "12": {
+     "starters": 2536,
+     "wins": 19,
+     "payout": 138840,
+     "win_rate": 0.75,
+     "roi": 54.7
+    },
+    "13": {
+     "starters": 2275,
+     "wins": 22,
+     "payout": 200100,
+     "win_rate": 0.97,
+     "roi": 88.0
+    },
+    "14": {
+     "starters": 2034,
+     "wins": 18,
+     "payout": 208870,
+     "win_rate": 0.88,
+     "roi": 102.7
+    },
+    "15": {
+     "starters": 1749,
+     "wins": 10,
+     "payout": 95970,
+     "win_rate": 0.57,
+     "roi": 54.9
+    },
+    "16": {
+     "starters": 1351,
+     "wins": 7,
+     "payout": 129200,
+     "win_rate": 0.52,
+     "roi": 95.6
+    },
+    "17": {
+     "starters": 301,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 232,
+     "wins": 1,
+     "payout": 16300,
+     "win_rate": 0.43,
+     "roi": 70.3
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 120,
+     "wins": 36,
+     "payout": 8110,
+     "win_rate": 30.0,
+     "roi": 67.6
+    },
+    "2": {
+     "starters": 120,
+     "wins": 21,
+     "payout": 8250,
+     "win_rate": 17.5,
+     "roi": 68.8
+    },
+    "3": {
+     "starters": 120,
+     "wins": 17,
+     "payout": 10040,
+     "win_rate": 14.17,
+     "roi": 83.7
+    },
+    "4": {
+     "starters": 120,
+     "wins": 15,
+     "payout": 12950,
+     "win_rate": 12.5,
+     "roi": 107.9
+    },
+    "5": {
+     "starters": 120,
+     "wins": 11,
+     "payout": 14030,
+     "win_rate": 9.17,
+     "roi": 116.9
+    },
+    "6": {
+     "starters": 120,
+     "wins": 6,
+     "payout": 10930,
+     "win_rate": 5.0,
+     "roi": 91.1
+    },
+    "7": {
+     "starters": 119,
+     "wins": 7,
+     "payout": 12200,
+     "win_rate": 5.88,
+     "roi": 102.5
+    },
+    "8": {
+     "starters": 118,
+     "wins": 4,
+     "payout": 9530,
+     "win_rate": 3.39,
+     "roi": 80.8
+    },
+    "9": {
+     "starters": 117,
+     "wins": 2,
+     "payout": 6260,
+     "win_rate": 1.71,
+     "roi": 53.5
+    },
+    "10": {
+     "starters": 113,
+     "wins": 1,
+     "payout": 6990,
+     "win_rate": 0.88,
+     "roi": 61.9
+    },
+    "11": {
+     "starters": 100,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "12": {
+     "starters": 89,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "13": {
+     "starters": 76,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "14": {
+     "starters": 57,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "15": {
+     "starters": 1,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "16": {
+     "starters": 1,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "17": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "18": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    }
+   },
+   "races": 3326
+  },
+  "2021": {
+   "all": {
+    "1": {
+     "starters": 3360,
+     "wins": 1106,
+     "payout": 267460,
+     "win_rate": 32.92,
+     "roi": 79.6
+    },
+    "2": {
+     "starters": 3360,
+     "wins": 657,
+     "payout": 270400,
+     "win_rate": 19.55,
+     "roi": 80.5
+    },
+    "3": {
+     "starters": 3360,
+     "wins": 443,
+     "payout": 263880,
+     "win_rate": 13.18,
+     "roi": 78.5
+    },
+    "4": {
+     "starters": 3360,
+     "wins": 300,
+     "payout": 247650,
+     "win_rate": 8.93,
+     "roi": 73.7
+    },
+    "5": {
+     "starters": 3361,
+     "wins": 241,
+     "payout": 271970,
+     "win_rate": 7.17,
+     "roi": 80.9
+    },
+    "6": {
+     "starters": 3356,
+     "wins": 196,
+     "payout": 294100,
+     "win_rate": 5.84,
+     "roi": 87.6
+    },
+    "7": {
+     "starters": 3346,
+     "wins": 119,
+     "payout": 246190,
+     "win_rate": 3.56,
+     "roi": 73.6
+    },
+    "8": {
+     "starters": 3296,
+     "wins": 96,
+     "payout": 251720,
+     "win_rate": 2.91,
+     "roi": 76.4
+    },
+    "9": {
+     "starters": 3177,
+     "wins": 58,
+     "payout": 224090,
+     "win_rate": 1.83,
+     "roi": 70.5
+    },
+    "10": {
+     "starters": 3024,
+     "wins": 60,
+     "payout": 261480,
+     "win_rate": 1.98,
+     "roi": 86.5
+    },
+    "11": {
+     "starters": 2825,
+     "wins": 42,
+     "payout": 232080,
+     "win_rate": 1.49,
+     "roi": 82.2
+    },
+    "12": {
+     "starters": 2608,
+     "wins": 21,
+     "payout": 156880,
+     "win_rate": 0.81,
+     "roi": 60.2
+    },
+    "13": {
+     "starters": 2321,
+     "wins": 14,
+     "payout": 120970,
+     "win_rate": 0.6,
+     "roi": 52.1
+    },
+    "14": {
+     "starters": 2074,
+     "wins": 7,
+     "payout": 51360,
+     "win_rate": 0.34,
+     "roi": 24.8
+    },
+    "15": {
+     "starters": 1705,
+     "wins": 3,
+     "payout": 29160,
+     "win_rate": 0.18,
+     "roi": 17.1
+    },
+    "16": {
+     "starters": 1275,
+     "wins": 6,
+     "payout": 124330,
+     "win_rate": 0.47,
+     "roi": 97.5
+    },
+    "17": {
+     "starters": 275,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 208,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3235,
+     "wins": 1060,
+     "payout": 256920,
+     "win_rate": 32.77,
+     "roi": 79.4
+    },
+    "2": {
+     "starters": 3235,
+     "wins": 636,
+     "payout": 261430,
+     "win_rate": 19.66,
+     "roi": 80.8
+    },
+    "3": {
+     "starters": 3235,
+     "wins": 430,
+     "payout": 255150,
+     "win_rate": 13.29,
+     "roi": 78.9
+    },
+    "4": {
+     "starters": 3235,
+     "wins": 291,
+     "payout": 240660,
+     "win_rate": 9.0,
+     "roi": 74.4
+    },
+    "5": {
+     "starters": 3236,
+     "wins": 227,
+     "payout": 254090,
+     "win_rate": 7.01,
+     "roi": 78.5
+    },
+    "6": {
+     "starters": 3231,
+     "wins": 190,
+     "payout": 283540,
+     "win_rate": 5.88,
+     "roi": 87.8
+    },
+    "7": {
+     "starters": 3222,
+     "wins": 114,
+     "payout": 237460,
+     "win_rate": 3.54,
+     "roi": 73.7
+    },
+    "8": {
+     "starters": 3174,
+     "wins": 93,
+     "payout": 243260,
+     "win_rate": 2.93,
+     "roi": 76.6
+    },
+    "9": {
+     "starters": 3062,
+     "wins": 56,
+     "payout": 209140,
+     "win_rate": 1.83,
+     "roi": 68.3
+    },
+    "10": {
+     "starters": 2915,
+     "wins": 56,
+     "payout": 238500,
+     "win_rate": 1.92,
+     "roi": 81.8
+    },
+    "11": {
+     "starters": 2728,
+     "wins": 42,
+     "payout": 232080,
+     "win_rate": 1.54,
+     "roi": 85.1
+    },
+    "12": {
+     "starters": 2532,
+     "wins": 19,
+     "payout": 137890,
+     "win_rate": 0.75,
+     "roi": 54.5
+    },
+    "13": {
+     "starters": 2277,
+     "wins": 14,
+     "payout": 120970,
+     "win_rate": 0.61,
+     "roi": 53.1
+    },
+    "14": {
+     "starters": 2047,
+     "wins": 7,
+     "payout": 51360,
+     "win_rate": 0.34,
+     "roi": 25.1
+    },
+    "15": {
+     "starters": 1705,
+     "wins": 3,
+     "payout": 29160,
+     "win_rate": 0.18,
+     "roi": 17.1
+    },
+    "16": {
+     "starters": 1275,
+     "wins": 6,
+     "payout": 124330,
+     "win_rate": 0.47,
+     "roi": 97.5
+    },
+    "17": {
+     "starters": 275,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 208,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 125,
+     "wins": 46,
+     "payout": 10540,
+     "win_rate": 36.8,
+     "roi": 84.3
+    },
+    "2": {
+     "starters": 125,
+     "wins": 21,
+     "payout": 8970,
+     "win_rate": 16.8,
+     "roi": 71.8
+    },
+    "3": {
+     "starters": 125,
+     "wins": 13,
+     "payout": 8730,
+     "win_rate": 10.4,
+     "roi": 69.8
+    },
+    "4": {
+     "starters": 125,
+     "wins": 9,
+     "payout": 6990,
+     "win_rate": 7.2,
+     "roi": 55.9
+    },
+    "5": {
+     "starters": 125,
+     "wins": 14,
+     "payout": 17880,
+     "win_rate": 11.2,
+     "roi": 143.0
+    },
+    "6": {
+     "starters": 125,
+     "wins": 6,
+     "payout": 10560,
+     "win_rate": 4.8,
+     "roi": 84.5
+    },
+    "7": {
+     "starters": 124,
+     "wins": 5,
+     "payout": 8730,
+     "win_rate": 4.03,
+     "roi": 70.4
+    },
+    "8": {
+     "starters": 122,
+     "wins": 3,
+     "payout": 8460,
+     "win_rate": 2.46,
+     "roi": 69.3
+    },
+    "9": {
+     "starters": 115,
+     "wins": 2,
+     "payout": 14950,
+     "win_rate": 1.74,
+     "roi": 130.0
+    },
+    "10": {
+     "starters": 109,
+     "wins": 4,
+     "payout": 22980,
+     "win_rate": 3.67,
+     "roi": 210.8
+    },
+    "11": {
+     "starters": 97,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "12": {
+     "starters": 76,
+     "wins": 2,
+     "payout": 18990,
+     "win_rate": 2.63,
+     "roi": 249.9
+    },
+    "13": {
+     "starters": 44,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "14": {
+     "starters": 27,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "15": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "16": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "17": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "18": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    }
+   },
+   "races": 3360
+  },
+  "2022": {
+   "all": {
+    "1": {
+     "starters": 3312,
+     "wins": 1127,
+     "payout": 268580,
+     "win_rate": 34.03,
+     "roi": 81.1
+    },
+    "2": {
+     "starters": 3312,
+     "wins": 653,
+     "payout": 267120,
+     "win_rate": 19.72,
+     "roi": 80.7
+    },
+    "3": {
+     "starters": 3312,
+     "wins": 449,
+     "payout": 269850,
+     "win_rate": 13.56,
+     "roi": 81.5
+    },
+    "4": {
+     "starters": 3312,
+     "wins": 329,
+     "payout": 266150,
+     "win_rate": 9.93,
+     "roi": 80.4
+    },
+    "5": {
+     "starters": 3311,
+     "wins": 221,
+     "payout": 251120,
+     "win_rate": 6.67,
+     "roi": 75.8
+    },
+    "6": {
+     "starters": 3306,
+     "wins": 170,
+     "payout": 255550,
+     "win_rate": 5.14,
+     "roi": 77.3
+    },
+    "7": {
+     "starters": 3288,
+     "wins": 120,
+     "payout": 228440,
+     "win_rate": 3.65,
+     "roi": 69.5
+    },
+    "8": {
+     "starters": 3235,
+     "wins": 84,
+     "payout": 221290,
+     "win_rate": 2.6,
+     "roi": 68.4
+    },
+    "9": {
+     "starters": 3120,
+     "wins": 55,
+     "payout": 213280,
+     "win_rate": 1.76,
+     "roi": 68.4
+    },
+    "10": {
+     "starters": 2961,
+     "wins": 32,
+     "payout": 152280,
+     "win_rate": 1.08,
+     "roi": 51.4
+    },
+    "11": {
+     "starters": 2753,
+     "wins": 26,
+     "payout": 183620,
+     "win_rate": 0.94,
+     "roi": 66.7
+    },
+    "12": {
+     "starters": 2505,
+     "wins": 22,
+     "payout": 168470,
+     "win_rate": 0.88,
+     "roi": 67.3
+    },
+    "13": {
+     "starters": 2209,
+     "wins": 9,
+     "payout": 118910,
+     "win_rate": 0.41,
+     "roi": 53.8
+    },
+    "14": {
+     "starters": 1946,
+     "wins": 7,
+     "payout": 81040,
+     "win_rate": 0.36,
+     "roi": 41.6
+    },
+    "15": {
+     "starters": 1579,
+     "wins": 9,
+     "payout": 122570,
+     "win_rate": 0.57,
+     "roi": 77.6
+    },
+    "16": {
+     "starters": 1206,
+     "wins": 3,
+     "payout": 82810,
+     "win_rate": 0.25,
+     "roi": 68.7
+    },
+    "17": {
+     "starters": 241,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 188,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3191,
+     "wins": 1087,
+     "payout": 259890,
+     "win_rate": 34.06,
+     "roi": 81.4
+    },
+    "2": {
+     "starters": 3191,
+     "wins": 620,
+     "payout": 254730,
+     "win_rate": 19.43,
+     "roi": 79.8
+    },
+    "3": {
+     "starters": 3191,
+     "wins": 435,
+     "payout": 262210,
+     "win_rate": 13.63,
+     "roi": 82.2
+    },
+    "4": {
+     "starters": 3191,
+     "wins": 319,
+     "payout": 257830,
+     "win_rate": 10.0,
+     "roi": 80.8
+    },
+    "5": {
+     "starters": 3190,
+     "wins": 214,
+     "payout": 241730,
+     "win_rate": 6.71,
+     "roi": 75.8
+    },
+    "6": {
+     "starters": 3185,
+     "wins": 164,
+     "payout": 245170,
+     "win_rate": 5.15,
+     "roi": 77.0
+    },
+    "7": {
+     "starters": 3171,
+     "wins": 118,
+     "payout": 225360,
+     "win_rate": 3.72,
+     "roi": 71.1
+    },
+    "8": {
+     "starters": 3121,
+     "wins": 80,
+     "payout": 212590,
+     "win_rate": 2.56,
+     "roi": 68.1
+    },
+    "9": {
+     "starters": 3017,
+     "wins": 53,
+     "payout": 206290,
+     "win_rate": 1.76,
+     "roi": 68.4
+    },
+    "10": {
+     "starters": 2870,
+     "wins": 30,
+     "payout": 145400,
+     "win_rate": 1.05,
+     "roi": 50.7
+    },
+    "11": {
+     "starters": 2670,
+     "wins": 25,
+     "payout": 179410,
+     "win_rate": 0.94,
+     "roi": 67.2
+    },
+    "12": {
+     "starters": 2439,
+     "wins": 22,
+     "payout": 168470,
+     "win_rate": 0.9,
+     "roi": 69.1
+    },
+    "13": {
+     "starters": 2169,
+     "wins": 9,
+     "payout": 118910,
+     "win_rate": 0.41,
+     "roi": 54.8
+    },
+    "14": {
+     "starters": 1922,
+     "wins": 7,
+     "payout": 81040,
+     "win_rate": 0.36,
+     "roi": 42.2
+    },
+    "15": {
+     "starters": 1579,
+     "wins": 9,
+     "payout": 122570,
+     "win_rate": 0.57,
+     "roi": 77.6
+    },
+    "16": {
+     "starters": 1206,
+     "wins": 3,
+     "payout": 82810,
+     "win_rate": 0.25,
+     "roi": 68.7
+    },
+    "17": {
+     "starters": 241,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 188,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 121,
+     "wins": 40,
+     "payout": 8690,
+     "win_rate": 33.06,
+     "roi": 71.8
+    },
+    "2": {
+     "starters": 121,
+     "wins": 33,
+     "payout": 12390,
+     "win_rate": 27.27,
+     "roi": 102.4
+    },
+    "3": {
+     "starters": 121,
+     "wins": 14,
+     "payout": 7640,
+     "win_rate": 11.57,
+     "roi": 63.1
+    },
+    "4": {
+     "starters": 121,
+     "wins": 10,
+     "payout": 8320,
+     "win_rate": 8.26,
+     "roi": 68.8
+    },
+    "5": {
+     "starters": 121,
+     "wins": 7,
+     "payout": 9390,
+     "win_rate": 5.79,
+     "roi": 77.6
+    },
+    "6": {
+     "starters": 121,
+     "wins": 6,
+     "payout": 10380,
+     "win_rate": 4.96,
+     "roi": 85.8
+    },
+    "7": {
+     "starters": 117,
+     "wins": 2,
+     "payout": 3080,
+     "win_rate": 1.71,
+     "roi": 26.3
+    },
+    "8": {
+     "starters": 114,
+     "wins": 4,
+     "payout": 8700,
+     "win_rate": 3.51,
+     "roi": 76.3
+    },
+    "9": {
+     "starters": 103,
+     "wins": 2,
+     "payout": 6990,
+     "win_rate": 1.94,
+     "roi": 67.9
+    },
+    "10": {
+     "starters": 91,
+     "wins": 2,
+     "payout": 6880,
+     "win_rate": 2.2,
+     "roi": 75.6
+    },
+    "11": {
+     "starters": 83,
+     "wins": 1,
+     "payout": 4210,
+     "win_rate": 1.2,
+     "roi": 50.7
+    },
+    "12": {
+     "starters": 66,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "13": {
+     "starters": 40,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "14": {
+     "starters": 24,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "15": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "16": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "17": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "18": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    }
+   },
+   "races": 3312
+  },
+  "2023": {
+   "all": {
+    "1": {
+     "starters": 3336,
+     "wins": 1104,
+     "payout": 263960,
+     "win_rate": 33.09,
+     "roi": 79.1
+    },
+    "2": {
+     "starters": 3336,
+     "wins": 662,
+     "payout": 269410,
+     "win_rate": 19.84,
+     "roi": 80.8
+    },
+    "3": {
+     "starters": 3336,
+     "wins": 415,
+     "payout": 246120,
+     "win_rate": 12.44,
+     "roi": 73.8
+    },
+    "4": {
+     "starters": 3336,
+     "wins": 331,
+     "payout": 265960,
+     "win_rate": 9.92,
+     "roi": 79.7
+    },
+    "5": {
+     "starters": 3336,
+     "wins": 243,
+     "payout": 270330,
+     "win_rate": 7.28,
+     "roi": 81.0
+    },
+    "6": {
+     "starters": 3326,
+     "wins": 174,
+     "payout": 257230,
+     "win_rate": 5.23,
+     "roi": 77.3
+    },
+    "7": {
+     "starters": 3304,
+     "wins": 125,
+     "payout": 283970,
+     "win_rate": 3.78,
+     "roi": 85.9
+    },
+    "8": {
+     "starters": 3264,
+     "wins": 89,
+     "payout": 224910,
+     "win_rate": 2.73,
+     "roi": 68.9
+    },
+    "9": {
+     "starters": 3157,
+     "wins": 61,
+     "payout": 213790,
+     "win_rate": 1.93,
+     "roi": 67.7
+    },
+    "10": {
+     "starters": 3004,
+     "wins": 55,
+     "payout": 220850,
+     "win_rate": 1.83,
+     "roi": 73.5
+    },
+    "11": {
+     "starters": 2810,
+     "wins": 26,
+     "payout": 145850,
+     "win_rate": 0.93,
+     "roi": 51.9
+    },
+    "12": {
+     "starters": 2562,
+     "wins": 22,
+     "payout": 163500,
+     "win_rate": 0.86,
+     "roi": 63.8
+    },
+    "13": {
+     "starters": 2286,
+     "wins": 18,
+     "payout": 204710,
+     "win_rate": 0.79,
+     "roi": 89.5
+    },
+    "14": {
+     "starters": 2000,
+     "wins": 3,
+     "payout": 29680,
+     "win_rate": 0.15,
+     "roi": 14.8
+    },
+    "15": {
+     "starters": 1670,
+     "wins": 7,
+     "payout": 71840,
+     "win_rate": 0.42,
+     "roi": 43.0
+    },
+    "16": {
+     "starters": 1264,
+     "wins": 2,
+     "payout": 43920,
+     "win_rate": 0.16,
+     "roi": 34.7
+    },
+    "17": {
+     "starters": 277,
+     "wins": 1,
+     "payout": 15800,
+     "win_rate": 0.36,
+     "roi": 57.0
+    },
+    "18": {
+     "starters": 215,
+     "wins": 1,
+     "payout": 32810,
+     "win_rate": 0.47,
+     "roi": 152.6
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3212,
+     "wins": 1062,
+     "payout": 254170,
+     "win_rate": 33.06,
+     "roi": 79.1
+    },
+    "2": {
+     "starters": 3212,
+     "wins": 632,
+     "payout": 257410,
+     "win_rate": 19.68,
+     "roi": 80.1
+    },
+    "3": {
+     "starters": 3212,
+     "wins": 402,
+     "payout": 238290,
+     "win_rate": 12.52,
+     "roi": 74.2
+    },
+    "4": {
+     "starters": 3212,
+     "wins": 315,
+     "payout": 253110,
+     "win_rate": 9.81,
+     "roi": 78.8
+    },
+    "5": {
+     "starters": 3212,
+     "wins": 240,
+     "payout": 266200,
+     "win_rate": 7.47,
+     "roi": 82.9
+    },
+    "6": {
+     "starters": 3203,
+     "wins": 165,
+     "payout": 242970,
+     "win_rate": 5.15,
+     "roi": 75.9
+    },
+    "7": {
+     "starters": 3184,
+     "wins": 122,
+     "payout": 278320,
+     "win_rate": 3.83,
+     "roi": 87.4
+    },
+    "8": {
+     "starters": 3145,
+     "wins": 85,
+     "payout": 213750,
+     "win_rate": 2.7,
+     "roi": 68.0
+    },
+    "9": {
+     "starters": 3044,
+     "wins": 59,
+     "payout": 206910,
+     "win_rate": 1.94,
+     "roi": 68.0
+    },
+    "10": {
+     "starters": 2903,
+     "wins": 53,
+     "payout": 208190,
+     "win_rate": 1.83,
+     "roi": 71.7
+    },
+    "11": {
+     "starters": 2726,
+     "wins": 26,
+     "payout": 145850,
+     "win_rate": 0.95,
+     "roi": 53.5
+    },
+    "12": {
+     "starters": 2496,
+     "wins": 22,
+     "payout": 163500,
+     "win_rate": 0.88,
+     "roi": 65.5
+    },
+    "13": {
+     "starters": 2246,
+     "wins": 18,
+     "payout": 204710,
+     "win_rate": 0.8,
+     "roi": 91.1
+    },
+    "14": {
+     "starters": 1971,
+     "wins": 3,
+     "payout": 29680,
+     "win_rate": 0.15,
+     "roi": 15.1
+    },
+    "15": {
+     "starters": 1670,
+     "wins": 7,
+     "payout": 71840,
+     "win_rate": 0.42,
+     "roi": 43.0
+    },
+    "16": {
+     "starters": 1264,
+     "wins": 2,
+     "payout": 43920,
+     "win_rate": 0.16,
+     "roi": 34.7
+    },
+    "17": {
+     "starters": 277,
+     "wins": 1,
+     "payout": 15800,
+     "win_rate": 0.36,
+     "roi": 57.0
+    },
+    "18": {
+     "starters": 215,
+     "wins": 1,
+     "payout": 32810,
+     "win_rate": 0.47,
+     "roi": 152.6
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 124,
+     "wins": 42,
+     "payout": 9790,
+     "win_rate": 33.87,
+     "roi": 79.0
+    },
+    "2": {
+     "starters": 124,
+     "wins": 30,
+     "payout": 12000,
+     "win_rate": 24.19,
+     "roi": 96.8
+    },
+    "3": {
+     "starters": 124,
+     "wins": 13,
+     "payout": 7830,
+     "win_rate": 10.48,
+     "roi": 63.1
+    },
+    "4": {
+     "starters": 124,
+     "wins": 16,
+     "payout": 12850,
+     "win_rate": 12.9,
+     "roi": 103.6
+    },
+    "5": {
+     "starters": 124,
+     "wins": 3,
+     "payout": 4130,
+     "win_rate": 2.42,
+     "roi": 33.3
+    },
+    "6": {
+     "starters": 123,
+     "wins": 9,
+     "payout": 14260,
+     "win_rate": 7.32,
+     "roi": 115.9
+    },
+    "7": {
+     "starters": 120,
+     "wins": 3,
+     "payout": 5650,
+     "win_rate": 2.5,
+     "roi": 47.1
+    },
+    "8": {
+     "starters": 119,
+     "wins": 4,
+     "payout": 11160,
+     "win_rate": 3.36,
+     "roi": 93.8
+    },
+    "9": {
+     "starters": 113,
+     "wins": 2,
+     "payout": 6880,
+     "win_rate": 1.77,
+     "roi": 60.9
+    },
+    "10": {
+     "starters": 101,
+     "wins": 2,
+     "payout": 12660,
+     "win_rate": 1.98,
+     "roi": 125.3
+    },
+    "11": {
+     "starters": 84,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "12": {
+     "starters": 66,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "13": {
+     "starters": 40,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "14": {
+     "starters": 29,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "15": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "16": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "17": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "18": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    }
+   },
+   "races": 3336
+  },
+  "2024": {
+   "all": {
+    "1": {
+     "starters": 3382,
+     "wins": 1165,
+     "payout": 269470,
+     "win_rate": 34.45,
+     "roi": 79.7
+    },
+    "2": {
+     "starters": 3382,
+     "wins": 663,
+     "payout": 265110,
+     "win_rate": 19.6,
+     "roi": 78.4
+    },
+    "3": {
+     "starters": 3382,
+     "wins": 464,
+     "payout": 264550,
+     "win_rate": 13.72,
+     "roi": 78.2
+    },
+    "4": {
+     "starters": 3383,
+     "wins": 311,
+     "payout": 249120,
+     "win_rate": 9.19,
+     "roi": 73.6
+    },
+    "5": {
+     "starters": 3381,
+     "wins": 229,
+     "payout": 247300,
+     "win_rate": 6.77,
+     "roi": 73.1
+    },
+    "6": {
+     "starters": 3373,
+     "wins": 166,
+     "payout": 255440,
+     "win_rate": 4.92,
+     "roi": 75.7
+    },
+    "7": {
+     "starters": 3355,
+     "wins": 118,
+     "payout": 240990,
+     "win_rate": 3.52,
+     "roi": 71.8
+    },
+    "8": {
+     "starters": 3279,
+     "wins": 85,
+     "payout": 234040,
+     "win_rate": 2.59,
+     "roi": 71.4
+    },
+    "9": {
+     "starters": 3162,
+     "wins": 56,
+     "payout": 205880,
+     "win_rate": 1.77,
+     "roi": 65.1
+    },
+    "10": {
+     "starters": 2997,
+     "wins": 52,
+     "payout": 282250,
+     "win_rate": 1.74,
+     "roi": 94.2
+    },
+    "11": {
+     "starters": 2772,
+     "wins": 30,
+     "payout": 217380,
+     "win_rate": 1.08,
+     "roi": 78.4
+    },
+    "12": {
+     "starters": 2532,
+     "wins": 21,
+     "payout": 164610,
+     "win_rate": 0.83,
+     "roi": 65.0
+    },
+    "13": {
+     "starters": 2247,
+     "wins": 11,
+     "payout": 129220,
+     "win_rate": 0.49,
+     "roi": 57.5
+    },
+    "14": {
+     "starters": 2006,
+     "wins": 12,
+     "payout": 181390,
+     "win_rate": 0.6,
+     "roi": 90.4
+    },
+    "15": {
+     "starters": 1639,
+     "wins": 4,
+     "payout": 41610,
+     "win_rate": 0.24,
+     "roi": 25.4
+    },
+    "16": {
+     "starters": 1252,
+     "wins": 1,
+     "payout": 11080,
+     "win_rate": 0.08,
+     "roi": 8.8
+    },
+    "17": {
+     "starters": 288,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 204,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3257,
+     "wins": 1116,
+     "payout": 259840,
+     "win_rate": 34.26,
+     "roi": 79.8
+    },
+    "2": {
+     "starters": 3257,
+     "wins": 639,
+     "payout": 256130,
+     "win_rate": 19.62,
+     "roi": 78.6
+    },
+    "3": {
+     "starters": 3257,
+     "wins": 450,
+     "payout": 256490,
+     "win_rate": 13.82,
+     "roi": 78.8
+    },
+    "4": {
+     "starters": 3258,
+     "wins": 302,
+     "payout": 242570,
+     "win_rate": 9.27,
+     "roi": 74.5
+    },
+    "5": {
+     "starters": 3256,
+     "wins": 220,
+     "payout": 237260,
+     "win_rate": 6.76,
+     "roi": 72.9
+    },
+    "6": {
+     "starters": 3250,
+     "wins": 157,
+     "payout": 240720,
+     "win_rate": 4.83,
+     "roi": 74.1
+    },
+    "7": {
+     "starters": 3235,
+     "wins": 115,
+     "payout": 233410,
+     "win_rate": 3.55,
+     "roi": 72.2
+    },
+    "8": {
+     "starters": 3163,
+     "wins": 81,
+     "payout": 222410,
+     "win_rate": 2.56,
+     "roi": 70.3
+    },
+    "9": {
+     "starters": 3056,
+     "wins": 54,
+     "payout": 198170,
+     "win_rate": 1.77,
+     "roi": 64.8
+    },
+    "10": {
+     "starters": 2903,
+     "wins": 51,
+     "payout": 278580,
+     "win_rate": 1.76,
+     "roi": 96.0
+    },
+    "11": {
+     "starters": 2698,
+     "wins": 30,
+     "payout": 217380,
+     "win_rate": 1.11,
+     "roi": 80.6
+    },
+    "12": {
+     "starters": 2477,
+     "wins": 21,
+     "payout": 164610,
+     "win_rate": 0.85,
+     "roi": 66.5
+    },
+    "13": {
+     "starters": 2217,
+     "wins": 10,
+     "payout": 110480,
+     "win_rate": 0.45,
+     "roi": 49.8
+    },
+    "14": {
+     "starters": 1985,
+     "wins": 12,
+     "payout": 181390,
+     "win_rate": 0.6,
+     "roi": 91.4
+    },
+    "15": {
+     "starters": 1639,
+     "wins": 4,
+     "payout": 41610,
+     "win_rate": 0.24,
+     "roi": 25.4
+    },
+    "16": {
+     "starters": 1252,
+     "wins": 1,
+     "payout": 11080,
+     "win_rate": 0.08,
+     "roi": 8.8
+    },
+    "17": {
+     "starters": 288,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 204,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 125,
+     "wins": 49,
+     "payout": 9630,
+     "win_rate": 39.2,
+     "roi": 77.0
+    },
+    "2": {
+     "starters": 125,
+     "wins": 24,
+     "payout": 8980,
+     "win_rate": 19.2,
+     "roi": 71.8
+    },
+    "3": {
+     "starters": 125,
+     "wins": 14,
+     "payout": 8060,
+     "win_rate": 11.2,
+     "roi": 64.5
+    },
+    "4": {
+     "starters": 125,
+     "wins": 9,
+     "payout": 6550,
+     "win_rate": 7.2,
+     "roi": 52.4
+    },
+    "5": {
+     "starters": 125,
+     "wins": 9,
+     "payout": 10040,
+     "win_rate": 7.2,
+     "roi": 80.3
+    },
+    "6": {
+     "starters": 123,
+     "wins": 9,
+     "payout": 14720,
+     "win_rate": 7.32,
+     "roi": 119.7
+    },
+    "7": {
+     "starters": 120,
+     "wins": 3,
+     "payout": 7580,
+     "win_rate": 2.5,
+     "roi": 63.2
+    },
+    "8": {
+     "starters": 116,
+     "wins": 4,
+     "payout": 11630,
+     "win_rate": 3.45,
+     "roi": 100.3
+    },
+    "9": {
+     "starters": 106,
+     "wins": 2,
+     "payout": 7710,
+     "win_rate": 1.89,
+     "roi": 72.7
+    },
+    "10": {
+     "starters": 94,
+     "wins": 1,
+     "payout": 3670,
+     "win_rate": 1.06,
+     "roi": 39.0
+    },
+    "11": {
+     "starters": 74,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "12": {
+     "starters": 55,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "13": {
+     "starters": 30,
+     "wins": 1,
+     "payout": 18740,
+     "win_rate": 3.33,
+     "roi": 624.7
+    },
+    "14": {
+     "starters": 21,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "15": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "16": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "17": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "18": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    }
+   },
+   "races": 3382
+  },
+  "2025": {
+   "all": {
+    "1": {
+     "starters": 3323,
+     "wins": 1102,
+     "payout": 259740,
+     "win_rate": 33.16,
+     "roi": 78.2
+    },
+    "2": {
+     "starters": 3323,
+     "wins": 700,
+     "payout": 280540,
+     "win_rate": 21.07,
+     "roi": 84.4
+    },
+    "3": {
+     "starters": 3323,
+     "wins": 428,
+     "payout": 249930,
+     "win_rate": 12.88,
+     "roi": 75.2
+    },
+    "4": {
+     "starters": 3323,
+     "wins": 268,
+     "payout": 216980,
+     "win_rate": 8.07,
+     "roi": 65.3
+    },
+    "5": {
+     "starters": 3323,
+     "wins": 237,
+     "payout": 269630,
+     "win_rate": 7.13,
+     "roi": 81.1
+    },
+    "6": {
+     "starters": 3310,
+     "wins": 154,
+     "payout": 230440,
+     "win_rate": 4.65,
+     "roi": 69.6
+    },
+    "7": {
+     "starters": 3282,
+     "wins": 130,
+     "payout": 255500,
+     "win_rate": 3.96,
+     "roi": 77.8
+    },
+    "8": {
+     "starters": 3221,
+     "wins": 102,
+     "payout": 283090,
+     "win_rate": 3.17,
+     "roi": 87.9
+    },
+    "9": {
+     "starters": 3109,
+     "wins": 74,
+     "payout": 260730,
+     "win_rate": 2.38,
+     "roi": 83.9
+    },
+    "10": {
+     "starters": 2953,
+     "wins": 48,
+     "payout": 205830,
+     "win_rate": 1.63,
+     "roi": 69.7
+    },
+    "11": {
+     "starters": 2776,
+     "wins": 31,
+     "payout": 183280,
+     "win_rate": 1.12,
+     "roi": 66.0
+    },
+    "12": {
+     "starters": 2580,
+     "wins": 22,
+     "payout": 140230,
+     "win_rate": 0.85,
+     "roi": 54.4
+    },
+    "13": {
+     "starters": 2314,
+     "wins": 10,
+     "payout": 75760,
+     "win_rate": 0.43,
+     "roi": 32.7
+    },
+    "14": {
+     "starters": 2060,
+     "wins": 10,
+     "payout": 109960,
+     "win_rate": 0.49,
+     "roi": 53.4
+    },
+    "15": {
+     "starters": 1707,
+     "wins": 8,
+     "payout": 119750,
+     "win_rate": 0.47,
+     "roi": 70.2
+    },
+    "16": {
+     "starters": 1370,
+     "wins": 5,
+     "payout": 118990,
+     "win_rate": 0.36,
+     "roi": 86.9
+    },
+    "17": {
+     "starters": 297,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 228,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3208,
+     "wins": 1062,
+     "payout": 251060,
+     "win_rate": 33.1,
+     "roi": 78.3
+    },
+    "2": {
+     "starters": 3208,
+     "wins": 674,
+     "payout": 270510,
+     "win_rate": 21.01,
+     "roi": 84.3
+    },
+    "3": {
+     "starters": 3208,
+     "wins": 412,
+     "payout": 239670,
+     "win_rate": 12.84,
+     "roi": 74.7
+    },
+    "4": {
+     "starters": 3208,
+     "wins": 261,
+     "payout": 210900,
+     "win_rate": 8.14,
+     "roi": 65.7
+    },
+    "5": {
+     "starters": 3208,
+     "wins": 228,
+     "payout": 258920,
+     "win_rate": 7.11,
+     "roi": 80.7
+    },
+    "6": {
+     "starters": 3195,
+     "wins": 144,
+     "payout": 215410,
+     "win_rate": 4.51,
+     "roi": 67.4
+    },
+    "7": {
+     "starters": 3168,
+     "wins": 127,
+     "payout": 250370,
+     "win_rate": 4.01,
+     "roi": 79.0
+    },
+    "8": {
+     "starters": 3109,
+     "wins": 100,
+     "payout": 277700,
+     "win_rate": 3.22,
+     "roi": 89.3
+    },
+    "9": {
+     "starters": 3002,
+     "wins": 74,
+     "payout": 260730,
+     "win_rate": 2.47,
+     "roi": 86.9
+    },
+    "10": {
+     "starters": 2858,
+     "wins": 46,
+     "payout": 197570,
+     "win_rate": 1.61,
+     "roi": 69.1
+    },
+    "11": {
+     "starters": 2692,
+     "wins": 30,
+     "payout": 173530,
+     "win_rate": 1.11,
+     "roi": 64.5
+    },
+    "12": {
+     "starters": 2517,
+     "wins": 22,
+     "payout": 140230,
+     "win_rate": 0.87,
+     "roi": 55.7
+    },
+    "13": {
+     "starters": 2274,
+     "wins": 10,
+     "payout": 75760,
+     "win_rate": 0.44,
+     "roi": 33.3
+    },
+    "14": {
+     "starters": 2028,
+     "wins": 10,
+     "payout": 109960,
+     "win_rate": 0.49,
+     "roi": 54.2
+    },
+    "15": {
+     "starters": 1707,
+     "wins": 8,
+     "payout": 119750,
+     "win_rate": 0.47,
+     "roi": 70.2
+    },
+    "16": {
+     "starters": 1370,
+     "wins": 5,
+     "payout": 118990,
+     "win_rate": 0.36,
+     "roi": 86.9
+    },
+    "17": {
+     "starters": 297,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "18": {
+     "starters": 228,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 115,
+     "wins": 40,
+     "payout": 8680,
+     "win_rate": 34.78,
+     "roi": 75.5
+    },
+    "2": {
+     "starters": 115,
+     "wins": 26,
+     "payout": 10030,
+     "win_rate": 22.61,
+     "roi": 87.2
+    },
+    "3": {
+     "starters": 115,
+     "wins": 16,
+     "payout": 10260,
+     "win_rate": 13.91,
+     "roi": 89.2
+    },
+    "4": {
+     "starters": 115,
+     "wins": 7,
+     "payout": 6080,
+     "win_rate": 6.09,
+     "roi": 52.9
+    },
+    "5": {
+     "starters": 115,
+     "wins": 9,
+     "payout": 10710,
+     "win_rate": 7.83,
+     "roi": 93.1
+    },
+    "6": {
+     "starters": 115,
+     "wins": 10,
+     "payout": 15030,
+     "win_rate": 8.7,
+     "roi": 130.7
+    },
+    "7": {
+     "starters": 114,
+     "wins": 3,
+     "payout": 5130,
+     "win_rate": 2.63,
+     "roi": 45.0
+    },
+    "8": {
+     "starters": 112,
+     "wins": 2,
+     "payout": 5390,
+     "win_rate": 1.79,
+     "roi": 48.1
+    },
+    "9": {
+     "starters": 107,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "10": {
+     "starters": 95,
+     "wins": 2,
+     "payout": 8260,
+     "win_rate": 2.11,
+     "roi": 86.9
+    },
+    "11": {
+     "starters": 84,
+     "wins": 1,
+     "payout": 9750,
+     "win_rate": 1.19,
+     "roi": 116.1
+    },
+    "12": {
+     "starters": 63,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "13": {
+     "starters": 40,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "14": {
+     "starters": 32,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": 0.0,
+     "roi": 0.0
+    },
+    "15": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "16": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "17": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    },
+    "18": {
+     "starters": 0,
+     "wins": 0,
+     "payout": 0,
+     "win_rate": null,
+     "roi": null
+    }
+   },
+   "races": 3323
+  }
+ },
+ "total": {
+  "all": {
+   "1": {
+    "starters": 49925,
+    "wins": 16286,
+    "payout": 3906760,
+    "win_rate": 32.62,
+    "roi": 78.3
+   },
+   "2": {
+    "starters": 49925,
+    "wins": 9597,
+    "payout": 4000440,
+    "win_rate": 19.22,
+    "roi": 80.1
+   },
+   "3": {
+    "starters": 49926,
+    "wins": 6580,
+    "payout": 3968700,
+    "win_rate": 13.18,
+    "roi": 79.5
+   },
+   "4": {
+    "starters": 49927,
+    "wins": 4681,
+    "payout": 3879340,
+    "win_rate": 9.38,
+    "roi": 77.7
+   },
+   "5": {
+    "starters": 49926,
+    "wins": 3558,
+    "payout": 3978790,
+    "win_rate": 7.13,
+    "roi": 79.7
+   },
+   "6": {
+    "starters": 49851,
+    "wins": 2676,
+    "payout": 4020240,
+    "win_rate": 5.37,
+    "roi": 80.6
+   },
+   "7": {
+    "starters": 49676,
+    "wins": 1976,
+    "payout": 3983810,
+    "win_rate": 3.98,
+    "roi": 80.2
+   },
+   "8": {
+    "starters": 49133,
+    "wins": 1413,
+    "payout": 3737250,
+    "win_rate": 2.88,
+    "roi": 76.1
+   },
+   "9": {
+    "starters": 47870,
+    "wins": 1041,
+    "payout": 3583550,
+    "win_rate": 2.17,
+    "roi": 74.9
+   },
+   "10": {
+    "starters": 45967,
+    "wins": 758,
+    "payout": 3357010,
+    "win_rate": 1.65,
+    "roi": 73.0
+   },
+   "11": {
+    "starters": 43373,
+    "wins": 539,
+    "payout": 3158800,
+    "win_rate": 1.24,
+    "roi": 72.8
+   },
+   "12": {
+    "starters": 40307,
+    "wins": 371,
+    "payout": 2675200,
+    "win_rate": 0.92,
+    "roi": 66.4
+   },
+   "13": {
+    "starters": 36411,
+    "wins": 234,
+    "payout": 2176420,
+    "win_rate": 0.64,
+    "roi": 59.8
+   },
+   "14": {
+    "starters": 32414,
+    "wins": 139,
+    "payout": 1648370,
+    "win_rate": 0.43,
+    "roi": 50.9
+   },
+   "15": {
+    "starters": 27247,
+    "wins": 96,
+    "payout": 1405890,
+    "win_rate": 0.35,
+    "roi": 51.6
+   },
+   "16": {
+    "starters": 21122,
+    "wins": 43,
+    "payout": 948650,
+    "win_rate": 0.2,
+    "roi": 44.9
+   },
+   "17": {
+    "starters": 4769,
+    "wins": 3,
+    "payout": 65960,
+    "win_rate": 0.06,
+    "roi": 13.8
+   },
+   "18": {
+    "starters": 3777,
+    "wins": 3,
+    "payout": 88850,
+    "win_rate": 0.08,
+    "roi": 23.5
+   }
+  },
+  "flat": {
+   "1": {
+    "starters": 48094,
+    "wins": 15653,
+    "payout": 3766760,
+    "win_rate": 32.55,
+    "roi": 78.3
+   },
+   "2": {
+    "starters": 48094,
+    "wins": 9252,
+    "payout": 3862230,
+    "win_rate": 19.24,
+    "roi": 80.3
+   },
+   "3": {
+    "starters": 48095,
+    "wins": 6334,
+    "payout": 3821750,
+    "win_rate": 13.17,
+    "roi": 79.5
+   },
+   "4": {
+    "starters": 48096,
+    "wins": 4495,
+    "payout": 3727260,
+    "win_rate": 9.35,
+    "roi": 77.5
+   },
+   "5": {
+    "starters": 48094,
+    "wins": 3431,
+    "payout": 3826860,
+    "win_rate": 7.13,
+    "roi": 79.6
+   },
+   "6": {
+    "starters": 48025,
+    "wins": 2571,
+    "payout": 3852270,
+    "win_rate": 5.35,
+    "roi": 80.2
+   },
+   "7": {
+    "starters": 47867,
+    "wins": 1920,
+    "payout": 3867530,
+    "win_rate": 4.01,
+    "roi": 80.8
+   },
+   "8": {
+    "starters": 47353,
+    "wins": 1352,
+    "payout": 3566200,
+    "win_rate": 2.86,
+    "roi": 75.3
+   },
+   "9": {
+    "starters": 46173,
+    "wins": 1009,
+    "payout": 3449420,
+    "win_rate": 2.19,
+    "roi": 74.7
+   },
+   "10": {
+    "starters": 44386,
+    "wins": 736,
+    "payout": 3247880,
+    "win_rate": 1.66,
+    "roi": 73.2
+   },
+   "11": {
+    "starters": 41948,
+    "wins": 530,
+    "payout": 3100340,
+    "win_rate": 1.26,
+    "roi": 73.9
+   },
+   "12": {
+    "starters": 39085,
+    "wins": 364,
+    "payout": 2611100,
+    "win_rate": 0.93,
+    "roi": 66.8
+   },
+   "13": {
+    "starters": 35444,
+    "wins": 231,
+    "payout": 2135510,
+    "win_rate": 0.65,
+    "roi": 60.3
+   },
+   "14": {
+    "starters": 31671,
+    "wins": 139,
+    "payout": 1648370,
+    "win_rate": 0.44,
+    "roi": 52.0
+   },
+   "15": {
+    "starters": 27237,
+    "wins": 96,
+    "payout": 1405890,
+    "win_rate": 0.35,
+    "roi": 51.6
+   },
+   "16": {
+    "starters": 21118,
+    "wins": 43,
+    "payout": 948650,
+    "win_rate": 0.2,
+    "roi": 44.9
+   },
+   "17": {
+    "starters": 4769,
+    "wins": 3,
+    "payout": 65960,
+    "win_rate": 0.06,
+    "roi": 13.8
+   },
+   "18": {
+    "starters": 3777,
+    "wins": 3,
+    "payout": 88850,
+    "win_rate": 0.08,
+    "roi": 23.5
+   }
+  },
+  "jump": {
+   "1": {
+    "starters": 1831,
+    "wins": 633,
+    "payout": 140000,
+    "win_rate": 34.57,
+    "roi": 76.5
+   },
+   "2": {
+    "starters": 1831,
+    "wins": 345,
+    "payout": 138210,
+    "win_rate": 18.84,
+    "roi": 75.5
+   },
+   "3": {
+    "starters": 1831,
+    "wins": 246,
+    "payout": 146950,
+    "win_rate": 13.44,
+    "roi": 80.3
+   },
+   "4": {
+    "starters": 1831,
+    "wins": 186,
+    "payout": 152080,
+    "win_rate": 10.16,
+    "roi": 83.1
+   },
+   "5": {
+    "starters": 1832,
+    "wins": 127,
+    "payout": 151930,
+    "win_rate": 6.93,
+    "roi": 82.9
+   },
+   "6": {
+    "starters": 1826,
+    "wins": 105,
+    "payout": 167970,
+    "win_rate": 5.75,
+    "roi": 92.0
+   },
+   "7": {
+    "starters": 1809,
+    "wins": 56,
+    "payout": 116280,
+    "win_rate": 3.1,
+    "roi": 64.3
+   },
+   "8": {
+    "starters": 1780,
+    "wins": 61,
+    "payout": 171050,
+    "win_rate": 3.43,
+    "roi": 96.1
+   },
+   "9": {
+    "starters": 1697,
+    "wins": 32,
+    "payout": 134130,
+    "win_rate": 1.89,
+    "roi": 79.0
+   },
+   "10": {
+    "starters": 1581,
+    "wins": 22,
+    "payout": 109130,
+    "win_rate": 1.39,
+    "roi": 69.0
+   },
+   "11": {
+    "starters": 1425,
+    "wins": 9,
+    "payout": 58460,
+    "win_rate": 0.63,
+    "roi": 41.0
+   },
+   "12": {
+    "starters": 1222,
+    "wins": 7,
+    "payout": 64100,
+    "win_rate": 0.57,
+    "roi": 52.5
+   },
+   "13": {
+    "starters": 967,
+    "wins": 3,
+    "payout": 40910,
+    "win_rate": 0.31,
+    "roi": 42.3
+   },
+   "14": {
+    "starters": 743,
+    "wins": 0,
+    "payout": 0,
+    "win_rate": 0.0,
+    "roi": 0.0
+   },
+   "15": {
+    "starters": 10,
+    "wins": 0,
+    "payout": 0,
+    "win_rate": 0.0,
+    "roi": 0.0
+   },
+   "16": {
+    "starters": 4,
+    "wins": 0,
+    "payout": 0,
+    "win_rate": 0.0,
+    "roi": 0.0
+   },
+   "17": {
+    "starters": 0,
+    "wins": 0,
+    "payout": 0,
+    "win_rate": null,
+    "roi": null
+   },
+   "18": {
+    "starters": 0,
+    "wins": 0,
+    "payout": 0,
+    "win_rate": null,
+    "roi": null
+   }
+  }
+ }
+}
