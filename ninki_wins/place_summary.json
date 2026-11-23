@@ -1,0 +1,5491 @@
+{
+ "note": "2016〜2025年 JRA 土日全レース（netkeiba DB の html キャッシュ）。starters=出走頭数（取消・除外は除く、競走中止・失格は出走に含むが着順なし）。同着は両方その着順。rentai_rate=2着以内率、fukusho_rate=3着以内率（%）。",
+ "years": {
+  "2016": {
+   "all": {
+    "1": {
+     "starters": 3334,
+     "p1": 1108,
+     "p2": 620,
+     "p3": 445,
+     "win_rate": 33.23,
+     "rentai_rate": 51.83,
+     "fukusho_rate": 65.18
+    },
+    "2": {
+     "starters": 3334,
+     "p1": 625,
+     "p2": 597,
+     "p3": 445,
+     "win_rate": 18.75,
+     "rentai_rate": 36.65,
+     "fukusho_rate": 50.0
+    },
+    "3": {
+     "starters": 3335,
+     "p1": 408,
+     "p2": 488,
+     "p3": 475,
+     "win_rate": 12.23,
+     "rentai_rate": 26.87,
+     "fukusho_rate": 41.11
+    },
+    "4": {
+     "starters": 3334,
+     "p1": 318,
+     "p2": 381,
+     "p3": 387,
+     "win_rate": 9.54,
+     "rentai_rate": 20.97,
+     "fukusho_rate": 32.57
+    },
+    "5": {
+     "starters": 3334,
+     "p1": 235,
+     "p2": 270,
+     "p3": 338,
+     "win_rate": 7.05,
+     "rentai_rate": 15.15,
+     "fukusho_rate": 25.28
+    },
+    "6": {
+     "starters": 3332,
+     "p1": 189,
+     "p2": 262,
+     "p3": 271,
+     "win_rate": 5.67,
+     "rentai_rate": 13.54,
+     "fukusho_rate": 21.67
+    },
+    "7": {
+     "starters": 3330,
+     "p1": 119,
+     "p2": 211,
+     "p3": 228,
+     "win_rate": 3.57,
+     "rentai_rate": 9.91,
+     "fukusho_rate": 16.76
+    },
+    "8": {
+     "starters": 3316,
+     "p1": 92,
+     "p2": 157,
+     "p3": 197,
+     "win_rate": 2.77,
+     "rentai_rate": 7.51,
+     "fukusho_rate": 13.45
+    },
+    "9": {
+     "starters": 3266,
+     "p1": 80,
+     "p2": 101,
+     "p3": 155,
+     "win_rate": 2.45,
+     "rentai_rate": 5.54,
+     "fukusho_rate": 10.29
+    },
+    "10": {
+     "starters": 3157,
+     "p1": 53,
+     "p2": 79,
+     "p3": 126,
+     "win_rate": 1.68,
+     "rentai_rate": 4.18,
+     "fukusho_rate": 8.17
+    },
+    "11": {
+     "starters": 3018,
+     "p1": 46,
+     "p2": 53,
+     "p3": 102,
+     "win_rate": 1.52,
+     "rentai_rate": 3.28,
+     "fukusho_rate": 6.66
+    },
+    "12": {
+     "starters": 2855,
+     "p1": 32,
+     "p2": 44,
+     "p3": 64,
+     "win_rate": 1.12,
+     "rentai_rate": 2.66,
+     "fukusho_rate": 4.9
+    },
+    "13": {
+     "starters": 2605,
+     "p1": 16,
+     "p2": 37,
+     "p3": 49,
+     "win_rate": 0.61,
+     "rentai_rate": 2.03,
+     "fukusho_rate": 3.92
+    },
+    "14": {
+     "starters": 2309,
+     "p1": 7,
+     "p2": 22,
+     "p3": 24,
+     "win_rate": 0.3,
+     "rentai_rate": 1.26,
+     "fukusho_rate": 2.3
+    },
+    "15": {
+     "starters": 2007,
+     "p1": 7,
+     "p2": 8,
+     "p3": 15,
+     "win_rate": 0.35,
+     "rentai_rate": 0.75,
+     "fukusho_rate": 1.49
+    },
+    "16": {
+     "starters": 1596,
+     "p1": 3,
+     "p2": 3,
+     "p3": 11,
+     "win_rate": 0.19,
+     "rentai_rate": 0.38,
+     "fukusho_rate": 1.07
+    },
+    "17": {
+     "starters": 364,
+     "p1": 1,
+     "p2": 5,
+     "p3": 2,
+     "win_rate": 0.27,
+     "rentai_rate": 1.65,
+     "fukusho_rate": 2.2
+    },
+    "18": {
+     "starters": 303,
+     "p1": 0,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.33
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3210,
+     "p1": 1060,
+     "p2": 604,
+     "p3": 433,
+     "win_rate": 33.02,
+     "rentai_rate": 51.84,
+     "fukusho_rate": 65.33
+    },
+    "2": {
+     "starters": 3210,
+     "p1": 607,
+     "p2": 573,
+     "p3": 425,
+     "win_rate": 18.91,
+     "rentai_rate": 36.76,
+     "fukusho_rate": 50.0
+    },
+    "3": {
+     "starters": 3211,
+     "p1": 397,
+     "p2": 466,
+     "p3": 454,
+     "win_rate": 12.36,
+     "rentai_rate": 26.88,
+     "fukusho_rate": 41.02
+    },
+    "4": {
+     "starters": 3210,
+     "p1": 301,
+     "p2": 367,
+     "p3": 372,
+     "win_rate": 9.38,
+     "rentai_rate": 20.81,
+     "fukusho_rate": 32.4
+    },
+    "5": {
+     "starters": 3209,
+     "p1": 226,
+     "p2": 261,
+     "p3": 323,
+     "win_rate": 7.04,
+     "rentai_rate": 15.18,
+     "fukusho_rate": 25.24
+    },
+    "6": {
+     "starters": 3209,
+     "p1": 183,
+     "p2": 252,
+     "p3": 260,
+     "win_rate": 5.7,
+     "rentai_rate": 13.56,
+     "fukusho_rate": 21.66
+    },
+    "7": {
+     "starters": 3207,
+     "p1": 116,
+     "p2": 204,
+     "p3": 219,
+     "win_rate": 3.62,
+     "rentai_rate": 9.98,
+     "fukusho_rate": 16.81
+    },
+    "8": {
+     "starters": 3196,
+     "p1": 87,
+     "p2": 150,
+     "p3": 193,
+     "win_rate": 2.72,
+     "rentai_rate": 7.42,
+     "fukusho_rate": 13.45
+    },
+    "9": {
+     "starters": 3150,
+     "p1": 79,
+     "p2": 95,
+     "p3": 151,
+     "win_rate": 2.51,
+     "rentai_rate": 5.52,
+     "fukusho_rate": 10.32
+    },
+    "10": {
+     "starters": 3047,
+     "p1": 50,
+     "p2": 76,
+     "p3": 121,
+     "win_rate": 1.64,
+     "rentai_rate": 4.14,
+     "fukusho_rate": 8.11
+    },
+    "11": {
+     "starters": 2918,
+     "p1": 44,
+     "p2": 50,
+     "p3": 100,
+     "win_rate": 1.51,
+     "rentai_rate": 3.22,
+     "fukusho_rate": 6.65
+    },
+    "12": {
+     "starters": 2769,
+     "p1": 31,
+     "p2": 42,
+     "p3": 61,
+     "win_rate": 1.12,
+     "rentai_rate": 2.64,
+     "fukusho_rate": 4.84
+    },
+    "13": {
+     "starters": 2530,
+     "p1": 16,
+     "p2": 37,
+     "p3": 48,
+     "win_rate": 0.63,
+     "rentai_rate": 2.09,
+     "fukusho_rate": 3.99
+    },
+    "14": {
+     "starters": 2250,
+     "p1": 7,
+     "p2": 21,
+     "p3": 22,
+     "win_rate": 0.31,
+     "rentai_rate": 1.24,
+     "fukusho_rate": 2.22
+    },
+    "15": {
+     "starters": 2007,
+     "p1": 7,
+     "p2": 8,
+     "p3": 15,
+     "win_rate": 0.35,
+     "rentai_rate": 0.75,
+     "fukusho_rate": 1.49
+    },
+    "16": {
+     "starters": 1596,
+     "p1": 3,
+     "p2": 3,
+     "p3": 11,
+     "win_rate": 0.19,
+     "rentai_rate": 0.38,
+     "fukusho_rate": 1.07
+    },
+    "17": {
+     "starters": 364,
+     "p1": 1,
+     "p2": 5,
+     "p3": 2,
+     "win_rate": 0.27,
+     "rentai_rate": 1.65,
+     "fukusho_rate": 2.2
+    },
+    "18": {
+     "starters": 303,
+     "p1": 0,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.33
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 124,
+     "p1": 48,
+     "p2": 16,
+     "p3": 12,
+     "win_rate": 38.71,
+     "rentai_rate": 51.61,
+     "fukusho_rate": 61.29
+    },
+    "2": {
+     "starters": 124,
+     "p1": 18,
+     "p2": 24,
+     "p3": 20,
+     "win_rate": 14.52,
+     "rentai_rate": 33.87,
+     "fukusho_rate": 50.0
+    },
+    "3": {
+     "starters": 124,
+     "p1": 11,
+     "p2": 22,
+     "p3": 21,
+     "win_rate": 8.87,
+     "rentai_rate": 26.61,
+     "fukusho_rate": 43.55
+    },
+    "4": {
+     "starters": 124,
+     "p1": 17,
+     "p2": 14,
+     "p3": 15,
+     "win_rate": 13.71,
+     "rentai_rate": 25.0,
+     "fukusho_rate": 37.1
+    },
+    "5": {
+     "starters": 125,
+     "p1": 9,
+     "p2": 9,
+     "p3": 15,
+     "win_rate": 7.2,
+     "rentai_rate": 14.4,
+     "fukusho_rate": 26.4
+    },
+    "6": {
+     "starters": 123,
+     "p1": 6,
+     "p2": 10,
+     "p3": 11,
+     "win_rate": 4.88,
+     "rentai_rate": 13.01,
+     "fukusho_rate": 21.95
+    },
+    "7": {
+     "starters": 123,
+     "p1": 3,
+     "p2": 7,
+     "p3": 9,
+     "win_rate": 2.44,
+     "rentai_rate": 8.13,
+     "fukusho_rate": 15.45
+    },
+    "8": {
+     "starters": 120,
+     "p1": 5,
+     "p2": 7,
+     "p3": 4,
+     "win_rate": 4.17,
+     "rentai_rate": 10.0,
+     "fukusho_rate": 13.33
+    },
+    "9": {
+     "starters": 116,
+     "p1": 1,
+     "p2": 6,
+     "p3": 4,
+     "win_rate": 0.86,
+     "rentai_rate": 6.03,
+     "fukusho_rate": 9.48
+    },
+    "10": {
+     "starters": 110,
+     "p1": 3,
+     "p2": 3,
+     "p3": 5,
+     "win_rate": 2.73,
+     "rentai_rate": 5.45,
+     "fukusho_rate": 10.0
+    },
+    "11": {
+     "starters": 100,
+     "p1": 2,
+     "p2": 3,
+     "p3": 2,
+     "win_rate": 2.0,
+     "rentai_rate": 5.0,
+     "fukusho_rate": 7.0
+    },
+    "12": {
+     "starters": 86,
+     "p1": 1,
+     "p2": 2,
+     "p3": 3,
+     "win_rate": 1.16,
+     "rentai_rate": 3.49,
+     "fukusho_rate": 6.98
+    },
+    "13": {
+     "starters": 75,
+     "p1": 0,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 1.33
+    },
+    "14": {
+     "starters": 59,
+     "p1": 0,
+     "p2": 1,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 1.69,
+     "fukusho_rate": 5.08
+    },
+    "15": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "16": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "17": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "18": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    }
+   },
+   "races": 3334
+  },
+  "2017": {
+   "all": {
+    "1": {
+     "starters": 3275,
+     "p1": 1105,
+     "p2": 604,
+     "p3": 417,
+     "win_rate": 33.74,
+     "rentai_rate": 52.18,
+     "fukusho_rate": 64.92
+    },
+    "2": {
+     "starters": 3275,
+     "p1": 584,
+     "p2": 588,
+     "p3": 456,
+     "win_rate": 17.83,
+     "rentai_rate": 35.79,
+     "fukusho_rate": 49.71
+    },
+    "3": {
+     "starters": 3275,
+     "p1": 449,
+     "p2": 454,
+     "p3": 442,
+     "win_rate": 13.71,
+     "rentai_rate": 27.57,
+     "fukusho_rate": 41.07
+    },
+    "4": {
+     "starters": 3275,
+     "p1": 299,
+     "p2": 385,
+     "p3": 384,
+     "win_rate": 9.13,
+     "rentai_rate": 20.89,
+     "fukusho_rate": 32.61
+    },
+    "5": {
+     "starters": 3277,
+     "p1": 229,
+     "p2": 305,
+     "p3": 345,
+     "win_rate": 6.99,
+     "rentai_rate": 16.3,
+     "fukusho_rate": 26.82
+    },
+    "6": {
+     "starters": 3273,
+     "p1": 174,
+     "p2": 253,
+     "p3": 308,
+     "win_rate": 5.32,
+     "rentai_rate": 13.05,
+     "fukusho_rate": 22.46
+    },
+    "7": {
+     "starters": 3263,
+     "p1": 129,
+     "p2": 193,
+     "p3": 221,
+     "win_rate": 3.95,
+     "rentai_rate": 9.87,
+     "fukusho_rate": 16.64
+    },
+    "8": {
+     "starters": 3230,
+     "p1": 84,
+     "p2": 148,
+     "p3": 190,
+     "win_rate": 2.6,
+     "rentai_rate": 7.18,
+     "fukusho_rate": 13.07
+    },
+    "9": {
+     "starters": 3162,
+     "p1": 65,
+     "p2": 98,
+     "p3": 150,
+     "win_rate": 2.06,
+     "rentai_rate": 5.15,
+     "fukusho_rate": 9.9
+    },
+    "10": {
+     "starters": 3049,
+     "p1": 63,
+     "p2": 78,
+     "p3": 101,
+     "win_rate": 2.07,
+     "rentai_rate": 4.62,
+     "fukusho_rate": 7.94
+    },
+    "11": {
+     "starters": 2883,
+     "p1": 27,
+     "p2": 56,
+     "p3": 95,
+     "win_rate": 0.94,
+     "rentai_rate": 2.88,
+     "fukusho_rate": 6.17
+    },
+    "12": {
+     "starters": 2692,
+     "p1": 35,
+     "p2": 44,
+     "p3": 56,
+     "win_rate": 1.3,
+     "rentai_rate": 2.93,
+     "fukusho_rate": 5.01
+    },
+    "13": {
+     "starters": 2434,
+     "p1": 18,
+     "p2": 25,
+     "p3": 48,
+     "win_rate": 0.74,
+     "rentai_rate": 1.77,
+     "fukusho_rate": 3.74
+    },
+    "14": {
+     "starters": 2243,
+     "p1": 9,
+     "p2": 23,
+     "p3": 34,
+     "win_rate": 0.4,
+     "rentai_rate": 1.43,
+     "fukusho_rate": 2.94
+    },
+    "15": {
+     "starters": 1913,
+     "p1": 5,
+     "p2": 12,
+     "p3": 23,
+     "win_rate": 0.26,
+     "rentai_rate": 0.89,
+     "fukusho_rate": 2.09
+    },
+    "16": {
+     "starters": 1484,
+     "p1": 3,
+     "p2": 9,
+     "p3": 7,
+     "win_rate": 0.2,
+     "rentai_rate": 0.81,
+     "fukusho_rate": 1.28
+    },
+    "17": {
+     "starters": 312,
+     "p1": 0,
+     "p2": 1,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 0.32,
+     "fukusho_rate": 0.96
+    },
+    "18": {
+     "starters": 253,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3155,
+     "p1": 1062,
+     "p2": 587,
+     "p3": 398,
+     "win_rate": 33.66,
+     "rentai_rate": 52.27,
+     "fukusho_rate": 64.88
+    },
+    "2": {
+     "starters": 3155,
+     "p1": 567,
+     "p2": 558,
+     "p3": 447,
+     "win_rate": 17.97,
+     "rentai_rate": 35.66,
+     "fukusho_rate": 49.83
+    },
+    "3": {
+     "starters": 3155,
+     "p1": 433,
+     "p2": 437,
+     "p3": 426,
+     "win_rate": 13.72,
+     "rentai_rate": 27.58,
+     "fukusho_rate": 41.08
+    },
+    "4": {
+     "starters": 3155,
+     "p1": 288,
+     "p2": 371,
+     "p3": 367,
+     "win_rate": 9.13,
+     "rentai_rate": 20.89,
+     "fukusho_rate": 32.52
+    },
+    "5": {
+     "starters": 3157,
+     "p1": 224,
+     "p2": 290,
+     "p3": 332,
+     "win_rate": 7.1,
+     "rentai_rate": 16.28,
+     "fukusho_rate": 26.8
+    },
+    "6": {
+     "starters": 3152,
+     "p1": 162,
+     "p2": 241,
+     "p3": 293,
+     "win_rate": 5.14,
+     "rentai_rate": 12.79,
+     "fukusho_rate": 22.08
+    },
+    "7": {
+     "starters": 3143,
+     "p1": 121,
+     "p2": 187,
+     "p3": 212,
+     "win_rate": 3.85,
+     "rentai_rate": 9.8,
+     "fukusho_rate": 16.54
+    },
+    "8": {
+     "starters": 3113,
+     "p1": 80,
+     "p2": 145,
+     "p3": 184,
+     "win_rate": 2.57,
+     "rentai_rate": 7.23,
+     "fukusho_rate": 13.14
+    },
+    "9": {
+     "starters": 3049,
+     "p1": 62,
+     "p2": 96,
+     "p3": 143,
+     "win_rate": 2.03,
+     "rentai_rate": 5.18,
+     "fukusho_rate": 9.87
+    },
+    "10": {
+     "starters": 2943,
+     "p1": 63,
+     "p2": 76,
+     "p3": 98,
+     "win_rate": 2.14,
+     "rentai_rate": 4.72,
+     "fukusho_rate": 8.05
+    },
+    "11": {
+     "starters": 2788,
+     "p1": 27,
+     "p2": 55,
+     "p3": 94,
+     "win_rate": 0.97,
+     "rentai_rate": 2.94,
+     "fukusho_rate": 6.31
+    },
+    "12": {
+     "starters": 2608,
+     "p1": 34,
+     "p2": 44,
+     "p3": 53,
+     "win_rate": 1.3,
+     "rentai_rate": 2.99,
+     "fukusho_rate": 5.02
+    },
+    "13": {
+     "starters": 2362,
+     "p1": 18,
+     "p2": 24,
+     "p3": 48,
+     "win_rate": 0.76,
+     "rentai_rate": 1.78,
+     "fukusho_rate": 3.81
+    },
+    "14": {
+     "starters": 2184,
+     "p1": 9,
+     "p2": 23,
+     "p3": 32,
+     "win_rate": 0.41,
+     "rentai_rate": 1.47,
+     "fukusho_rate": 2.93
+    },
+    "15": {
+     "starters": 1912,
+     "p1": 5,
+     "p2": 12,
+     "p3": 23,
+     "win_rate": 0.26,
+     "rentai_rate": 0.89,
+     "fukusho_rate": 2.09
+    },
+    "16": {
+     "starters": 1484,
+     "p1": 3,
+     "p2": 9,
+     "p3": 7,
+     "win_rate": 0.2,
+     "rentai_rate": 0.81,
+     "fukusho_rate": 1.28
+    },
+    "17": {
+     "starters": 312,
+     "p1": 0,
+     "p2": 1,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 0.32,
+     "fukusho_rate": 0.96
+    },
+    "18": {
+     "starters": 253,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 120,
+     "p1": 43,
+     "p2": 17,
+     "p3": 19,
+     "win_rate": 35.83,
+     "rentai_rate": 50.0,
+     "fukusho_rate": 65.83
+    },
+    "2": {
+     "starters": 120,
+     "p1": 17,
+     "p2": 30,
+     "p3": 9,
+     "win_rate": 14.17,
+     "rentai_rate": 39.17,
+     "fukusho_rate": 46.67
+    },
+    "3": {
+     "starters": 120,
+     "p1": 16,
+     "p2": 17,
+     "p3": 16,
+     "win_rate": 13.33,
+     "rentai_rate": 27.5,
+     "fukusho_rate": 40.83
+    },
+    "4": {
+     "starters": 120,
+     "p1": 11,
+     "p2": 14,
+     "p3": 17,
+     "win_rate": 9.17,
+     "rentai_rate": 20.83,
+     "fukusho_rate": 35.0
+    },
+    "5": {
+     "starters": 120,
+     "p1": 5,
+     "p2": 15,
+     "p3": 13,
+     "win_rate": 4.17,
+     "rentai_rate": 16.67,
+     "fukusho_rate": 27.5
+    },
+    "6": {
+     "starters": 121,
+     "p1": 12,
+     "p2": 12,
+     "p3": 15,
+     "win_rate": 9.92,
+     "rentai_rate": 19.83,
+     "fukusho_rate": 32.23
+    },
+    "7": {
+     "starters": 120,
+     "p1": 8,
+     "p2": 6,
+     "p3": 9,
+     "win_rate": 6.67,
+     "rentai_rate": 11.67,
+     "fukusho_rate": 19.17
+    },
+    "8": {
+     "starters": 117,
+     "p1": 4,
+     "p2": 3,
+     "p3": 6,
+     "win_rate": 3.42,
+     "rentai_rate": 5.98,
+     "fukusho_rate": 11.11
+    },
+    "9": {
+     "starters": 113,
+     "p1": 3,
+     "p2": 2,
+     "p3": 7,
+     "win_rate": 2.65,
+     "rentai_rate": 4.42,
+     "fukusho_rate": 10.62
+    },
+    "10": {
+     "starters": 106,
+     "p1": 0,
+     "p2": 2,
+     "p3": 3,
+     "win_rate": 0.0,
+     "rentai_rate": 1.89,
+     "fukusho_rate": 4.72
+    },
+    "11": {
+     "starters": 95,
+     "p1": 0,
+     "p2": 1,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 1.05,
+     "fukusho_rate": 2.11
+    },
+    "12": {
+     "starters": 84,
+     "p1": 1,
+     "p2": 0,
+     "p3": 3,
+     "win_rate": 1.19,
+     "rentai_rate": 1.19,
+     "fukusho_rate": 4.76
+    },
+    "13": {
+     "starters": 72,
+     "p1": 0,
+     "p2": 1,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 1.39,
+     "fukusho_rate": 1.39
+    },
+    "14": {
+     "starters": 59,
+     "p1": 0,
+     "p2": 0,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 3.39
+    },
+    "15": {
+     "starters": 1,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    },
+    "16": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "17": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "18": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    }
+   },
+   "races": 3275
+  },
+  "2018": {
+   "all": {
+    "1": {
+     "starters": 3322,
+     "p1": 1049,
+     "p2": 651,
+     "p3": 420,
+     "win_rate": 31.58,
+     "rentai_rate": 51.17,
+     "fukusho_rate": 63.82
+    },
+    "2": {
+     "starters": 3322,
+     "p1": 689,
+     "p2": 619,
+     "p3": 469,
+     "win_rate": 20.74,
+     "rentai_rate": 39.37,
+     "fukusho_rate": 53.49
+    },
+    "3": {
+     "starters": 3322,
+     "p1": 442,
+     "p2": 515,
+     "p3": 457,
+     "win_rate": 13.31,
+     "rentai_rate": 28.81,
+     "fukusho_rate": 42.56
+    },
+    "4": {
+     "starters": 3322,
+     "p1": 337,
+     "p2": 345,
+     "p3": 376,
+     "win_rate": 10.14,
+     "rentai_rate": 20.53,
+     "fukusho_rate": 31.85
+    },
+    "5": {
+     "starters": 3322,
+     "p1": 230,
+     "p2": 314,
+     "p3": 356,
+     "win_rate": 6.92,
+     "rentai_rate": 16.38,
+     "fukusho_rate": 27.09
+    },
+    "6": {
+     "starters": 3320,
+     "p1": 174,
+     "p2": 222,
+     "p3": 308,
+     "win_rate": 5.24,
+     "rentai_rate": 11.93,
+     "fukusho_rate": 21.2
+    },
+    "7": {
+     "starters": 3308,
+     "p1": 134,
+     "p2": 178,
+     "p3": 236,
+     "win_rate": 4.05,
+     "rentai_rate": 9.43,
+     "fukusho_rate": 16.57
+    },
+    "8": {
+     "starters": 3272,
+     "p1": 80,
+     "p2": 156,
+     "p3": 190,
+     "win_rate": 2.44,
+     "rentai_rate": 7.21,
+     "fukusho_rate": 13.02
+    },
+    "9": {
+     "starters": 3159,
+     "p1": 72,
+     "p2": 90,
+     "p3": 157,
+     "win_rate": 2.28,
+     "rentai_rate": 5.13,
+     "fukusho_rate": 10.1
+    },
+    "10": {
+     "starters": 3036,
+     "p1": 43,
+     "p2": 84,
+     "p3": 108,
+     "win_rate": 1.42,
+     "rentai_rate": 4.18,
+     "fukusho_rate": 7.74
+    },
+    "11": {
+     "starters": 2852,
+     "p1": 27,
+     "p2": 54,
+     "p3": 81,
+     "win_rate": 0.95,
+     "rentai_rate": 2.84,
+     "fukusho_rate": 5.68
+    },
+    "12": {
+     "starters": 2650,
+     "p1": 20,
+     "p2": 42,
+     "p3": 68,
+     "win_rate": 0.75,
+     "rentai_rate": 2.34,
+     "fukusho_rate": 4.91
+    },
+    "13": {
+     "starters": 2418,
+     "p1": 17,
+     "p2": 28,
+     "p3": 45,
+     "win_rate": 0.7,
+     "rentai_rate": 1.86,
+     "fukusho_rate": 3.72
+    },
+    "14": {
+     "starters": 2177,
+     "p1": 6,
+     "p2": 11,
+     "p3": 24,
+     "win_rate": 0.28,
+     "rentai_rate": 0.78,
+     "fukusho_rate": 1.88
+    },
+    "15": {
+     "starters": 1827,
+     "p1": 6,
+     "p2": 11,
+     "p3": 20,
+     "win_rate": 0.33,
+     "rentai_rate": 0.93,
+     "fukusho_rate": 2.03
+    },
+    "16": {
+     "starters": 1396,
+     "p1": 1,
+     "p2": 3,
+     "p3": 2,
+     "win_rate": 0.07,
+     "rentai_rate": 0.29,
+     "fukusho_rate": 0.43
+    },
+    "17": {
+     "starters": 289,
+     "p1": 0,
+     "p2": 0,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.69
+    },
+    "18": {
+     "starters": 228,
+     "p1": 0,
+     "p2": 2,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 0.88,
+     "fukusho_rate": 1.75
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3201,
+     "p1": 1011,
+     "p2": 625,
+     "p3": 403,
+     "win_rate": 31.58,
+     "rentai_rate": 51.11,
+     "fukusho_rate": 63.7
+    },
+    "2": {
+     "starters": 3201,
+     "p1": 672,
+     "p2": 601,
+     "p3": 448,
+     "win_rate": 20.99,
+     "rentai_rate": 39.77,
+     "fukusho_rate": 53.76
+    },
+    "3": {
+     "starters": 3201,
+     "p1": 429,
+     "p2": 498,
+     "p3": 439,
+     "win_rate": 13.4,
+     "rentai_rate": 28.96,
+     "fukusho_rate": 42.67
+    },
+    "4": {
+     "starters": 3201,
+     "p1": 321,
+     "p2": 329,
+     "p3": 369,
+     "win_rate": 10.03,
+     "rentai_rate": 20.31,
+     "fukusho_rate": 31.83
+    },
+    "5": {
+     "starters": 3201,
+     "p1": 213,
+     "p2": 300,
+     "p3": 348,
+     "win_rate": 6.65,
+     "rentai_rate": 16.03,
+     "fukusho_rate": 26.9
+    },
+    "6": {
+     "starters": 3199,
+     "p1": 166,
+     "p2": 214,
+     "p3": 293,
+     "win_rate": 5.19,
+     "rentai_rate": 11.88,
+     "fukusho_rate": 21.04
+    },
+    "7": {
+     "starters": 3187,
+     "p1": 131,
+     "p2": 171,
+     "p3": 226,
+     "win_rate": 4.11,
+     "rentai_rate": 9.48,
+     "fukusho_rate": 16.57
+    },
+    "8": {
+     "starters": 3154,
+     "p1": 76,
+     "p2": 148,
+     "p3": 183,
+     "win_rate": 2.41,
+     "rentai_rate": 7.1,
+     "fukusho_rate": 12.9
+    },
+    "9": {
+     "starters": 3045,
+     "p1": 69,
+     "p2": 88,
+     "p3": 149,
+     "win_rate": 2.27,
+     "rentai_rate": 5.16,
+     "fukusho_rate": 10.05
+    },
+    "10": {
+     "starters": 2930,
+     "p1": 42,
+     "p2": 82,
+     "p3": 102,
+     "win_rate": 1.43,
+     "rentai_rate": 4.23,
+     "fukusho_rate": 7.71
+    },
+    "11": {
+     "starters": 2753,
+     "p1": 27,
+     "p2": 53,
+     "p3": 79,
+     "win_rate": 0.98,
+     "rentai_rate": 2.91,
+     "fukusho_rate": 5.78
+    },
+    "12": {
+     "starters": 2563,
+     "p1": 20,
+     "p2": 41,
+     "p3": 67,
+     "win_rate": 0.78,
+     "rentai_rate": 2.38,
+     "fukusho_rate": 4.99
+    },
+    "13": {
+     "starters": 2342,
+     "p1": 16,
+     "p2": 28,
+     "p3": 44,
+     "win_rate": 0.68,
+     "rentai_rate": 1.88,
+     "fukusho_rate": 3.76
+    },
+    "14": {
+     "starters": 2114,
+     "p1": 6,
+     "p2": 10,
+     "p3": 24,
+     "win_rate": 0.28,
+     "rentai_rate": 0.76,
+     "fukusho_rate": 1.89
+    },
+    "15": {
+     "starters": 1827,
+     "p1": 6,
+     "p2": 11,
+     "p3": 20,
+     "win_rate": 0.33,
+     "rentai_rate": 0.93,
+     "fukusho_rate": 2.03
+    },
+    "16": {
+     "starters": 1396,
+     "p1": 1,
+     "p2": 3,
+     "p3": 2,
+     "win_rate": 0.07,
+     "rentai_rate": 0.29,
+     "fukusho_rate": 0.43
+    },
+    "17": {
+     "starters": 289,
+     "p1": 0,
+     "p2": 0,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.69
+    },
+    "18": {
+     "starters": 228,
+     "p1": 0,
+     "p2": 2,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 0.88,
+     "fukusho_rate": 1.75
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 121,
+     "p1": 38,
+     "p2": 26,
+     "p3": 17,
+     "win_rate": 31.4,
+     "rentai_rate": 52.89,
+     "fukusho_rate": 66.94
+    },
+    "2": {
+     "starters": 121,
+     "p1": 17,
+     "p2": 18,
+     "p3": 21,
+     "win_rate": 14.05,
+     "rentai_rate": 28.93,
+     "fukusho_rate": 46.28
+    },
+    "3": {
+     "starters": 121,
+     "p1": 13,
+     "p2": 17,
+     "p3": 18,
+     "win_rate": 10.74,
+     "rentai_rate": 24.79,
+     "fukusho_rate": 39.67
+    },
+    "4": {
+     "starters": 121,
+     "p1": 16,
+     "p2": 16,
+     "p3": 7,
+     "win_rate": 13.22,
+     "rentai_rate": 26.45,
+     "fukusho_rate": 32.23
+    },
+    "5": {
+     "starters": 121,
+     "p1": 17,
+     "p2": 14,
+     "p3": 8,
+     "win_rate": 14.05,
+     "rentai_rate": 25.62,
+     "fukusho_rate": 32.23
+    },
+    "6": {
+     "starters": 121,
+     "p1": 8,
+     "p2": 8,
+     "p3": 15,
+     "win_rate": 6.61,
+     "rentai_rate": 13.22,
+     "fukusho_rate": 25.62
+    },
+    "7": {
+     "starters": 121,
+     "p1": 3,
+     "p2": 7,
+     "p3": 10,
+     "win_rate": 2.48,
+     "rentai_rate": 8.26,
+     "fukusho_rate": 16.53
+    },
+    "8": {
+     "starters": 118,
+     "p1": 4,
+     "p2": 8,
+     "p3": 7,
+     "win_rate": 3.39,
+     "rentai_rate": 10.17,
+     "fukusho_rate": 16.1
+    },
+    "9": {
+     "starters": 114,
+     "p1": 3,
+     "p2": 2,
+     "p3": 8,
+     "win_rate": 2.63,
+     "rentai_rate": 4.39,
+     "fukusho_rate": 11.4
+    },
+    "10": {
+     "starters": 106,
+     "p1": 1,
+     "p2": 2,
+     "p3": 6,
+     "win_rate": 0.94,
+     "rentai_rate": 2.83,
+     "fukusho_rate": 8.49
+    },
+    "11": {
+     "starters": 99,
+     "p1": 0,
+     "p2": 1,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 1.01,
+     "fukusho_rate": 3.03
+    },
+    "12": {
+     "starters": 87,
+     "p1": 0,
+     "p2": 1,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 1.15,
+     "fukusho_rate": 2.3
+    },
+    "13": {
+     "starters": 76,
+     "p1": 1,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 1.32,
+     "rentai_rate": 1.32,
+     "fukusho_rate": 2.63
+    },
+    "14": {
+     "starters": 63,
+     "p1": 0,
+     "p2": 1,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 1.59,
+     "fukusho_rate": 1.59
+    },
+    "15": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "16": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "17": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "18": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    }
+   },
+   "races": 3322
+  },
+  "2019": {
+   "all": {
+    "1": {
+     "starters": 3320,
+     "p1": 1096,
+     "p2": 619,
+     "p3": 435,
+     "win_rate": 33.01,
+     "rentai_rate": 51.66,
+     "fukusho_rate": 64.76
+    },
+    "2": {
+     "starters": 3320,
+     "p1": 616,
+     "p2": 605,
+     "p3": 463,
+     "win_rate": 18.55,
+     "rentai_rate": 36.78,
+     "fukusho_rate": 50.72
+    },
+    "3": {
+     "starters": 3320,
+     "p1": 460,
+     "p2": 502,
+     "p3": 471,
+     "win_rate": 13.86,
+     "rentai_rate": 28.98,
+     "fukusho_rate": 43.16
+    },
+    "4": {
+     "starters": 3320,
+     "p1": 303,
+     "p2": 399,
+     "p3": 413,
+     "win_rate": 9.13,
+     "rentai_rate": 21.14,
+     "fukusho_rate": 33.58
+    },
+    "5": {
+     "starters": 3320,
+     "p1": 230,
+     "p2": 297,
+     "p3": 365,
+     "win_rate": 6.93,
+     "rentai_rate": 15.87,
+     "fukusho_rate": 26.87
+    },
+    "6": {
+     "starters": 3313,
+     "p1": 188,
+     "p2": 225,
+     "p3": 289,
+     "win_rate": 5.67,
+     "rentai_rate": 12.47,
+     "fukusho_rate": 21.19
+    },
+    "7": {
+     "starters": 3298,
+     "p1": 125,
+     "p2": 199,
+     "p3": 220,
+     "win_rate": 3.79,
+     "rentai_rate": 9.82,
+     "fukusho_rate": 16.49
+    },
+    "8": {
+     "starters": 3255,
+     "p1": 93,
+     "p2": 133,
+     "p3": 184,
+     "win_rate": 2.86,
+     "rentai_rate": 6.94,
+     "fukusho_rate": 12.6
+    },
+    "9": {
+     "starters": 3146,
+     "p1": 71,
+     "p2": 100,
+     "p3": 135,
+     "win_rate": 2.26,
+     "rentai_rate": 5.44,
+     "fukusho_rate": 9.73
+    },
+    "10": {
+     "starters": 2979,
+     "p1": 48,
+     "p2": 86,
+     "p3": 97,
+     "win_rate": 1.61,
+     "rentai_rate": 4.5,
+     "fukusho_rate": 7.75
+    },
+    "11": {
+     "starters": 2775,
+     "p1": 34,
+     "p2": 57,
+     "p3": 89,
+     "win_rate": 1.23,
+     "rentai_rate": 3.28,
+     "fukusho_rate": 6.49
+    },
+    "12": {
+     "starters": 2537,
+     "p1": 26,
+     "p2": 40,
+     "p3": 72,
+     "win_rate": 1.02,
+     "rentai_rate": 2.6,
+     "fukusho_rate": 5.44
+    },
+    "13": {
+     "starters": 2288,
+     "p1": 16,
+     "p2": 27,
+     "p3": 36,
+     "win_rate": 0.7,
+     "rentai_rate": 1.88,
+     "fukusho_rate": 3.45
+    },
+    "14": {
+     "starters": 2015,
+     "p1": 14,
+     "p2": 18,
+     "p3": 25,
+     "win_rate": 0.69,
+     "rentai_rate": 1.59,
+     "fukusho_rate": 2.83
+    },
+    "15": {
+     "starters": 1649,
+     "p1": 2,
+     "p2": 6,
+     "p3": 10,
+     "win_rate": 0.12,
+     "rentai_rate": 0.49,
+     "fukusho_rate": 1.09
+    },
+    "16": {
+     "starters": 1269,
+     "p1": 2,
+     "p2": 5,
+     "p3": 13,
+     "win_rate": 0.16,
+     "rentai_rate": 0.55,
+     "fukusho_rate": 1.58
+    },
+    "17": {
+     "starters": 260,
+     "p1": 1,
+     "p2": 1,
+     "p3": 3,
+     "win_rate": 0.38,
+     "rentai_rate": 0.77,
+     "fukusho_rate": 1.92
+    },
+    "18": {
+     "starters": 205,
+     "p1": 0,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.49
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3198,
+     "p1": 1049,
+     "p2": 590,
+     "p3": 428,
+     "win_rate": 32.8,
+     "rentai_rate": 51.25,
+     "fukusho_rate": 64.63
+    },
+    "2": {
+     "starters": 3198,
+     "p1": 596,
+     "p2": 587,
+     "p3": 441,
+     "win_rate": 18.64,
+     "rentai_rate": 36.99,
+     "fukusho_rate": 50.78
+    },
+    "3": {
+     "starters": 3198,
+     "p1": 441,
+     "p2": 483,
+     "p3": 450,
+     "win_rate": 13.79,
+     "rentai_rate": 28.89,
+     "fukusho_rate": 42.96
+    },
+    "4": {
+     "starters": 3198,
+     "p1": 290,
+     "p2": 389,
+     "p3": 398,
+     "win_rate": 9.07,
+     "rentai_rate": 21.23,
+     "fukusho_rate": 33.68
+    },
+    "5": {
+     "starters": 3198,
+     "p1": 225,
+     "p2": 284,
+     "p3": 349,
+     "win_rate": 7.04,
+     "rentai_rate": 15.92,
+     "fukusho_rate": 26.83
+    },
+    "6": {
+     "starters": 3192,
+     "p1": 180,
+     "p2": 212,
+     "p3": 276,
+     "win_rate": 5.64,
+     "rentai_rate": 12.28,
+     "fukusho_rate": 20.93
+    },
+    "7": {
+     "starters": 3178,
+     "p1": 123,
+     "p2": 192,
+     "p3": 214,
+     "win_rate": 3.87,
+     "rentai_rate": 9.91,
+     "fukusho_rate": 16.65
+    },
+    "8": {
+     "starters": 3136,
+     "p1": 88,
+     "p2": 130,
+     "p3": 179,
+     "win_rate": 2.81,
+     "rentai_rate": 6.95,
+     "fukusho_rate": 12.66
+    },
+    "9": {
+     "starters": 3031,
+     "p1": 69,
+     "p2": 99,
+     "p3": 133,
+     "win_rate": 2.28,
+     "rentai_rate": 5.54,
+     "fukusho_rate": 9.93
+    },
+    "10": {
+     "starters": 2869,
+     "p1": 48,
+     "p2": 82,
+     "p3": 92,
+     "win_rate": 1.67,
+     "rentai_rate": 4.53,
+     "fukusho_rate": 7.74
+    },
+    "11": {
+     "starters": 2677,
+     "p1": 33,
+     "p2": 55,
+     "p3": 84,
+     "win_rate": 1.23,
+     "rentai_rate": 3.29,
+     "fukusho_rate": 6.43
+    },
+    "12": {
+     "starters": 2451,
+     "p1": 26,
+     "p2": 39,
+     "p3": 69,
+     "win_rate": 1.06,
+     "rentai_rate": 2.65,
+     "fukusho_rate": 5.47
+    },
+    "13": {
+     "starters": 2213,
+     "p1": 16,
+     "p2": 26,
+     "p3": 34,
+     "win_rate": 0.72,
+     "rentai_rate": 1.9,
+     "fukusho_rate": 3.43
+    },
+    "14": {
+     "starters": 1961,
+     "p1": 14,
+     "p2": 17,
+     "p3": 25,
+     "win_rate": 0.71,
+     "rentai_rate": 1.58,
+     "fukusho_rate": 2.86
+    },
+    "15": {
+     "starters": 1647,
+     "p1": 2,
+     "p2": 6,
+     "p3": 10,
+     "win_rate": 0.12,
+     "rentai_rate": 0.49,
+     "fukusho_rate": 1.09
+    },
+    "16": {
+     "starters": 1268,
+     "p1": 2,
+     "p2": 5,
+     "p3": 13,
+     "win_rate": 0.16,
+     "rentai_rate": 0.55,
+     "fukusho_rate": 1.58
+    },
+    "17": {
+     "starters": 260,
+     "p1": 1,
+     "p2": 1,
+     "p3": 3,
+     "win_rate": 0.38,
+     "rentai_rate": 0.77,
+     "fukusho_rate": 1.92
+    },
+    "18": {
+     "starters": 205,
+     "p1": 0,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.49
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 122,
+     "p1": 47,
+     "p2": 29,
+     "p3": 7,
+     "win_rate": 38.52,
+     "rentai_rate": 62.3,
+     "fukusho_rate": 68.03
+    },
+    "2": {
+     "starters": 122,
+     "p1": 20,
+     "p2": 18,
+     "p3": 22,
+     "win_rate": 16.39,
+     "rentai_rate": 31.15,
+     "fukusho_rate": 49.18
+    },
+    "3": {
+     "starters": 122,
+     "p1": 19,
+     "p2": 19,
+     "p3": 21,
+     "win_rate": 15.57,
+     "rentai_rate": 31.15,
+     "fukusho_rate": 48.36
+    },
+    "4": {
+     "starters": 122,
+     "p1": 13,
+     "p2": 10,
+     "p3": 15,
+     "win_rate": 10.66,
+     "rentai_rate": 18.85,
+     "fukusho_rate": 31.15
+    },
+    "5": {
+     "starters": 122,
+     "p1": 5,
+     "p2": 13,
+     "p3": 16,
+     "win_rate": 4.1,
+     "rentai_rate": 14.75,
+     "fukusho_rate": 27.87
+    },
+    "6": {
+     "starters": 121,
+     "p1": 8,
+     "p2": 13,
+     "p3": 13,
+     "win_rate": 6.61,
+     "rentai_rate": 17.36,
+     "fukusho_rate": 28.1
+    },
+    "7": {
+     "starters": 120,
+     "p1": 2,
+     "p2": 7,
+     "p3": 6,
+     "win_rate": 1.67,
+     "rentai_rate": 7.5,
+     "fukusho_rate": 12.5
+    },
+    "8": {
+     "starters": 119,
+     "p1": 5,
+     "p2": 3,
+     "p3": 5,
+     "win_rate": 4.2,
+     "rentai_rate": 6.72,
+     "fukusho_rate": 10.92
+    },
+    "9": {
+     "starters": 115,
+     "p1": 2,
+     "p2": 1,
+     "p3": 2,
+     "win_rate": 1.74,
+     "rentai_rate": 2.61,
+     "fukusho_rate": 4.35
+    },
+    "10": {
+     "starters": 110,
+     "p1": 0,
+     "p2": 4,
+     "p3": 5,
+     "win_rate": 0.0,
+     "rentai_rate": 3.64,
+     "fukusho_rate": 8.18
+    },
+    "11": {
+     "starters": 98,
+     "p1": 1,
+     "p2": 2,
+     "p3": 5,
+     "win_rate": 1.02,
+     "rentai_rate": 3.06,
+     "fukusho_rate": 8.16
+    },
+    "12": {
+     "starters": 86,
+     "p1": 0,
+     "p2": 1,
+     "p3": 3,
+     "win_rate": 0.0,
+     "rentai_rate": 1.16,
+     "fukusho_rate": 4.65
+    },
+    "13": {
+     "starters": 75,
+     "p1": 0,
+     "p2": 1,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 1.33,
+     "fukusho_rate": 4.0
+    },
+    "14": {
+     "starters": 54,
+     "p1": 0,
+     "p2": 1,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 1.85,
+     "fukusho_rate": 1.85
+    },
+    "15": {
+     "starters": 2,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    },
+    "16": {
+     "starters": 1,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    },
+    "17": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "18": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    }
+   },
+   "races": 3320
+  },
+  "2020": {
+   "all": {
+    "1": {
+     "starters": 3326,
+     "p1": 1062,
+     "p2": 610,
+     "p3": 414,
+     "win_rate": 31.93,
+     "rentai_rate": 50.27,
+     "fukusho_rate": 62.72
+    },
+    "2": {
+     "starters": 3326,
+     "p1": 641,
+     "p2": 622,
+     "p3": 450,
+     "win_rate": 19.27,
+     "rentai_rate": 37.97,
+     "fukusho_rate": 51.5
+    },
+    "3": {
+     "starters": 3326,
+     "p1": 441,
+     "p2": 492,
+     "p3": 443,
+     "win_rate": 13.26,
+     "rentai_rate": 28.05,
+     "fukusho_rate": 41.37
+    },
+    "4": {
+     "starters": 3326,
+     "p1": 301,
+     "p2": 378,
+     "p3": 385,
+     "win_rate": 9.05,
+     "rentai_rate": 20.41,
+     "fukusho_rate": 31.99
+    },
+    "5": {
+     "starters": 3326,
+     "p1": 242,
+     "p2": 273,
+     "p3": 339,
+     "win_rate": 7.28,
+     "rentai_rate": 15.48,
+     "fukusho_rate": 25.68
+    },
+    "6": {
+     "starters": 3317,
+     "p1": 171,
+     "p2": 248,
+     "p3": 290,
+     "win_rate": 5.16,
+     "rentai_rate": 12.63,
+     "fukusho_rate": 21.37
+    },
+    "7": {
+     "starters": 3303,
+     "p1": 150,
+     "p2": 183,
+     "p3": 231,
+     "win_rate": 4.54,
+     "rentai_rate": 10.08,
+     "fukusho_rate": 17.08
+    },
+    "8": {
+     "starters": 3275,
+     "p1": 95,
+     "p2": 138,
+     "p3": 197,
+     "win_rate": 2.9,
+     "rentai_rate": 7.11,
+     "fukusho_rate": 13.13
+    },
+    "9": {
+     "starters": 3184,
+     "p1": 72,
+     "p2": 111,
+     "p3": 166,
+     "win_rate": 2.26,
+     "rentai_rate": 5.75,
+     "fukusho_rate": 10.96
+    },
+    "10": {
+     "starters": 3047,
+     "p1": 51,
+     "p2": 90,
+     "p3": 123,
+     "win_rate": 1.67,
+     "rentai_rate": 4.63,
+     "fukusho_rate": 8.66
+    },
+    "11": {
+     "starters": 2854,
+     "p1": 32,
+     "p2": 67,
+     "p3": 99,
+     "win_rate": 1.12,
+     "rentai_rate": 3.47,
+     "fukusho_rate": 6.94
+    },
+    "12": {
+     "starters": 2625,
+     "p1": 19,
+     "p2": 47,
+     "p3": 71,
+     "win_rate": 0.72,
+     "rentai_rate": 2.51,
+     "fukusho_rate": 5.22
+    },
+    "13": {
+     "starters": 2351,
+     "p1": 22,
+     "p2": 29,
+     "p3": 49,
+     "win_rate": 0.94,
+     "rentai_rate": 2.17,
+     "fukusho_rate": 4.25
+    },
+    "14": {
+     "starters": 2091,
+     "p1": 18,
+     "p2": 20,
+     "p3": 38,
+     "win_rate": 0.86,
+     "rentai_rate": 1.82,
+     "fukusho_rate": 3.63
+    },
+    "15": {
+     "starters": 1750,
+     "p1": 10,
+     "p2": 10,
+     "p3": 20,
+     "win_rate": 0.57,
+     "rentai_rate": 1.14,
+     "fukusho_rate": 2.29
+    },
+    "16": {
+     "starters": 1352,
+     "p1": 7,
+     "p2": 6,
+     "p3": 14,
+     "win_rate": 0.52,
+     "rentai_rate": 0.96,
+     "fukusho_rate": 2.0
+    },
+    "17": {
+     "starters": 301,
+     "p1": 0,
+     "p2": 1,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.33,
+     "fukusho_rate": 0.33
+    },
+    "18": {
+     "starters": 232,
+     "p1": 1,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 0.43,
+     "rentai_rate": 0.43,
+     "fukusho_rate": 0.86
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3206,
+     "p1": 1026,
+     "p2": 590,
+     "p3": 400,
+     "win_rate": 32.0,
+     "rentai_rate": 50.41,
+     "fukusho_rate": 62.88
+    },
+    "2": {
+     "starters": 3206,
+     "p1": 620,
+     "p2": 601,
+     "p3": 435,
+     "win_rate": 19.34,
+     "rentai_rate": 38.08,
+     "fukusho_rate": 51.65
+    },
+    "3": {
+     "starters": 3206,
+     "p1": 424,
+     "p2": 475,
+     "p3": 422,
+     "win_rate": 13.23,
+     "rentai_rate": 28.04,
+     "fukusho_rate": 41.2
+    },
+    "4": {
+     "starters": 3206,
+     "p1": 286,
+     "p2": 366,
+     "p3": 373,
+     "win_rate": 8.92,
+     "rentai_rate": 20.34,
+     "fukusho_rate": 31.97
+    },
+    "5": {
+     "starters": 3206,
+     "p1": 231,
+     "p2": 260,
+     "p3": 328,
+     "win_rate": 7.21,
+     "rentai_rate": 15.32,
+     "fukusho_rate": 25.55
+    },
+    "6": {
+     "starters": 3197,
+     "p1": 165,
+     "p2": 238,
+     "p3": 283,
+     "win_rate": 5.16,
+     "rentai_rate": 12.61,
+     "fukusho_rate": 21.46
+    },
+    "7": {
+     "starters": 3184,
+     "p1": 143,
+     "p2": 177,
+     "p3": 221,
+     "win_rate": 4.49,
+     "rentai_rate": 10.05,
+     "fukusho_rate": 16.99
+    },
+    "8": {
+     "starters": 3157,
+     "p1": 91,
+     "p2": 132,
+     "p3": 182,
+     "win_rate": 2.88,
+     "rentai_rate": 7.06,
+     "fukusho_rate": 12.83
+    },
+    "9": {
+     "starters": 3067,
+     "p1": 70,
+     "p2": 103,
+     "p3": 159,
+     "win_rate": 2.28,
+     "rentai_rate": 5.64,
+     "fukusho_rate": 10.82
+    },
+    "10": {
+     "starters": 2934,
+     "p1": 50,
+     "p2": 87,
+     "p3": 121,
+     "win_rate": 1.7,
+     "rentai_rate": 4.67,
+     "fukusho_rate": 8.79
+    },
+    "11": {
+     "starters": 2754,
+     "p1": 32,
+     "p2": 65,
+     "p3": 96,
+     "win_rate": 1.16,
+     "rentai_rate": 3.52,
+     "fukusho_rate": 7.01
+    },
+    "12": {
+     "starters": 2536,
+     "p1": 19,
+     "p2": 45,
+     "p3": 68,
+     "win_rate": 0.75,
+     "rentai_rate": 2.52,
+     "fukusho_rate": 5.21
+    },
+    "13": {
+     "starters": 2275,
+     "p1": 22,
+     "p2": 29,
+     "p3": 48,
+     "win_rate": 0.97,
+     "rentai_rate": 2.24,
+     "fukusho_rate": 4.35
+    },
+    "14": {
+     "starters": 2034,
+     "p1": 18,
+     "p2": 20,
+     "p3": 38,
+     "win_rate": 0.88,
+     "rentai_rate": 1.87,
+     "fukusho_rate": 3.74
+    },
+    "15": {
+     "starters": 1749,
+     "p1": 10,
+     "p2": 10,
+     "p3": 20,
+     "win_rate": 0.57,
+     "rentai_rate": 1.14,
+     "fukusho_rate": 2.29
+    },
+    "16": {
+     "starters": 1351,
+     "p1": 7,
+     "p2": 6,
+     "p3": 14,
+     "win_rate": 0.52,
+     "rentai_rate": 0.96,
+     "fukusho_rate": 2.0
+    },
+    "17": {
+     "starters": 301,
+     "p1": 0,
+     "p2": 1,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.33,
+     "fukusho_rate": 0.33
+    },
+    "18": {
+     "starters": 232,
+     "p1": 1,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 0.43,
+     "rentai_rate": 0.43,
+     "fukusho_rate": 0.86
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 120,
+     "p1": 36,
+     "p2": 20,
+     "p3": 14,
+     "win_rate": 30.0,
+     "rentai_rate": 46.67,
+     "fukusho_rate": 58.33
+    },
+    "2": {
+     "starters": 120,
+     "p1": 21,
+     "p2": 21,
+     "p3": 15,
+     "win_rate": 17.5,
+     "rentai_rate": 35.0,
+     "fukusho_rate": 47.5
+    },
+    "3": {
+     "starters": 120,
+     "p1": 17,
+     "p2": 17,
+     "p3": 21,
+     "win_rate": 14.17,
+     "rentai_rate": 28.33,
+     "fukusho_rate": 45.83
+    },
+    "4": {
+     "starters": 120,
+     "p1": 15,
+     "p2": 12,
+     "p3": 12,
+     "win_rate": 12.5,
+     "rentai_rate": 22.5,
+     "fukusho_rate": 32.5
+    },
+    "5": {
+     "starters": 120,
+     "p1": 11,
+     "p2": 13,
+     "p3": 11,
+     "win_rate": 9.17,
+     "rentai_rate": 20.0,
+     "fukusho_rate": 29.17
+    },
+    "6": {
+     "starters": 120,
+     "p1": 6,
+     "p2": 10,
+     "p3": 7,
+     "win_rate": 5.0,
+     "rentai_rate": 13.33,
+     "fukusho_rate": 19.17
+    },
+    "7": {
+     "starters": 119,
+     "p1": 7,
+     "p2": 6,
+     "p3": 10,
+     "win_rate": 5.88,
+     "rentai_rate": 10.92,
+     "fukusho_rate": 19.33
+    },
+    "8": {
+     "starters": 118,
+     "p1": 4,
+     "p2": 6,
+     "p3": 15,
+     "win_rate": 3.39,
+     "rentai_rate": 8.47,
+     "fukusho_rate": 21.19
+    },
+    "9": {
+     "starters": 117,
+     "p1": 2,
+     "p2": 8,
+     "p3": 7,
+     "win_rate": 1.71,
+     "rentai_rate": 8.55,
+     "fukusho_rate": 14.53
+    },
+    "10": {
+     "starters": 113,
+     "p1": 1,
+     "p2": 3,
+     "p3": 2,
+     "win_rate": 0.88,
+     "rentai_rate": 3.54,
+     "fukusho_rate": 5.31
+    },
+    "11": {
+     "starters": 100,
+     "p1": 0,
+     "p2": 2,
+     "p3": 3,
+     "win_rate": 0.0,
+     "rentai_rate": 2.0,
+     "fukusho_rate": 5.0
+    },
+    "12": {
+     "starters": 89,
+     "p1": 0,
+     "p2": 2,
+     "p3": 3,
+     "win_rate": 0.0,
+     "rentai_rate": 2.25,
+     "fukusho_rate": 5.62
+    },
+    "13": {
+     "starters": 76,
+     "p1": 0,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 1.32
+    },
+    "14": {
+     "starters": 57,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    },
+    "15": {
+     "starters": 1,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    },
+    "16": {
+     "starters": 1,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    },
+    "17": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "18": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    }
+   },
+   "races": 3326
+  },
+  "2021": {
+   "all": {
+    "1": {
+     "starters": 3360,
+     "p1": 1106,
+     "p2": 621,
+     "p3": 420,
+     "win_rate": 32.92,
+     "rentai_rate": 51.4,
+     "fukusho_rate": 63.9
+    },
+    "2": {
+     "starters": 3360,
+     "p1": 657,
+     "p2": 633,
+     "p3": 484,
+     "win_rate": 19.55,
+     "rentai_rate": 38.39,
+     "fukusho_rate": 52.8
+    },
+    "3": {
+     "starters": 3360,
+     "p1": 443,
+     "p2": 480,
+     "p3": 490,
+     "win_rate": 13.18,
+     "rentai_rate": 27.47,
+     "fukusho_rate": 42.05
+    },
+    "4": {
+     "starters": 3360,
+     "p1": 300,
+     "p2": 390,
+     "p3": 391,
+     "win_rate": 8.93,
+     "rentai_rate": 20.54,
+     "fukusho_rate": 32.17
+    },
+    "5": {
+     "starters": 3361,
+     "p1": 241,
+     "p2": 305,
+     "p3": 348,
+     "win_rate": 7.17,
+     "rentai_rate": 16.25,
+     "fukusho_rate": 26.6
+    },
+    "6": {
+     "starters": 3356,
+     "p1": 196,
+     "p2": 257,
+     "p3": 308,
+     "win_rate": 5.84,
+     "rentai_rate": 13.5,
+     "fukusho_rate": 22.68
+    },
+    "7": {
+     "starters": 3346,
+     "p1": 119,
+     "p2": 185,
+     "p3": 234,
+     "win_rate": 3.56,
+     "rentai_rate": 9.09,
+     "fukusho_rate": 16.08
+    },
+    "8": {
+     "starters": 3296,
+     "p1": 96,
+     "p2": 134,
+     "p3": 185,
+     "win_rate": 2.91,
+     "rentai_rate": 6.98,
+     "fukusho_rate": 12.59
+    },
+    "9": {
+     "starters": 3177,
+     "p1": 58,
+     "p2": 119,
+     "p3": 159,
+     "win_rate": 1.83,
+     "rentai_rate": 5.57,
+     "fukusho_rate": 10.58
+    },
+    "10": {
+     "starters": 3024,
+     "p1": 60,
+     "p2": 76,
+     "p3": 112,
+     "win_rate": 1.98,
+     "rentai_rate": 4.5,
+     "fukusho_rate": 8.2
+    },
+    "11": {
+     "starters": 2825,
+     "p1": 42,
+     "p2": 57,
+     "p3": 69,
+     "win_rate": 1.49,
+     "rentai_rate": 3.5,
+     "fukusho_rate": 5.95
+    },
+    "12": {
+     "starters": 2608,
+     "p1": 21,
+     "p2": 40,
+     "p3": 55,
+     "win_rate": 0.81,
+     "rentai_rate": 2.34,
+     "fukusho_rate": 4.45
+    },
+    "13": {
+     "starters": 2321,
+     "p1": 14,
+     "p2": 20,
+     "p3": 39,
+     "win_rate": 0.6,
+     "rentai_rate": 1.46,
+     "fukusho_rate": 3.15
+    },
+    "14": {
+     "starters": 2074,
+     "p1": 7,
+     "p2": 16,
+     "p3": 30,
+     "win_rate": 0.34,
+     "rentai_rate": 1.11,
+     "fukusho_rate": 2.56
+    },
+    "15": {
+     "starters": 1705,
+     "p1": 3,
+     "p2": 17,
+     "p3": 29,
+     "win_rate": 0.18,
+     "rentai_rate": 1.17,
+     "fukusho_rate": 2.87
+    },
+    "16": {
+     "starters": 1275,
+     "p1": 6,
+     "p2": 2,
+     "p3": 9,
+     "win_rate": 0.47,
+     "rentai_rate": 0.63,
+     "fukusho_rate": 1.33
+    },
+    "17": {
+     "starters": 275,
+     "p1": 0,
+     "p2": 3,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 1.09,
+     "fukusho_rate": 1.45
+    },
+    "18": {
+     "starters": 208,
+     "p1": 0,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.48
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3235,
+     "p1": 1060,
+     "p2": 594,
+     "p3": 407,
+     "win_rate": 32.77,
+     "rentai_rate": 51.13,
+     "fukusho_rate": 63.71
+    },
+    "2": {
+     "starters": 3235,
+     "p1": 636,
+     "p2": 605,
+     "p3": 463,
+     "win_rate": 19.66,
+     "rentai_rate": 38.36,
+     "fukusho_rate": 52.67
+    },
+    "3": {
+     "starters": 3235,
+     "p1": 430,
+     "p2": 463,
+     "p3": 472,
+     "win_rate": 13.29,
+     "rentai_rate": 27.6,
+     "fukusho_rate": 42.19
+    },
+    "4": {
+     "starters": 3235,
+     "p1": 291,
+     "p2": 375,
+     "p3": 375,
+     "win_rate": 9.0,
+     "rentai_rate": 20.59,
+     "fukusho_rate": 32.18
+    },
+    "5": {
+     "starters": 3236,
+     "p1": 227,
+     "p2": 291,
+     "p3": 335,
+     "win_rate": 7.01,
+     "rentai_rate": 16.01,
+     "fukusho_rate": 26.36
+    },
+    "6": {
+     "starters": 3231,
+     "p1": 190,
+     "p2": 251,
+     "p3": 293,
+     "win_rate": 5.88,
+     "rentai_rate": 13.65,
+     "fukusho_rate": 22.72
+    },
+    "7": {
+     "starters": 3222,
+     "p1": 114,
+     "p2": 177,
+     "p3": 219,
+     "win_rate": 3.54,
+     "rentai_rate": 9.03,
+     "fukusho_rate": 15.83
+    },
+    "8": {
+     "starters": 3174,
+     "p1": 93,
+     "p2": 132,
+     "p3": 177,
+     "win_rate": 2.93,
+     "rentai_rate": 7.09,
+     "fukusho_rate": 12.67
+    },
+    "9": {
+     "starters": 3062,
+     "p1": 56,
+     "p2": 116,
+     "p3": 155,
+     "win_rate": 1.83,
+     "rentai_rate": 5.62,
+     "fukusho_rate": 10.68
+    },
+    "10": {
+     "starters": 2915,
+     "p1": 56,
+     "p2": 73,
+     "p3": 110,
+     "win_rate": 1.92,
+     "rentai_rate": 4.43,
+     "fukusho_rate": 8.2
+    },
+    "11": {
+     "starters": 2728,
+     "p1": 42,
+     "p2": 56,
+     "p3": 69,
+     "win_rate": 1.54,
+     "rentai_rate": 3.59,
+     "fukusho_rate": 6.12
+    },
+    "12": {
+     "starters": 2532,
+     "p1": 19,
+     "p2": 40,
+     "p3": 55,
+     "win_rate": 0.75,
+     "rentai_rate": 2.33,
+     "fukusho_rate": 4.5
+    },
+    "13": {
+     "starters": 2277,
+     "p1": 14,
+     "p2": 20,
+     "p3": 39,
+     "win_rate": 0.61,
+     "rentai_rate": 1.49,
+     "fukusho_rate": 3.21
+    },
+    "14": {
+     "starters": 2047,
+     "p1": 7,
+     "p2": 15,
+     "p3": 30,
+     "win_rate": 0.34,
+     "rentai_rate": 1.07,
+     "fukusho_rate": 2.54
+    },
+    "15": {
+     "starters": 1705,
+     "p1": 3,
+     "p2": 17,
+     "p3": 29,
+     "win_rate": 0.18,
+     "rentai_rate": 1.17,
+     "fukusho_rate": 2.87
+    },
+    "16": {
+     "starters": 1275,
+     "p1": 6,
+     "p2": 2,
+     "p3": 9,
+     "win_rate": 0.47,
+     "rentai_rate": 0.63,
+     "fukusho_rate": 1.33
+    },
+    "17": {
+     "starters": 275,
+     "p1": 0,
+     "p2": 3,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 1.09,
+     "fukusho_rate": 1.45
+    },
+    "18": {
+     "starters": 208,
+     "p1": 0,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.48
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 125,
+     "p1": 46,
+     "p2": 27,
+     "p3": 13,
+     "win_rate": 36.8,
+     "rentai_rate": 58.4,
+     "fukusho_rate": 68.8
+    },
+    "2": {
+     "starters": 125,
+     "p1": 21,
+     "p2": 28,
+     "p3": 21,
+     "win_rate": 16.8,
+     "rentai_rate": 39.2,
+     "fukusho_rate": 56.0
+    },
+    "3": {
+     "starters": 125,
+     "p1": 13,
+     "p2": 17,
+     "p3": 18,
+     "win_rate": 10.4,
+     "rentai_rate": 24.0,
+     "fukusho_rate": 38.4
+    },
+    "4": {
+     "starters": 125,
+     "p1": 9,
+     "p2": 15,
+     "p3": 16,
+     "win_rate": 7.2,
+     "rentai_rate": 19.2,
+     "fukusho_rate": 32.0
+    },
+    "5": {
+     "starters": 125,
+     "p1": 14,
+     "p2": 14,
+     "p3": 13,
+     "win_rate": 11.2,
+     "rentai_rate": 22.4,
+     "fukusho_rate": 32.8
+    },
+    "6": {
+     "starters": 125,
+     "p1": 6,
+     "p2": 6,
+     "p3": 15,
+     "win_rate": 4.8,
+     "rentai_rate": 9.6,
+     "fukusho_rate": 21.6
+    },
+    "7": {
+     "starters": 124,
+     "p1": 5,
+     "p2": 8,
+     "p3": 15,
+     "win_rate": 4.03,
+     "rentai_rate": 10.48,
+     "fukusho_rate": 22.58
+    },
+    "8": {
+     "starters": 122,
+     "p1": 3,
+     "p2": 2,
+     "p3": 8,
+     "win_rate": 2.46,
+     "rentai_rate": 4.1,
+     "fukusho_rate": 10.66
+    },
+    "9": {
+     "starters": 115,
+     "p1": 2,
+     "p2": 3,
+     "p3": 4,
+     "win_rate": 1.74,
+     "rentai_rate": 4.35,
+     "fukusho_rate": 7.83
+    },
+    "10": {
+     "starters": 109,
+     "p1": 4,
+     "p2": 3,
+     "p3": 2,
+     "win_rate": 3.67,
+     "rentai_rate": 6.42,
+     "fukusho_rate": 8.26
+    },
+    "11": {
+     "starters": 97,
+     "p1": 0,
+     "p2": 1,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 1.03,
+     "fukusho_rate": 1.03
+    },
+    "12": {
+     "starters": 76,
+     "p1": 2,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 2.63,
+     "rentai_rate": 2.63,
+     "fukusho_rate": 2.63
+    },
+    "13": {
+     "starters": 44,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    },
+    "14": {
+     "starters": 27,
+     "p1": 0,
+     "p2": 1,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 3.7,
+     "fukusho_rate": 3.7
+    },
+    "15": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "16": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "17": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "18": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    }
+   },
+   "races": 3360
+  },
+  "2022": {
+   "all": {
+    "1": {
+     "starters": 3312,
+     "p1": 1127,
+     "p2": 631,
+     "p3": 403,
+     "win_rate": 34.03,
+     "rentai_rate": 53.08,
+     "fukusho_rate": 65.25
+    },
+    "2": {
+     "starters": 3312,
+     "p1": 653,
+     "p2": 598,
+     "p3": 491,
+     "win_rate": 19.72,
+     "rentai_rate": 37.77,
+     "fukusho_rate": 52.6
+    },
+    "3": {
+     "starters": 3312,
+     "p1": 449,
+     "p2": 462,
+     "p3": 434,
+     "win_rate": 13.56,
+     "rentai_rate": 27.51,
+     "fukusho_rate": 40.61
+    },
+    "4": {
+     "starters": 3312,
+     "p1": 329,
+     "p2": 376,
+     "p3": 452,
+     "win_rate": 9.93,
+     "rentai_rate": 21.29,
+     "fukusho_rate": 34.93
+    },
+    "5": {
+     "starters": 3311,
+     "p1": 221,
+     "p2": 318,
+     "p3": 351,
+     "win_rate": 6.67,
+     "rentai_rate": 16.28,
+     "fukusho_rate": 26.88
+    },
+    "6": {
+     "starters": 3306,
+     "p1": 170,
+     "p2": 242,
+     "p3": 300,
+     "win_rate": 5.14,
+     "rentai_rate": 12.46,
+     "fukusho_rate": 21.54
+    },
+    "7": {
+     "starters": 3288,
+     "p1": 120,
+     "p2": 200,
+     "p3": 207,
+     "win_rate": 3.65,
+     "rentai_rate": 9.73,
+     "fukusho_rate": 16.03
+    },
+    "8": {
+     "starters": 3235,
+     "p1": 84,
+     "p2": 149,
+     "p3": 172,
+     "win_rate": 2.6,
+     "rentai_rate": 7.2,
+     "fukusho_rate": 12.52
+    },
+    "9": {
+     "starters": 3120,
+     "p1": 55,
+     "p2": 106,
+     "p3": 139,
+     "win_rate": 1.76,
+     "rentai_rate": 5.16,
+     "fukusho_rate": 9.62
+    },
+    "10": {
+     "starters": 2961,
+     "p1": 32,
+     "p2": 81,
+     "p3": 101,
+     "win_rate": 1.08,
+     "rentai_rate": 3.82,
+     "fukusho_rate": 7.23
+    },
+    "11": {
+     "starters": 2753,
+     "p1": 26,
+     "p2": 45,
+     "p3": 101,
+     "win_rate": 0.94,
+     "rentai_rate": 2.58,
+     "fukusho_rate": 6.25
+    },
+    "12": {
+     "starters": 2505,
+     "p1": 22,
+     "p2": 58,
+     "p3": 52,
+     "win_rate": 0.88,
+     "rentai_rate": 3.19,
+     "fukusho_rate": 5.27
+    },
+    "13": {
+     "starters": 2209,
+     "p1": 9,
+     "p2": 26,
+     "p3": 38,
+     "win_rate": 0.41,
+     "rentai_rate": 1.58,
+     "fukusho_rate": 3.3
+    },
+    "14": {
+     "starters": 1946,
+     "p1": 7,
+     "p2": 12,
+     "p3": 34,
+     "win_rate": 0.36,
+     "rentai_rate": 0.98,
+     "fukusho_rate": 2.72
+    },
+    "15": {
+     "starters": 1579,
+     "p1": 9,
+     "p2": 6,
+     "p3": 19,
+     "win_rate": 0.57,
+     "rentai_rate": 0.95,
+     "fukusho_rate": 2.15
+    },
+    "16": {
+     "starters": 1206,
+     "p1": 3,
+     "p2": 3,
+     "p3": 10,
+     "win_rate": 0.25,
+     "rentai_rate": 0.5,
+     "fukusho_rate": 1.33
+    },
+    "17": {
+     "starters": 241,
+     "p1": 0,
+     "p2": 0,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.83
+    },
+    "18": {
+     "starters": 188,
+     "p1": 0,
+     "p2": 1,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 0.53,
+     "fukusho_rate": 1.6
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3191,
+     "p1": 1087,
+     "p2": 602,
+     "p3": 387,
+     "win_rate": 34.06,
+     "rentai_rate": 52.93,
+     "fukusho_rate": 65.06
+    },
+    "2": {
+     "starters": 3191,
+     "p1": 620,
+     "p2": 582,
+     "p3": 478,
+     "win_rate": 19.43,
+     "rentai_rate": 37.67,
+     "fukusho_rate": 52.65
+    },
+    "3": {
+     "starters": 3191,
+     "p1": 435,
+     "p2": 447,
+     "p3": 416,
+     "win_rate": 13.63,
+     "rentai_rate": 27.64,
+     "fukusho_rate": 40.68
+    },
+    "4": {
+     "starters": 3191,
+     "p1": 319,
+     "p2": 360,
+     "p3": 432,
+     "win_rate": 10.0,
+     "rentai_rate": 21.28,
+     "fukusho_rate": 34.82
+    },
+    "5": {
+     "starters": 3190,
+     "p1": 214,
+     "p2": 308,
+     "p3": 334,
+     "win_rate": 6.71,
+     "rentai_rate": 16.36,
+     "fukusho_rate": 26.83
+    },
+    "6": {
+     "starters": 3185,
+     "p1": 164,
+     "p2": 233,
+     "p3": 291,
+     "win_rate": 5.15,
+     "rentai_rate": 12.46,
+     "fukusho_rate": 21.6
+    },
+    "7": {
+     "starters": 3171,
+     "p1": 118,
+     "p2": 191,
+     "p3": 194,
+     "win_rate": 3.72,
+     "rentai_rate": 9.74,
+     "fukusho_rate": 15.86
+    },
+    "8": {
+     "starters": 3121,
+     "p1": 80,
+     "p2": 143,
+     "p3": 167,
+     "win_rate": 2.56,
+     "rentai_rate": 7.15,
+     "fukusho_rate": 12.5
+    },
+    "9": {
+     "starters": 3017,
+     "p1": 53,
+     "p2": 102,
+     "p3": 135,
+     "win_rate": 1.76,
+     "rentai_rate": 5.14,
+     "fukusho_rate": 9.61
+    },
+    "10": {
+     "starters": 2870,
+     "p1": 30,
+     "p2": 77,
+     "p3": 99,
+     "win_rate": 1.05,
+     "rentai_rate": 3.73,
+     "fukusho_rate": 7.18
+    },
+    "11": {
+     "starters": 2670,
+     "p1": 25,
+     "p2": 43,
+     "p3": 100,
+     "win_rate": 0.94,
+     "rentai_rate": 2.55,
+     "fukusho_rate": 6.29
+    },
+    "12": {
+     "starters": 2439,
+     "p1": 22,
+     "p2": 57,
+     "p3": 49,
+     "win_rate": 0.9,
+     "rentai_rate": 3.24,
+     "fukusho_rate": 5.25
+    },
+    "13": {
+     "starters": 2169,
+     "p1": 9,
+     "p2": 26,
+     "p3": 38,
+     "win_rate": 0.41,
+     "rentai_rate": 1.61,
+     "fukusho_rate": 3.37
+    },
+    "14": {
+     "starters": 1922,
+     "p1": 7,
+     "p2": 12,
+     "p3": 34,
+     "win_rate": 0.36,
+     "rentai_rate": 0.99,
+     "fukusho_rate": 2.76
+    },
+    "15": {
+     "starters": 1579,
+     "p1": 9,
+     "p2": 6,
+     "p3": 19,
+     "win_rate": 0.57,
+     "rentai_rate": 0.95,
+     "fukusho_rate": 2.15
+    },
+    "16": {
+     "starters": 1206,
+     "p1": 3,
+     "p2": 3,
+     "p3": 10,
+     "win_rate": 0.25,
+     "rentai_rate": 0.5,
+     "fukusho_rate": 1.33
+    },
+    "17": {
+     "starters": 241,
+     "p1": 0,
+     "p2": 0,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.83
+    },
+    "18": {
+     "starters": 188,
+     "p1": 0,
+     "p2": 1,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 0.53,
+     "fukusho_rate": 1.6
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 121,
+     "p1": 40,
+     "p2": 29,
+     "p3": 16,
+     "win_rate": 33.06,
+     "rentai_rate": 57.02,
+     "fukusho_rate": 70.25
+    },
+    "2": {
+     "starters": 121,
+     "p1": 33,
+     "p2": 16,
+     "p3": 13,
+     "win_rate": 27.27,
+     "rentai_rate": 40.5,
+     "fukusho_rate": 51.24
+    },
+    "3": {
+     "starters": 121,
+     "p1": 14,
+     "p2": 15,
+     "p3": 18,
+     "win_rate": 11.57,
+     "rentai_rate": 23.97,
+     "fukusho_rate": 38.84
+    },
+    "4": {
+     "starters": 121,
+     "p1": 10,
+     "p2": 16,
+     "p3": 20,
+     "win_rate": 8.26,
+     "rentai_rate": 21.49,
+     "fukusho_rate": 38.02
+    },
+    "5": {
+     "starters": 121,
+     "p1": 7,
+     "p2": 10,
+     "p3": 17,
+     "win_rate": 5.79,
+     "rentai_rate": 14.05,
+     "fukusho_rate": 28.1
+    },
+    "6": {
+     "starters": 121,
+     "p1": 6,
+     "p2": 9,
+     "p3": 9,
+     "win_rate": 4.96,
+     "rentai_rate": 12.4,
+     "fukusho_rate": 19.83
+    },
+    "7": {
+     "starters": 117,
+     "p1": 2,
+     "p2": 9,
+     "p3": 13,
+     "win_rate": 1.71,
+     "rentai_rate": 9.4,
+     "fukusho_rate": 20.51
+    },
+    "8": {
+     "starters": 114,
+     "p1": 4,
+     "p2": 6,
+     "p3": 5,
+     "win_rate": 3.51,
+     "rentai_rate": 8.77,
+     "fukusho_rate": 13.16
+    },
+    "9": {
+     "starters": 103,
+     "p1": 2,
+     "p2": 4,
+     "p3": 4,
+     "win_rate": 1.94,
+     "rentai_rate": 5.83,
+     "fukusho_rate": 9.71
+    },
+    "10": {
+     "starters": 91,
+     "p1": 2,
+     "p2": 4,
+     "p3": 2,
+     "win_rate": 2.2,
+     "rentai_rate": 6.59,
+     "fukusho_rate": 8.79
+    },
+    "11": {
+     "starters": 83,
+     "p1": 1,
+     "p2": 2,
+     "p3": 1,
+     "win_rate": 1.2,
+     "rentai_rate": 3.61,
+     "fukusho_rate": 4.82
+    },
+    "12": {
+     "starters": 66,
+     "p1": 0,
+     "p2": 1,
+     "p3": 3,
+     "win_rate": 0.0,
+     "rentai_rate": 1.52,
+     "fukusho_rate": 6.06
+    },
+    "13": {
+     "starters": 40,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    },
+    "14": {
+     "starters": 24,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    },
+    "15": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "16": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "17": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "18": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    }
+   },
+   "races": 3312
+  },
+  "2023": {
+   "all": {
+    "1": {
+     "starters": 3336,
+     "p1": 1104,
+     "p2": 615,
+     "p3": 415,
+     "win_rate": 33.09,
+     "rentai_rate": 51.53,
+     "fukusho_rate": 63.97
+    },
+    "2": {
+     "starters": 3336,
+     "p1": 662,
+     "p2": 590,
+     "p3": 459,
+     "win_rate": 19.84,
+     "rentai_rate": 37.53,
+     "fukusho_rate": 51.29
+    },
+    "3": {
+     "starters": 3336,
+     "p1": 415,
+     "p2": 505,
+     "p3": 467,
+     "win_rate": 12.44,
+     "rentai_rate": 27.58,
+     "fukusho_rate": 41.58
+    },
+    "4": {
+     "starters": 3336,
+     "p1": 331,
+     "p2": 398,
+     "p3": 424,
+     "win_rate": 9.92,
+     "rentai_rate": 21.85,
+     "fukusho_rate": 34.56
+    },
+    "5": {
+     "starters": 3336,
+     "p1": 243,
+     "p2": 325,
+     "p3": 362,
+     "win_rate": 7.28,
+     "rentai_rate": 17.03,
+     "fukusho_rate": 27.88
+    },
+    "6": {
+     "starters": 3326,
+     "p1": 174,
+     "p2": 250,
+     "p3": 311,
+     "win_rate": 5.23,
+     "rentai_rate": 12.75,
+     "fukusho_rate": 22.1
+    },
+    "7": {
+     "starters": 3304,
+     "p1": 125,
+     "p2": 169,
+     "p3": 248,
+     "win_rate": 3.78,
+     "rentai_rate": 8.9,
+     "fukusho_rate": 16.4
+    },
+    "8": {
+     "starters": 3264,
+     "p1": 89,
+     "p2": 150,
+     "p3": 204,
+     "win_rate": 2.73,
+     "rentai_rate": 7.32,
+     "fukusho_rate": 13.57
+    },
+    "9": {
+     "starters": 3157,
+     "p1": 61,
+     "p2": 94,
+     "p3": 138,
+     "win_rate": 1.93,
+     "rentai_rate": 4.91,
+     "fukusho_rate": 9.28
+    },
+    "10": {
+     "starters": 3004,
+     "p1": 55,
+     "p2": 79,
+     "p3": 92,
+     "win_rate": 1.83,
+     "rentai_rate": 4.46,
+     "fukusho_rate": 7.52
+    },
+    "11": {
+     "starters": 2810,
+     "p1": 26,
+     "p2": 63,
+     "p3": 78,
+     "win_rate": 0.93,
+     "rentai_rate": 3.17,
+     "fukusho_rate": 5.94
+    },
+    "12": {
+     "starters": 2562,
+     "p1": 22,
+     "p2": 36,
+     "p3": 48,
+     "win_rate": 0.86,
+     "rentai_rate": 2.26,
+     "fukusho_rate": 4.14
+    },
+    "13": {
+     "starters": 2286,
+     "p1": 18,
+     "p2": 24,
+     "p3": 37,
+     "win_rate": 0.79,
+     "rentai_rate": 1.84,
+     "fukusho_rate": 3.46
+    },
+    "14": {
+     "starters": 2000,
+     "p1": 3,
+     "p2": 15,
+     "p3": 30,
+     "win_rate": 0.15,
+     "rentai_rate": 0.9,
+     "fukusho_rate": 2.4
+    },
+    "15": {
+     "starters": 1670,
+     "p1": 7,
+     "p2": 15,
+     "p3": 20,
+     "win_rate": 0.42,
+     "rentai_rate": 1.32,
+     "fukusho_rate": 2.51
+    },
+    "16": {
+     "starters": 1264,
+     "p1": 2,
+     "p2": 7,
+     "p3": 5,
+     "win_rate": 0.16,
+     "rentai_rate": 0.71,
+     "fukusho_rate": 1.11
+    },
+    "17": {
+     "starters": 277,
+     "p1": 1,
+     "p2": 1,
+     "p3": 2,
+     "win_rate": 0.36,
+     "rentai_rate": 0.72,
+     "fukusho_rate": 1.44
+    },
+    "18": {
+     "starters": 215,
+     "p1": 1,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 0.47,
+     "rentai_rate": 0.47,
+     "fukusho_rate": 0.93
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3212,
+     "p1": 1062,
+     "p2": 593,
+     "p3": 399,
+     "win_rate": 33.06,
+     "rentai_rate": 51.53,
+     "fukusho_rate": 63.95
+    },
+    "2": {
+     "starters": 3212,
+     "p1": 632,
+     "p2": 573,
+     "p3": 442,
+     "win_rate": 19.68,
+     "rentai_rate": 37.52,
+     "fukusho_rate": 51.28
+    },
+    "3": {
+     "starters": 3212,
+     "p1": 402,
+     "p2": 486,
+     "p3": 444,
+     "win_rate": 12.52,
+     "rentai_rate": 27.65,
+     "fukusho_rate": 41.47
+    },
+    "4": {
+     "starters": 3212,
+     "p1": 315,
+     "p2": 379,
+     "p3": 413,
+     "win_rate": 9.81,
+     "rentai_rate": 21.61,
+     "fukusho_rate": 34.46
+    },
+    "5": {
+     "starters": 3212,
+     "p1": 240,
+     "p2": 309,
+     "p3": 343,
+     "win_rate": 7.47,
+     "rentai_rate": 17.09,
+     "fukusho_rate": 27.77
+    },
+    "6": {
+     "starters": 3203,
+     "p1": 165,
+     "p2": 240,
+     "p3": 298,
+     "win_rate": 5.15,
+     "rentai_rate": 12.64,
+     "fukusho_rate": 21.95
+    },
+    "7": {
+     "starters": 3184,
+     "p1": 122,
+     "p2": 160,
+     "p3": 240,
+     "win_rate": 3.83,
+     "rentai_rate": 8.86,
+     "fukusho_rate": 16.39
+    },
+    "8": {
+     "starters": 3145,
+     "p1": 85,
+     "p2": 146,
+     "p3": 197,
+     "win_rate": 2.7,
+     "rentai_rate": 7.34,
+     "fukusho_rate": 13.61
+    },
+    "9": {
+     "starters": 3044,
+     "p1": 59,
+     "p2": 92,
+     "p3": 132,
+     "win_rate": 1.94,
+     "rentai_rate": 4.96,
+     "fukusho_rate": 9.3
+    },
+    "10": {
+     "starters": 2903,
+     "p1": 53,
+     "p2": 74,
+     "p3": 90,
+     "win_rate": 1.83,
+     "rentai_rate": 4.37,
+     "fukusho_rate": 7.48
+    },
+    "11": {
+     "starters": 2726,
+     "p1": 26,
+     "p2": 62,
+     "p3": 77,
+     "win_rate": 0.95,
+     "rentai_rate": 3.23,
+     "fukusho_rate": 6.05
+    },
+    "12": {
+     "starters": 2496,
+     "p1": 22,
+     "p2": 36,
+     "p3": 48,
+     "win_rate": 0.88,
+     "rentai_rate": 2.32,
+     "fukusho_rate": 4.25
+    },
+    "13": {
+     "starters": 2246,
+     "p1": 18,
+     "p2": 24,
+     "p3": 37,
+     "win_rate": 0.8,
+     "rentai_rate": 1.87,
+     "fukusho_rate": 3.52
+    },
+    "14": {
+     "starters": 1971,
+     "p1": 3,
+     "p2": 15,
+     "p3": 29,
+     "win_rate": 0.15,
+     "rentai_rate": 0.91,
+     "fukusho_rate": 2.38
+    },
+    "15": {
+     "starters": 1670,
+     "p1": 7,
+     "p2": 15,
+     "p3": 20,
+     "win_rate": 0.42,
+     "rentai_rate": 1.32,
+     "fukusho_rate": 2.51
+    },
+    "16": {
+     "starters": 1264,
+     "p1": 2,
+     "p2": 7,
+     "p3": 5,
+     "win_rate": 0.16,
+     "rentai_rate": 0.71,
+     "fukusho_rate": 1.11
+    },
+    "17": {
+     "starters": 277,
+     "p1": 1,
+     "p2": 1,
+     "p3": 2,
+     "win_rate": 0.36,
+     "rentai_rate": 0.72,
+     "fukusho_rate": 1.44
+    },
+    "18": {
+     "starters": 215,
+     "p1": 1,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 0.47,
+     "rentai_rate": 0.47,
+     "fukusho_rate": 0.93
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 124,
+     "p1": 42,
+     "p2": 22,
+     "p3": 16,
+     "win_rate": 33.87,
+     "rentai_rate": 51.61,
+     "fukusho_rate": 64.52
+    },
+    "2": {
+     "starters": 124,
+     "p1": 30,
+     "p2": 17,
+     "p3": 17,
+     "win_rate": 24.19,
+     "rentai_rate": 37.9,
+     "fukusho_rate": 51.61
+    },
+    "3": {
+     "starters": 124,
+     "p1": 13,
+     "p2": 19,
+     "p3": 23,
+     "win_rate": 10.48,
+     "rentai_rate": 25.81,
+     "fukusho_rate": 44.35
+    },
+    "4": {
+     "starters": 124,
+     "p1": 16,
+     "p2": 19,
+     "p3": 11,
+     "win_rate": 12.9,
+     "rentai_rate": 28.23,
+     "fukusho_rate": 37.1
+    },
+    "5": {
+     "starters": 124,
+     "p1": 3,
+     "p2": 16,
+     "p3": 19,
+     "win_rate": 2.42,
+     "rentai_rate": 15.32,
+     "fukusho_rate": 30.65
+    },
+    "6": {
+     "starters": 123,
+     "p1": 9,
+     "p2": 10,
+     "p3": 13,
+     "win_rate": 7.32,
+     "rentai_rate": 15.45,
+     "fukusho_rate": 26.02
+    },
+    "7": {
+     "starters": 120,
+     "p1": 3,
+     "p2": 9,
+     "p3": 8,
+     "win_rate": 2.5,
+     "rentai_rate": 10.0,
+     "fukusho_rate": 16.67
+    },
+    "8": {
+     "starters": 119,
+     "p1": 4,
+     "p2": 4,
+     "p3": 7,
+     "win_rate": 3.36,
+     "rentai_rate": 6.72,
+     "fukusho_rate": 12.61
+    },
+    "9": {
+     "starters": 113,
+     "p1": 2,
+     "p2": 2,
+     "p3": 6,
+     "win_rate": 1.77,
+     "rentai_rate": 3.54,
+     "fukusho_rate": 8.85
+    },
+    "10": {
+     "starters": 101,
+     "p1": 2,
+     "p2": 5,
+     "p3": 2,
+     "win_rate": 1.98,
+     "rentai_rate": 6.93,
+     "fukusho_rate": 8.91
+    },
+    "11": {
+     "starters": 84,
+     "p1": 0,
+     "p2": 1,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 1.19,
+     "fukusho_rate": 2.38
+    },
+    "12": {
+     "starters": 66,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    },
+    "13": {
+     "starters": 40,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    },
+    "14": {
+     "starters": 29,
+     "p1": 0,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 3.45
+    },
+    "15": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "16": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "17": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "18": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    }
+   },
+   "races": 3336
+  },
+  "2024": {
+   "all": {
+    "1": {
+     "starters": 3382,
+     "p1": 1165,
+     "p2": 671,
+     "p3": 409,
+     "win_rate": 34.45,
+     "rentai_rate": 54.29,
+     "fukusho_rate": 66.38
+    },
+    "2": {
+     "starters": 3382,
+     "p1": 663,
+     "p2": 602,
+     "p3": 495,
+     "win_rate": 19.6,
+     "rentai_rate": 37.4,
+     "fukusho_rate": 52.04
+    },
+    "3": {
+     "starters": 3382,
+     "p1": 464,
+     "p2": 533,
+     "p3": 460,
+     "win_rate": 13.72,
+     "rentai_rate": 29.48,
+     "fukusho_rate": 43.08
+    },
+    "4": {
+     "starters": 3383,
+     "p1": 311,
+     "p2": 395,
+     "p3": 453,
+     "win_rate": 9.19,
+     "rentai_rate": 20.87,
+     "fukusho_rate": 34.26
+    },
+    "5": {
+     "starters": 3381,
+     "p1": 229,
+     "p2": 313,
+     "p3": 332,
+     "win_rate": 6.77,
+     "rentai_rate": 16.03,
+     "fukusho_rate": 25.85
+    },
+    "6": {
+     "starters": 3373,
+     "p1": 166,
+     "p2": 233,
+     "p3": 305,
+     "win_rate": 4.92,
+     "rentai_rate": 11.83,
+     "fukusho_rate": 20.87
+    },
+    "7": {
+     "starters": 3355,
+     "p1": 118,
+     "p2": 177,
+     "p3": 246,
+     "win_rate": 3.52,
+     "rentai_rate": 8.79,
+     "fukusho_rate": 16.13
+    },
+    "8": {
+     "starters": 3279,
+     "p1": 85,
+     "p2": 151,
+     "p3": 178,
+     "win_rate": 2.59,
+     "rentai_rate": 7.2,
+     "fukusho_rate": 12.63
+    },
+    "9": {
+     "starters": 3162,
+     "p1": 56,
+     "p2": 81,
+     "p3": 167,
+     "win_rate": 1.77,
+     "rentai_rate": 4.33,
+     "fukusho_rate": 9.61
+    },
+    "10": {
+     "starters": 2997,
+     "p1": 52,
+     "p2": 78,
+     "p3": 100,
+     "win_rate": 1.74,
+     "rentai_rate": 4.34,
+     "fukusho_rate": 7.67
+    },
+    "11": {
+     "starters": 2772,
+     "p1": 30,
+     "p2": 58,
+     "p3": 72,
+     "win_rate": 1.08,
+     "rentai_rate": 3.17,
+     "fukusho_rate": 5.77
+    },
+    "12": {
+     "starters": 2532,
+     "p1": 21,
+     "p2": 37,
+     "p3": 55,
+     "win_rate": 0.83,
+     "rentai_rate": 2.29,
+     "fukusho_rate": 4.46
+    },
+    "13": {
+     "starters": 2247,
+     "p1": 11,
+     "p2": 19,
+     "p3": 47,
+     "win_rate": 0.49,
+     "rentai_rate": 1.34,
+     "fukusho_rate": 3.43
+    },
+    "14": {
+     "starters": 2006,
+     "p1": 12,
+     "p2": 19,
+     "p3": 32,
+     "win_rate": 0.6,
+     "rentai_rate": 1.55,
+     "fukusho_rate": 3.14
+    },
+    "15": {
+     "starters": 1639,
+     "p1": 4,
+     "p2": 11,
+     "p3": 18,
+     "win_rate": 0.24,
+     "rentai_rate": 0.92,
+     "fukusho_rate": 2.01
+    },
+    "16": {
+     "starters": 1252,
+     "p1": 1,
+     "p2": 5,
+     "p3": 13,
+     "win_rate": 0.08,
+     "rentai_rate": 0.48,
+     "fukusho_rate": 1.52
+    },
+    "17": {
+     "starters": 288,
+     "p1": 0,
+     "p2": 0,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.69
+    },
+    "18": {
+     "starters": 204,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3257,
+     "p1": 1116,
+     "p2": 643,
+     "p3": 394,
+     "win_rate": 34.26,
+     "rentai_rate": 54.01,
+     "fukusho_rate": 66.1
+    },
+    "2": {
+     "starters": 3257,
+     "p1": 639,
+     "p2": 578,
+     "p3": 468,
+     "win_rate": 19.62,
+     "rentai_rate": 37.37,
+     "fukusho_rate": 51.73
+    },
+    "3": {
+     "starters": 3257,
+     "p1": 450,
+     "p2": 512,
+     "p3": 440,
+     "win_rate": 13.82,
+     "rentai_rate": 29.54,
+     "fukusho_rate": 43.05
+    },
+    "4": {
+     "starters": 3258,
+     "p1": 302,
+     "p2": 382,
+     "p3": 435,
+     "win_rate": 9.27,
+     "rentai_rate": 20.99,
+     "fukusho_rate": 34.35
+    },
+    "5": {
+     "starters": 3256,
+     "p1": 220,
+     "p2": 298,
+     "p3": 320,
+     "win_rate": 6.76,
+     "rentai_rate": 15.91,
+     "fukusho_rate": 25.74
+    },
+    "6": {
+     "starters": 3250,
+     "p1": 157,
+     "p2": 225,
+     "p3": 291,
+     "win_rate": 4.83,
+     "rentai_rate": 11.75,
+     "fukusho_rate": 20.71
+    },
+    "7": {
+     "starters": 3235,
+     "p1": 115,
+     "p2": 170,
+     "p3": 240,
+     "win_rate": 3.55,
+     "rentai_rate": 8.81,
+     "fukusho_rate": 16.23
+    },
+    "8": {
+     "starters": 3163,
+     "p1": 81,
+     "p2": 147,
+     "p3": 175,
+     "win_rate": 2.56,
+     "rentai_rate": 7.21,
+     "fukusho_rate": 12.74
+    },
+    "9": {
+     "starters": 3056,
+     "p1": 54,
+     "p2": 80,
+     "p3": 163,
+     "win_rate": 1.77,
+     "rentai_rate": 4.38,
+     "fukusho_rate": 9.72
+    },
+    "10": {
+     "starters": 2903,
+     "p1": 51,
+     "p2": 77,
+     "p3": 100,
+     "win_rate": 1.76,
+     "rentai_rate": 4.41,
+     "fukusho_rate": 7.85
+    },
+    "11": {
+     "starters": 2698,
+     "p1": 30,
+     "p2": 58,
+     "p3": 69,
+     "win_rate": 1.11,
+     "rentai_rate": 3.26,
+     "fukusho_rate": 5.82
+    },
+    "12": {
+     "starters": 2477,
+     "p1": 21,
+     "p2": 35,
+     "p3": 54,
+     "win_rate": 0.85,
+     "rentai_rate": 2.26,
+     "fukusho_rate": 4.44
+    },
+    "13": {
+     "starters": 2217,
+     "p1": 10,
+     "p2": 18,
+     "p3": 45,
+     "win_rate": 0.45,
+     "rentai_rate": 1.26,
+     "fukusho_rate": 3.29
+    },
+    "14": {
+     "starters": 1985,
+     "p1": 12,
+     "p2": 19,
+     "p3": 32,
+     "win_rate": 0.6,
+     "rentai_rate": 1.56,
+     "fukusho_rate": 3.17
+    },
+    "15": {
+     "starters": 1639,
+     "p1": 4,
+     "p2": 11,
+     "p3": 18,
+     "win_rate": 0.24,
+     "rentai_rate": 0.92,
+     "fukusho_rate": 2.01
+    },
+    "16": {
+     "starters": 1252,
+     "p1": 1,
+     "p2": 5,
+     "p3": 13,
+     "win_rate": 0.08,
+     "rentai_rate": 0.48,
+     "fukusho_rate": 1.52
+    },
+    "17": {
+     "starters": 288,
+     "p1": 0,
+     "p2": 0,
+     "p3": 2,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.69
+    },
+    "18": {
+     "starters": 204,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 125,
+     "p1": 49,
+     "p2": 28,
+     "p3": 15,
+     "win_rate": 39.2,
+     "rentai_rate": 61.6,
+     "fukusho_rate": 73.6
+    },
+    "2": {
+     "starters": 125,
+     "p1": 24,
+     "p2": 24,
+     "p3": 27,
+     "win_rate": 19.2,
+     "rentai_rate": 38.4,
+     "fukusho_rate": 60.0
+    },
+    "3": {
+     "starters": 125,
+     "p1": 14,
+     "p2": 21,
+     "p3": 20,
+     "win_rate": 11.2,
+     "rentai_rate": 28.0,
+     "fukusho_rate": 44.0
+    },
+    "4": {
+     "starters": 125,
+     "p1": 9,
+     "p2": 13,
+     "p3": 18,
+     "win_rate": 7.2,
+     "rentai_rate": 17.6,
+     "fukusho_rate": 32.0
+    },
+    "5": {
+     "starters": 125,
+     "p1": 9,
+     "p2": 15,
+     "p3": 12,
+     "win_rate": 7.2,
+     "rentai_rate": 19.2,
+     "fukusho_rate": 28.8
+    },
+    "6": {
+     "starters": 123,
+     "p1": 9,
+     "p2": 8,
+     "p3": 14,
+     "win_rate": 7.32,
+     "rentai_rate": 13.82,
+     "fukusho_rate": 25.2
+    },
+    "7": {
+     "starters": 120,
+     "p1": 3,
+     "p2": 7,
+     "p3": 6,
+     "win_rate": 2.5,
+     "rentai_rate": 8.33,
+     "fukusho_rate": 13.33
+    },
+    "8": {
+     "starters": 116,
+     "p1": 4,
+     "p2": 4,
+     "p3": 3,
+     "win_rate": 3.45,
+     "rentai_rate": 6.9,
+     "fukusho_rate": 9.48
+    },
+    "9": {
+     "starters": 106,
+     "p1": 2,
+     "p2": 1,
+     "p3": 4,
+     "win_rate": 1.89,
+     "rentai_rate": 2.83,
+     "fukusho_rate": 6.6
+    },
+    "10": {
+     "starters": 94,
+     "p1": 1,
+     "p2": 1,
+     "p3": 0,
+     "win_rate": 1.06,
+     "rentai_rate": 2.13,
+     "fukusho_rate": 2.13
+    },
+    "11": {
+     "starters": 74,
+     "p1": 0,
+     "p2": 0,
+     "p3": 3,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 4.05
+    },
+    "12": {
+     "starters": 55,
+     "p1": 0,
+     "p2": 2,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 3.64,
+     "fukusho_rate": 5.45
+    },
+    "13": {
+     "starters": 30,
+     "p1": 1,
+     "p2": 1,
+     "p3": 2,
+     "win_rate": 3.33,
+     "rentai_rate": 6.67,
+     "fukusho_rate": 13.33
+    },
+    "14": {
+     "starters": 21,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    },
+    "15": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "16": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "17": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "18": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    }
+   },
+   "races": 3382
+  },
+  "2025": {
+   "all": {
+    "1": {
+     "starters": 3323,
+     "p1": 1102,
+     "p2": 641,
+     "p3": 415,
+     "win_rate": 33.16,
+     "rentai_rate": 52.45,
+     "fukusho_rate": 64.94
+    },
+    "2": {
+     "starters": 3323,
+     "p1": 700,
+     "p2": 617,
+     "p3": 448,
+     "win_rate": 21.07,
+     "rentai_rate": 39.63,
+     "fukusho_rate": 53.11
+    },
+    "3": {
+     "starters": 3323,
+     "p1": 428,
+     "p2": 478,
+     "p3": 446,
+     "win_rate": 12.88,
+     "rentai_rate": 27.26,
+     "fukusho_rate": 40.69
+    },
+    "4": {
+     "starters": 3323,
+     "p1": 268,
+     "p2": 397,
+     "p3": 447,
+     "win_rate": 8.07,
+     "rentai_rate": 20.01,
+     "fukusho_rate": 33.46
+    },
+    "5": {
+     "starters": 3323,
+     "p1": 237,
+     "p2": 308,
+     "p3": 320,
+     "win_rate": 7.13,
+     "rentai_rate": 16.4,
+     "fukusho_rate": 26.03
+    },
+    "6": {
+     "starters": 3310,
+     "p1": 154,
+     "p2": 258,
+     "p3": 305,
+     "win_rate": 4.65,
+     "rentai_rate": 12.45,
+     "fukusho_rate": 21.66
+    },
+    "7": {
+     "starters": 3282,
+     "p1": 130,
+     "p2": 178,
+     "p3": 260,
+     "win_rate": 3.96,
+     "rentai_rate": 9.38,
+     "fukusho_rate": 17.31
+    },
+    "8": {
+     "starters": 3221,
+     "p1": 102,
+     "p2": 122,
+     "p3": 181,
+     "win_rate": 3.17,
+     "rentai_rate": 6.95,
+     "fukusho_rate": 12.57
+    },
+    "9": {
+     "starters": 3109,
+     "p1": 74,
+     "p2": 85,
+     "p3": 154,
+     "win_rate": 2.38,
+     "rentai_rate": 5.11,
+     "fukusho_rate": 10.07
+    },
+    "10": {
+     "starters": 2953,
+     "p1": 48,
+     "p2": 88,
+     "p3": 108,
+     "win_rate": 1.63,
+     "rentai_rate": 4.61,
+     "fukusho_rate": 8.26
+    },
+    "11": {
+     "starters": 2776,
+     "p1": 31,
+     "p2": 58,
+     "p3": 83,
+     "win_rate": 1.12,
+     "rentai_rate": 3.21,
+     "fukusho_rate": 6.2
+    },
+    "12": {
+     "starters": 2580,
+     "p1": 22,
+     "p2": 42,
+     "p3": 69,
+     "win_rate": 0.85,
+     "rentai_rate": 2.48,
+     "fukusho_rate": 5.16
+    },
+    "13": {
+     "starters": 2314,
+     "p1": 10,
+     "p2": 20,
+     "p3": 41,
+     "win_rate": 0.43,
+     "rentai_rate": 1.3,
+     "fukusho_rate": 3.07
+    },
+    "14": {
+     "starters": 2060,
+     "p1": 10,
+     "p2": 16,
+     "p3": 22,
+     "win_rate": 0.49,
+     "rentai_rate": 1.26,
+     "fukusho_rate": 2.33
+    },
+    "15": {
+     "starters": 1707,
+     "p1": 8,
+     "p2": 8,
+     "p3": 17,
+     "win_rate": 0.47,
+     "rentai_rate": 0.94,
+     "fukusho_rate": 1.93
+    },
+    "16": {
+     "starters": 1370,
+     "p1": 5,
+     "p2": 9,
+     "p3": 7,
+     "win_rate": 0.36,
+     "rentai_rate": 1.02,
+     "fukusho_rate": 1.53
+    },
+    "17": {
+     "starters": 297,
+     "p1": 0,
+     "p2": 2,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.67,
+     "fukusho_rate": 0.67
+    },
+    "18": {
+     "starters": 228,
+     "p1": 0,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.44
+    }
+   },
+   "flat": {
+    "1": {
+     "starters": 3208,
+     "p1": 1062,
+     "p2": 611,
+     "p3": 404,
+     "win_rate": 33.1,
+     "rentai_rate": 52.15,
+     "fukusho_rate": 64.74
+    },
+    "2": {
+     "starters": 3208,
+     "p1": 674,
+     "p2": 587,
+     "p3": 436,
+     "win_rate": 21.01,
+     "rentai_rate": 39.31,
+     "fukusho_rate": 52.9
+    },
+    "3": {
+     "starters": 3208,
+     "p1": 412,
+     "p2": 462,
+     "p3": 429,
+     "win_rate": 12.84,
+     "rentai_rate": 27.24,
+     "fukusho_rate": 40.62
+    },
+    "4": {
+     "starters": 3208,
+     "p1": 261,
+     "p2": 387,
+     "p3": 426,
+     "win_rate": 8.14,
+     "rentai_rate": 20.2,
+     "fukusho_rate": 33.48
+    },
+    "5": {
+     "starters": 3208,
+     "p1": 228,
+     "p2": 296,
+     "p3": 306,
+     "win_rate": 7.11,
+     "rentai_rate": 16.33,
+     "fukusho_rate": 25.87
+    },
+    "6": {
+     "starters": 3195,
+     "p1": 144,
+     "p2": 253,
+     "p3": 291,
+     "win_rate": 4.51,
+     "rentai_rate": 12.43,
+     "fukusho_rate": 21.53
+    },
+    "7": {
+     "starters": 3168,
+     "p1": 127,
+     "p2": 174,
+     "p3": 255,
+     "win_rate": 4.01,
+     "rentai_rate": 9.5,
+     "fukusho_rate": 17.55
+    },
+    "8": {
+     "starters": 3109,
+     "p1": 100,
+     "p2": 119,
+     "p3": 180,
+     "win_rate": 3.22,
+     "rentai_rate": 7.04,
+     "fukusho_rate": 12.83
+    },
+    "9": {
+     "starters": 3002,
+     "p1": 74,
+     "p2": 84,
+     "p3": 147,
+     "win_rate": 2.47,
+     "rentai_rate": 5.26,
+     "fukusho_rate": 10.16
+    },
+    "10": {
+     "starters": 2858,
+     "p1": 46,
+     "p2": 86,
+     "p3": 102,
+     "win_rate": 1.61,
+     "rentai_rate": 4.62,
+     "fukusho_rate": 8.19
+    },
+    "11": {
+     "starters": 2692,
+     "p1": 30,
+     "p2": 57,
+     "p3": 78,
+     "win_rate": 1.11,
+     "rentai_rate": 3.23,
+     "fukusho_rate": 6.13
+    },
+    "12": {
+     "starters": 2517,
+     "p1": 22,
+     "p2": 42,
+     "p3": 66,
+     "win_rate": 0.87,
+     "rentai_rate": 2.54,
+     "fukusho_rate": 5.16
+    },
+    "13": {
+     "starters": 2274,
+     "p1": 10,
+     "p2": 20,
+     "p3": 41,
+     "win_rate": 0.44,
+     "rentai_rate": 1.32,
+     "fukusho_rate": 3.12
+    },
+    "14": {
+     "starters": 2028,
+     "p1": 10,
+     "p2": 16,
+     "p3": 22,
+     "win_rate": 0.49,
+     "rentai_rate": 1.28,
+     "fukusho_rate": 2.37
+    },
+    "15": {
+     "starters": 1707,
+     "p1": 8,
+     "p2": 8,
+     "p3": 17,
+     "win_rate": 0.47,
+     "rentai_rate": 0.94,
+     "fukusho_rate": 1.93
+    },
+    "16": {
+     "starters": 1370,
+     "p1": 5,
+     "p2": 9,
+     "p3": 7,
+     "win_rate": 0.36,
+     "rentai_rate": 1.02,
+     "fukusho_rate": 1.53
+    },
+    "17": {
+     "starters": 297,
+     "p1": 0,
+     "p2": 2,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.67,
+     "fukusho_rate": 0.67
+    },
+    "18": {
+     "starters": 228,
+     "p1": 0,
+     "p2": 0,
+     "p3": 1,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.44
+    }
+   },
+   "jump": {
+    "1": {
+     "starters": 115,
+     "p1": 40,
+     "p2": 30,
+     "p3": 11,
+     "win_rate": 34.78,
+     "rentai_rate": 60.87,
+     "fukusho_rate": 70.43
+    },
+    "2": {
+     "starters": 115,
+     "p1": 26,
+     "p2": 30,
+     "p3": 12,
+     "win_rate": 22.61,
+     "rentai_rate": 48.7,
+     "fukusho_rate": 59.13
+    },
+    "3": {
+     "starters": 115,
+     "p1": 16,
+     "p2": 16,
+     "p3": 17,
+     "win_rate": 13.91,
+     "rentai_rate": 27.83,
+     "fukusho_rate": 42.61
+    },
+    "4": {
+     "starters": 115,
+     "p1": 7,
+     "p2": 10,
+     "p3": 21,
+     "win_rate": 6.09,
+     "rentai_rate": 14.78,
+     "fukusho_rate": 33.04
+    },
+    "5": {
+     "starters": 115,
+     "p1": 9,
+     "p2": 12,
+     "p3": 14,
+     "win_rate": 7.83,
+     "rentai_rate": 18.26,
+     "fukusho_rate": 30.43
+    },
+    "6": {
+     "starters": 115,
+     "p1": 10,
+     "p2": 5,
+     "p3": 14,
+     "win_rate": 8.7,
+     "rentai_rate": 13.04,
+     "fukusho_rate": 25.22
+    },
+    "7": {
+     "starters": 114,
+     "p1": 3,
+     "p2": 4,
+     "p3": 5,
+     "win_rate": 2.63,
+     "rentai_rate": 6.14,
+     "fukusho_rate": 10.53
+    },
+    "8": {
+     "starters": 112,
+     "p1": 2,
+     "p2": 3,
+     "p3": 1,
+     "win_rate": 1.79,
+     "rentai_rate": 4.46,
+     "fukusho_rate": 5.36
+    },
+    "9": {
+     "starters": 107,
+     "p1": 0,
+     "p2": 1,
+     "p3": 7,
+     "win_rate": 0.0,
+     "rentai_rate": 0.93,
+     "fukusho_rate": 7.48
+    },
+    "10": {
+     "starters": 95,
+     "p1": 2,
+     "p2": 2,
+     "p3": 6,
+     "win_rate": 2.11,
+     "rentai_rate": 4.21,
+     "fukusho_rate": 10.53
+    },
+    "11": {
+     "starters": 84,
+     "p1": 1,
+     "p2": 1,
+     "p3": 5,
+     "win_rate": 1.19,
+     "rentai_rate": 2.38,
+     "fukusho_rate": 8.33
+    },
+    "12": {
+     "starters": 63,
+     "p1": 0,
+     "p2": 0,
+     "p3": 3,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 4.76
+    },
+    "13": {
+     "starters": 40,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    },
+    "14": {
+     "starters": 32,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": 0.0,
+     "rentai_rate": 0.0,
+     "fukusho_rate": 0.0
+    },
+    "15": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "16": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "17": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    },
+    "18": {
+     "starters": 0,
+     "p1": 0,
+     "p2": 0,
+     "p3": 0,
+     "win_rate": null,
+     "rentai_rate": null,
+     "fukusho_rate": null
+    }
+   },
+   "races": 3323
+  }
+ },
+ "total": {
+  "all": {
+   "1": {
+    "starters": 33290,
+    "p1": 11024,
+    "p2": 6283,
+    "p3": 4193,
+    "win_rate": 33.12,
+    "rentai_rate": 51.99,
+    "fukusho_rate": 64.58
+   },
+   "2": {
+    "starters": 33290,
+    "p1": 6490,
+    "p2": 6071,
+    "p3": 4660,
+    "win_rate": 19.5,
+    "rentai_rate": 37.73,
+    "fukusho_rate": 51.73
+   },
+   "3": {
+    "starters": 33291,
+    "p1": 4399,
+    "p2": 4909,
+    "p3": 4585,
+    "win_rate": 13.21,
+    "rentai_rate": 27.96,
+    "fukusho_rate": 41.73
+   },
+   "4": {
+    "starters": 33291,
+    "p1": 3097,
+    "p2": 3844,
+    "p3": 4112,
+    "win_rate": 9.3,
+    "rentai_rate": 20.85,
+    "fukusho_rate": 33.2
+   },
+   "5": {
+    "starters": 33291,
+    "p1": 2337,
+    "p2": 3028,
+    "p3": 3456,
+    "win_rate": 7.02,
+    "rentai_rate": 16.12,
+    "fukusho_rate": 26.5
+   },
+   "6": {
+    "starters": 33226,
+    "p1": 1756,
+    "p2": 2450,
+    "p3": 2995,
+    "win_rate": 5.29,
+    "rentai_rate": 12.66,
+    "fukusho_rate": 21.67
+   },
+   "7": {
+    "starters": 33077,
+    "p1": 1269,
+    "p2": 1873,
+    "p3": 2331,
+    "win_rate": 3.84,
+    "rentai_rate": 9.5,
+    "fukusho_rate": 16.55
+   },
+   "8": {
+    "starters": 32643,
+    "p1": 900,
+    "p2": 1438,
+    "p3": 1878,
+    "win_rate": 2.76,
+    "rentai_rate": 7.16,
+    "fukusho_rate": 12.92
+   },
+   "9": {
+    "starters": 31642,
+    "p1": 664,
+    "p2": 985,
+    "p3": 1520,
+    "win_rate": 2.1,
+    "rentai_rate": 5.21,
+    "fukusho_rate": 10.02
+   },
+   "10": {
+    "starters": 30207,
+    "p1": 505,
+    "p2": 819,
+    "p3": 1068,
+    "win_rate": 1.67,
+    "rentai_rate": 4.38,
+    "fukusho_rate": 7.92
+   },
+   "11": {
+    "starters": 28318,
+    "p1": 321,
+    "p2": 568,
+    "p3": 869,
+    "win_rate": 1.13,
+    "rentai_rate": 3.14,
+    "fukusho_rate": 6.21
+   },
+   "12": {
+    "starters": 26146,
+    "p1": 240,
+    "p2": 430,
+    "p3": 610,
+    "win_rate": 0.92,
+    "rentai_rate": 2.56,
+    "fukusho_rate": 4.9
+   },
+   "13": {
+    "starters": 23473,
+    "p1": 151,
+    "p2": 255,
+    "p3": 429,
+    "win_rate": 0.64,
+    "rentai_rate": 1.73,
+    "fukusho_rate": 3.56
+   },
+   "14": {
+    "starters": 20921,
+    "p1": 93,
+    "p2": 172,
+    "p3": 293,
+    "win_rate": 0.44,
+    "rentai_rate": 1.27,
+    "fukusho_rate": 2.67
+   },
+   "15": {
+    "starters": 17446,
+    "p1": 61,
+    "p2": 104,
+    "p3": 191,
+    "win_rate": 0.35,
+    "rentai_rate": 0.95,
+    "fukusho_rate": 2.04
+   },
+   "16": {
+    "starters": 13464,
+    "p1": 33,
+    "p2": 52,
+    "p3": 91,
+    "win_rate": 0.25,
+    "rentai_rate": 0.63,
+    "fukusho_rate": 1.31
+   },
+   "17": {
+    "starters": 2904,
+    "p1": 3,
+    "p2": 14,
+    "p3": 16,
+    "win_rate": 0.1,
+    "rentai_rate": 0.59,
+    "fukusho_rate": 1.14
+   },
+   "18": {
+    "starters": 2264,
+    "p1": 2,
+    "p2": 3,
+    "p3": 10,
+    "win_rate": 0.09,
+    "rentai_rate": 0.22,
+    "fukusho_rate": 0.66
+   }
+  },
+  "flat": {
+   "1": {
+    "starters": 32073,
+    "p1": 10595,
+    "p2": 6039,
+    "p3": 4053,
+    "win_rate": 33.03,
+    "rentai_rate": 51.86,
+    "fukusho_rate": 64.5
+   },
+   "2": {
+    "starters": 32073,
+    "p1": 6263,
+    "p2": 5845,
+    "p3": 4483,
+    "win_rate": 19.53,
+    "rentai_rate": 37.75,
+    "fukusho_rate": 51.73
+   },
+   "3": {
+    "starters": 32074,
+    "p1": 4253,
+    "p2": 4729,
+    "p3": 4392,
+    "win_rate": 13.26,
+    "rentai_rate": 28.0,
+    "fukusho_rate": 41.7
+   },
+   "4": {
+    "starters": 32074,
+    "p1": 2974,
+    "p2": 3705,
+    "p3": 3960,
+    "win_rate": 9.27,
+    "rentai_rate": 20.82,
+    "fukusho_rate": 33.17
+   },
+   "5": {
+    "starters": 32073,
+    "p1": 2248,
+    "p2": 2897,
+    "p3": 3318,
+    "win_rate": 7.01,
+    "rentai_rate": 16.04,
+    "fukusho_rate": 26.39
+   },
+   "6": {
+    "starters": 32013,
+    "p1": 1676,
+    "p2": 2359,
+    "p3": 2869,
+    "win_rate": 5.24,
+    "rentai_rate": 12.6,
+    "fukusho_rate": 21.57
+   },
+   "7": {
+    "starters": 31879,
+    "p1": 1230,
+    "p2": 1803,
+    "p3": 2240,
+    "win_rate": 3.86,
+    "rentai_rate": 9.51,
+    "fukusho_rate": 16.54
+   },
+   "8": {
+    "starters": 31468,
+    "p1": 861,
+    "p2": 1392,
+    "p3": 1817,
+    "win_rate": 2.74,
+    "rentai_rate": 7.16,
+    "fukusho_rate": 12.93
+   },
+   "9": {
+    "starters": 30523,
+    "p1": 645,
+    "p2": 955,
+    "p3": 1467,
+    "win_rate": 2.11,
+    "rentai_rate": 5.24,
+    "fukusho_rate": 10.05
+   },
+   "10": {
+    "starters": 29172,
+    "p1": 489,
+    "p2": 790,
+    "p3": 1035,
+    "win_rate": 1.68,
+    "rentai_rate": 4.38,
+    "fukusho_rate": 7.93
+   },
+   "11": {
+    "starters": 27404,
+    "p1": 316,
+    "p2": 554,
+    "p3": 846,
+    "win_rate": 1.15,
+    "rentai_rate": 3.17,
+    "fukusho_rate": 6.26
+   },
+   "12": {
+    "starters": 25388,
+    "p1": 236,
+    "p2": 421,
+    "p3": 590,
+    "win_rate": 0.93,
+    "rentai_rate": 2.59,
+    "fukusho_rate": 4.91
+   },
+   "13": {
+    "starters": 22905,
+    "p1": 149,
+    "p2": 252,
+    "p3": 422,
+    "win_rate": 0.65,
+    "rentai_rate": 1.75,
+    "fukusho_rate": 3.59
+   },
+   "14": {
+    "starters": 20496,
+    "p1": 93,
+    "p2": 168,
+    "p3": 288,
+    "win_rate": 0.45,
+    "rentai_rate": 1.27,
+    "fukusho_rate": 2.68
+   },
+   "15": {
+    "starters": 17442,
+    "p1": 61,
+    "p2": 104,
+    "p3": 191,
+    "win_rate": 0.35,
+    "rentai_rate": 0.95,
+    "fukusho_rate": 2.04
+   },
+   "16": {
+    "starters": 13462,
+    "p1": 33,
+    "p2": 52,
+    "p3": 91,
+    "win_rate": 0.25,
+    "rentai_rate": 0.63,
+    "fukusho_rate": 1.31
+   },
+   "17": {
+    "starters": 2904,
+    "p1": 3,
+    "p2": 14,
+    "p3": 16,
+    "win_rate": 0.1,
+    "rentai_rate": 0.59,
+    "fukusho_rate": 1.14
+   },
+   "18": {
+    "starters": 2264,
+    "p1": 2,
+    "p2": 3,
+    "p3": 10,
+    "win_rate": 0.09,
+    "rentai_rate": 0.22,
+    "fukusho_rate": 0.66
+   }
+  },
+  "jump": {
+   "1": {
+    "starters": 1217,
+    "p1": 429,
+    "p2": 244,
+    "p3": 140,
+    "win_rate": 35.25,
+    "rentai_rate": 55.3,
+    "fukusho_rate": 66.8
+   },
+   "2": {
+    "starters": 1217,
+    "p1": 227,
+    "p2": 226,
+    "p3": 177,
+    "win_rate": 18.65,
+    "rentai_rate": 37.22,
+    "fukusho_rate": 51.77
+   },
+   "3": {
+    "starters": 1217,
+    "p1": 146,
+    "p2": 180,
+    "p3": 193,
+    "win_rate": 12.0,
+    "rentai_rate": 26.79,
+    "fukusho_rate": 42.65
+   },
+   "4": {
+    "starters": 1217,
+    "p1": 123,
+    "p2": 139,
+    "p3": 152,
+    "win_rate": 10.11,
+    "rentai_rate": 21.53,
+    "fukusho_rate": 34.02
+   },
+   "5": {
+    "starters": 1218,
+    "p1": 89,
+    "p2": 131,
+    "p3": 138,
+    "win_rate": 7.31,
+    "rentai_rate": 18.06,
+    "fukusho_rate": 29.39
+   },
+   "6": {
+    "starters": 1213,
+    "p1": 80,
+    "p2": 91,
+    "p3": 126,
+    "win_rate": 6.6,
+    "rentai_rate": 14.1,
+    "fukusho_rate": 24.48
+   },
+   "7": {
+    "starters": 1198,
+    "p1": 39,
+    "p2": 70,
+    "p3": 91,
+    "win_rate": 3.26,
+    "rentai_rate": 9.1,
+    "fukusho_rate": 16.69
+   },
+   "8": {
+    "starters": 1175,
+    "p1": 39,
+    "p2": 46,
+    "p3": 61,
+    "win_rate": 3.32,
+    "rentai_rate": 7.23,
+    "fukusho_rate": 12.43
+   },
+   "9": {
+    "starters": 1119,
+    "p1": 19,
+    "p2": 30,
+    "p3": 53,
+    "win_rate": 1.7,
+    "rentai_rate": 4.38,
+    "fukusho_rate": 9.12
+   },
+   "10": {
+    "starters": 1035,
+    "p1": 16,
+    "p2": 29,
+    "p3": 33,
+    "win_rate": 1.55,
+    "rentai_rate": 4.35,
+    "fukusho_rate": 7.54
+   },
+   "11": {
+    "starters": 914,
+    "p1": 5,
+    "p2": 14,
+    "p3": 23,
+    "win_rate": 0.55,
+    "rentai_rate": 2.08,
+    "fukusho_rate": 4.6
+   },
+   "12": {
+    "starters": 758,
+    "p1": 4,
+    "p2": 9,
+    "p3": 20,
+    "win_rate": 0.53,
+    "rentai_rate": 1.72,
+    "fukusho_rate": 4.35
+   },
+   "13": {
+    "starters": 568,
+    "p1": 2,
+    "p2": 3,
+    "p3": 7,
+    "win_rate": 0.35,
+    "rentai_rate": 0.88,
+    "fukusho_rate": 2.11
+   },
+   "14": {
+    "starters": 425,
+    "p1": 0,
+    "p2": 4,
+    "p3": 5,
+    "win_rate": 0.0,
+    "rentai_rate": 0.94,
+    "fukusho_rate": 2.12
+   },
+   "15": {
+    "starters": 4,
+    "p1": 0,
+    "p2": 0,
+    "p3": 0,
+    "win_rate": 0.0,
+    "rentai_rate": 0.0,
+    "fukusho_rate": 0.0
+   },
+   "16": {
+    "starters": 2,
+    "p1": 0,
+    "p2": 0,
+    "p3": 0,
+    "win_rate": 0.0,
+    "rentai_rate": 0.0,
+    "fukusho_rate": 0.0
+   },
+   "17": {
+    "starters": 0,
+    "p1": 0,
+    "p2": 0,
+    "p3": 0,
+    "win_rate": null,
+    "rentai_rate": null,
+    "fukusho_rate": null
+   },
+   "18": {
+    "starters": 0,
+    "p1": 0,
+    "p2": 0,
+    "p3": 0,
+    "win_rate": null,
+    "rentai_rate": null,
+    "fukusho_rate": null
+   }
+  }
+ },
+ "cache_missing": {
+  "2016": {
+   "races_in_list_without_html": 0,
+   "ids": []
+  },
+  "2017": {
+   "races_in_list_without_html": 0,
+   "ids": []
+  },
+  "2018": {
+   "races_in_list_without_html": 0,
+   "ids": []
+  },
+  "2019": {
+   "races_in_list_without_html": 0,
+   "ids": []
+  },
+  "2020": {
+   "races_in_list_without_html": 0,
+   "ids": []
+  },
+  "2021": {
+   "races_in_list_without_html": 0,
+   "ids": []
+  },
+  "2022": {
+   "races_in_list_without_html": 0,
+   "ids": []
+  },
+  "2023": {
+   "races_in_list_without_html": 0,
+   "ids": []
+  },
+  "2024": {
+   "races_in_list_without_html": 0,
+   "ids": []
+  },
+  "2025": {
+   "races_in_list_without_html": 0,
+   "ids": []
+  }
+ }
+}
